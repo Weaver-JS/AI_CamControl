@@ -1,0 +1,1246 @@
+﻿Log file open, 05/18/17 17:19:06
+LogInit:Display: Running engine for game: CameraControl
+LogPlatformFile: Not using cached read wrapper
+LogInit:Display: RandInit(-315767805) SRandInit(-315767805).
+LogTaskGraph: Started task graph with 5 named threads and 8 total threads with 1 sets of task threads.
+LogStats: Stats thread started at 0.068536
+LogPluginManager: Loaded Plugin Paper2D, From P:/UNREAL/Epic Games/4.13/Engine/Plugins/2D/Paper2D/Paper2D.uplugin
+LogPluginManager: Loaded Plugin LightPropagationVolume, From P:/UNREAL/Epic Games/4.13/Engine/Plugins/Blendables/LightPropagationVolume/LightPropagationVolume.uplugin
+LogPluginManager: Loaded Plugin BlankPlugin, From P:/UNREAL/Epic Games/4.13/Engine/Plugins/Developer/BlankPlugin/BlankPlugin.uplugin
+LogPluginManager: Loaded Plugin CodeLiteSourceCodeAccess, From P:/UNREAL/Epic Games/4.13/Engine/Plugins/Developer/CodeLiteSourceCodeAccess/CodeLiteSourceCodeAccess.uplugin
+LogPluginManager: Loaded Plugin GitSourceControl, From P:/UNREAL/Epic Games/4.13/Engine/Plugins/Developer/GitSourceControl/GitSourceControl.uplugin
+LogPluginManager: Loaded Plugin KDevelopSourceCodeAccess, From P:/UNREAL/Epic Games/4.13/Engine/Plugins/Developer/KDevelopSourceCodeAccess/KDevelopSourceCodeAccess.uplugin
+LogPluginManager: Loaded Plugin NullSourceCodeAccess, From P:/UNREAL/Epic Games/4.13/Engine/Plugins/Developer/NullSourceCodeAccess/NullSourceCodeAccess.uplugin
+LogPluginManager: Loaded Plugin OneSkyLocalizationService, From P:/UNREAL/Epic Games/4.13/Engine/Plugins/Developer/OneSkyLocalizationService/OneSkyLocalizationService.uplugin
+LogPluginManager: Loaded Plugin PerforceSourceControl, From P:/UNREAL/Epic Games/4.13/Engine/Plugins/Developer/PerforceSourceControl/PerforceSourceControl.uplugin
+LogPluginManager: Loaded Plugin SubversionSourceControl, From P:/UNREAL/Epic Games/4.13/Engine/Plugins/Developer/SubversionSourceControl/SubversionSourceControl.uplugin
+LogPluginManager: Loaded Plugin UObjectPlugin, From P:/UNREAL/Epic Games/4.13/Engine/Plugins/Developer/UObjectPlugin/UObjectPlugin.uplugin
+LogPluginManager: Loaded Plugin VisualStudioSourceCodeAccess, From P:/UNREAL/Epic Games/4.13/Engine/Plugins/Developer/VisualStudioSourceCodeAccess/VisualStudioSourceCodeAccess.uplugin
+LogPluginManager: Loaded Plugin XCodeSourceCodeAccess, From P:/UNREAL/Epic Games/4.13/Engine/Plugins/Developer/XCodeSourceCodeAccess/XCodeSourceCodeAccess.uplugin
+LogPluginManager: Loaded Plugin EpicSurvey, From P:/UNREAL/Epic Games/4.13/Engine/Plugins/Editor/EpicSurvey/EpicSurvey.uplugin
+LogPluginManager: Loaded Plugin MacGraphicsSwitching, From P:/UNREAL/Epic Games/4.13/Engine/Plugins/Editor/MacGraphicsSwitching/MacGraphicsSwitching.uplugin
+LogPluginManager: Loaded Plugin MobileLauncherProfileWizard, From P:/UNREAL/Epic Games/4.13/Engine/Plugins/Editor/MobileLauncherProfileWizard/MobileLauncherProfileWizard.uplugin
+LogPluginManager: Loaded Plugin PluginBrowser, From P:/UNREAL/Epic Games/4.13/Engine/Plugins/Editor/PluginBrowser/PluginBrowser.uplugin
+LogPluginManager: Loaded Plugin SpeedTreeImporter, From P:/UNREAL/Epic Games/4.13/Engine/Plugins/Editor/SpeedTreeImporter/SpeedTreeImporter.uplugin
+LogPluginManager: Loaded Plugin SuperSearchEditor, From P:/UNREAL/Epic Games/4.13/Engine/Plugins/Editor/SuperSearchEditor/SuperSearchEditor.uplugin
+LogPluginManager: Loaded Plugin AlembicImporter, From P:/UNREAL/Epic Games/4.13/Engine/Plugins/Experimental/AlembicImporter/AlembicImporter.uplugin
+LogPluginManager: Loaded Plugin BlueprintStats, From P:/UNREAL/Epic Games/4.13/Engine/Plugins/Experimental/BlueprintStats/BlueprintStats.uplugin
+LogPluginManager: Loaded Plugin CharacterAI, From P:/UNREAL/Epic Games/4.13/Engine/Plugins/Experimental/CharacterAI/CharacterAI.uplugin
+LogPluginManager: Loaded Plugin CodeEditor, From P:/UNREAL/Epic Games/4.13/Engine/Plugins/Experimental/CodeEditor/CodeEditor.uplugin
+LogPluginManager: Loaded Plugin CodeView, From P:/UNREAL/Epic Games/4.13/Engine/Plugins/Experimental/CodeView/CodeView.uplugin
+LogPluginManager: Loaded Plugin HTML5Networking, From P:/UNREAL/Epic Games/4.13/Engine/Plugins/Experimental/HTML5Networking/HTML5Networking.uplugin
+LogPluginManager: Loaded Plugin LiveEditor, From P:/UNREAL/Epic Games/4.13/Engine/Plugins/Experimental/LiveEditor/LiveEditor.uplugin
+LogPluginManager: Loaded Plugin OSVR, From P:/UNREAL/Epic Games/4.13/Engine/Plugins/Experimental/OSVR/OSVR.uplugin
+LogPluginManager: Loaded Plugin Phya, From P:/UNREAL/Epic Games/4.13/Engine/Plugins/Experimental/Phya/Phya.uplugin
+LogPluginManager: Loaded Plugin SignificanceManager, From P:/UNREAL/Epic Games/4.13/Engine/Plugins/Experimental/SignificanceManager/SignificanceManager.uplugin
+LogPluginManager: Loaded Plugin SimpleHMD, From P:/UNREAL/Epic Games/4.13/Engine/Plugins/Experimental/SimpleHMD/SimpleHMD.uplugin
+LogPluginManager: Loaded Plugin StereoPanorama, From P:/UNREAL/Epic Games/4.13/Engine/Plugins/Experimental/StereoPanorama/StereoPanorama.uplugin
+LogPluginManager: Loaded Plugin StructBox, From P:/UNREAL/Epic Games/4.13/Engine/Plugins/Experimental/StructBox/StructBox.uplugin
+LogPluginManager: Loaded Plugin AndroidMedia, From P:/UNREAL/Epic Games/4.13/Engine/Plugins/Media/AndroidMedia/AndroidMedia.uplugin
+LogPluginManager: Loaded Plugin AvfMedia, From P:/UNREAL/Epic Games/4.13/Engine/Plugins/Media/AvfMedia/AvfMedia.uplugin
+LogPluginManager: Loaded Plugin MediaPlayerEditor, From P:/UNREAL/Epic Games/4.13/Engine/Plugins/Media/MediaPlayerEditor/MediaPlayerEditor.uplugin
+LogPluginManager: Loaded Plugin WmfMedia, From P:/UNREAL/Epic Games/4.13/Engine/Plugins/Media/WmfMedia/WmfMedia.uplugin
+LogPluginManager: Loaded Plugin MessagingDebugger, From P:/UNREAL/Epic Games/4.13/Engine/Plugins/Messaging/MessagingDebugger/MessagingDebugger.uplugin
+LogPluginManager: Loaded Plugin TcpMessaging, From P:/UNREAL/Epic Games/4.13/Engine/Plugins/Messaging/TcpMessaging/TcpMessaging.uplugin
+LogPluginManager: Loaded Plugin UdpMessaging, From P:/UNREAL/Epic Games/4.13/Engine/Plugins/Messaging/UdpMessaging/UdpMessaging.uplugin
+LogPluginManager: Loaded Plugin LevelSequenceEditor, From P:/UNREAL/Epic Games/4.13/Engine/Plugins/MovieScene/LevelSequenceEditor/LevelSequenceEditor.uplugin
+LogPluginManager: Loaded Plugin MatineeToLevelSequence, From P:/UNREAL/Epic Games/4.13/Engine/Plugins/MovieScene/MatineeToLevelSequence/MatineeToLevelSequence.uplugin
+LogPluginManager: Loaded Plugin NetcodeUnitTest, From P:/UNREAL/Epic Games/4.13/Engine/Plugins/NetcodeUnitTest/NetcodeUnitTest/NetcodeUnitTest.uplugin
+LogPluginManager: Loaded Plugin NUTUnrealEngine4, From P:/UNREAL/Epic Games/4.13/Engine/Plugins/NetcodeUnitTest/NUTUnrealEngine4/NUTUnrealEngine4.uplugin
+LogPluginManager: Loaded Plugin OnlineSubsystemGooglePlay, From P:/UNREAL/Epic Games/4.13/Engine/Plugins/Online/Android/OnlineSubsystemGooglePlay/OnlineSubsystemGooglePlay.uplugin
+LogPluginManager: Loaded Plugin OnlineSubsystemIOS, From P:/UNREAL/Epic Games/4.13/Engine/Plugins/Online/IOS/OnlineSubsystemIOS/OnlineSubsystemIOS.uplugin
+LogPluginManager: Loaded Plugin OnlineFramework, From P:/UNREAL/Epic Games/4.13/Engine/Plugins/Online/OnlineFramework/OnlineFramework.uplugin
+LogPluginManager: Loaded Plugin OnlineSubsystem, From P:/UNREAL/Epic Games/4.13/Engine/Plugins/Online/OnlineSubsystem/OnlineSubsystem.uplugin
+LogPluginManager: Loaded Plugin OnlineSubsystemAmazon, From P:/UNREAL/Epic Games/4.13/Engine/Plugins/Online/OnlineSubsystemAmazon/OnlineSubsystemAmazon.uplugin
+LogPluginManager: Loaded Plugin OnlineSubsystemFacebook, From P:/UNREAL/Epic Games/4.13/Engine/Plugins/Online/OnlineSubsystemFacebook/OnlineSubsystemFacebook.uplugin
+LogPluginManager: Loaded Plugin OnlineSubsystemNull, From P:/UNREAL/Epic Games/4.13/Engine/Plugins/Online/OnlineSubsystemNull/OnlineSubsystemNull.uplugin
+LogPluginManager: Loaded Plugin OnlineSubsystemOculus, From P:/UNREAL/Epic Games/4.13/Engine/Plugins/Online/OnlineSubsystemOculus/OnlineSubsystemOculus.uplugin
+LogPluginManager: Loaded Plugin OnlineSubsystemSteam, From P:/UNREAL/Epic Games/4.13/Engine/Plugins/Online/OnlineSubsystemSteam/OnlineSubsystemSteam.uplugin
+LogPluginManager: Loaded Plugin OnlineSubsystemUtils, From P:/UNREAL/Epic Games/4.13/Engine/Plugins/Online/OnlineSubsystemUtils/OnlineSubsystemUtils.uplugin
+LogPluginManager: Loaded Plugin IOSTapJoy, From P:/UNREAL/Epic Games/4.13/Engine/Plugins/Runtime/Advertising/IOSTapJoy/IOSTapJoy.uplugin
+LogPluginManager: Loaded Plugin AnalyticsBlueprintLibrary, From P:/UNREAL/Epic Games/4.13/Engine/Plugins/Runtime/Analytics/AnalyticsBlueprintLibrary/AnalyticsBlueprintLibrary.uplugin
+LogPluginManager: Loaded Plugin AnalyticsMulticast, From P:/UNREAL/Epic Games/4.13/Engine/Plugins/Runtime/Analytics/AnalyticsMulticast/AnalyticsMulticast.uplugin
+LogPluginManager: Loaded Plugin Apsalar, From P:/UNREAL/Epic Games/4.13/Engine/Plugins/Runtime/Analytics/Apsalar/Apsalar.uplugin
+LogPluginManager: Loaded Plugin FileLogging, From P:/UNREAL/Epic Games/4.13/Engine/Plugins/Runtime/Analytics/FileLogging/FileLogging.uplugin
+LogPluginManager: Loaded Plugin Flurry, From P:/UNREAL/Epic Games/4.13/Engine/Plugins/Runtime/Analytics/Flurry/Flurry.uplugin
+LogPluginManager: Loaded Plugin AndroidDeviceProfileSelector, From P:/UNREAL/Epic Games/4.13/Engine/Plugins/Runtime/AndroidDeviceProfileSelector/AndroidDeviceProfileSelector.uplugin
+LogPluginManager: Loaded Plugin AndroidMoviePlayer, From P:/UNREAL/Epic Games/4.13/Engine/Plugins/Runtime/AndroidMoviePlayer/AndroidMoviePlayer.uplugin
+LogPluginManager: Loaded Plugin AppleMoviePlayer, From P:/UNREAL/Epic Games/4.13/Engine/Plugins/Runtime/AppleMoviePlayer/AppleMoviePlayer.uplugin
+LogPluginManager: Loaded Plugin ArchVisCharacter, From P:/UNREAL/Epic Games/4.13/Engine/Plugins/Runtime/ArchVisCharacter/ArchVisCharacter.uplugin
+LogPluginManager: Loaded Plugin CableComponent, From P:/UNREAL/Epic Games/4.13/Engine/Plugins/Runtime/CableComponent/CableComponent.uplugin
+LogPluginManager: Loaded Plugin CustomMeshComponent, From P:/UNREAL/Epic Games/4.13/Engine/Plugins/Runtime/CustomMeshComponent/CustomMeshComponent.uplugin
+LogPluginManager: Loaded Plugin ExampleDeviceProfileSelector, From P:/UNREAL/Epic Games/4.13/Engine/Plugins/Runtime/ExampleDeviceProfileSelector/ExampleDeviceProfileSelector.uplugin
+LogPluginManager: Loaded Plugin GearVR, From P:/UNREAL/Epic Games/4.13/Engine/Plugins/Runtime/GearVR/GearVR.uplugin
+LogPluginManager: Loaded Plugin GoogleVRController, From P:/UNREAL/Epic Games/4.13/Engine/Plugins/Runtime/GoogleVR/GoogleVRController/GoogleVRController.uplugin
+LogPluginManager: Loaded Plugin GoogleVRHMD, From P:/UNREAL/Epic Games/4.13/Engine/Plugins/Runtime/GoogleVR/GoogleVRHMD/GoogleVRHMD.uplugin
+LogPluginManager: Loaded Plugin IOSDeviceProfileSelector, From P:/UNREAL/Epic Games/4.13/Engine/Plugins/Runtime/IOSDeviceProfileSelector/IOSDeviceProfileSelector.uplugin
+LogPluginManager: Loaded Plugin LeapMotion, From P:/UNREAL/Epic Games/4.13/Engine/Plugins/Runtime/LeapMotion/LeapMotion.uplugin
+LogPluginManager: Loaded Plugin LinuxDeviceProfileSelector, From P:/UNREAL/Epic Games/4.13/Engine/Plugins/Runtime/LinuxDeviceProfileSelector/LinuxDeviceProfileSelector.uplugin
+LogPluginManager: Loaded Plugin LiveEditorListenServer, From P:/UNREAL/Epic Games/4.13/Engine/Plugins/Runtime/LiveEditorListenServer/LiveEditorListenServer.uplugin
+LogPluginManager: Loaded Plugin OculusAudio, From P:/UNREAL/Epic Games/4.13/Engine/Plugins/Runtime/OculusAudio/OculusAudio.uplugin
+LogPluginManager: Loaded Plugin OculusInput, From P:/UNREAL/Epic Games/4.13/Engine/Plugins/Runtime/OculusInput/OculusInput.uplugin
+LogPluginManager: Loaded Plugin OculusLibrary, From P:/UNREAL/Epic Games/4.13/Engine/Plugins/Runtime/OculusLibrary/OculusLibrary.uplugin
+LogPluginManager: Loaded Plugin OculusRift, From P:/UNREAL/Epic Games/4.13/Engine/Plugins/Runtime/OculusRift/OculusRift.uplugin
+LogPluginManager: Loaded Plugin Oodle, From P:/UNREAL/Epic Games/4.13/Engine/Plugins/Runtime/PacketHandlers/CompressionComponents/Oodle/Oodle.uplugin
+LogPluginManager: Loaded Plugin ProceduralMeshComponent, From P:/UNREAL/Epic Games/4.13/Engine/Plugins/Runtime/ProceduralMeshComponent/ProceduralMeshComponent.uplugin
+LogPluginManager: Loaded Plugin SoundMod, From P:/UNREAL/Epic Games/4.13/Engine/Plugins/Runtime/SoundMod/SoundMod.uplugin
+LogPluginManager: Loaded Plugin SoundVisualizations, From P:/UNREAL/Epic Games/4.13/Engine/Plugins/Runtime/SoundVisualizations/SoundVisualizations.uplugin
+LogPluginManager: Loaded Plugin SteamController, From P:/UNREAL/Epic Games/4.13/Engine/Plugins/Runtime/Steam/SteamController/SteamController.uplugin
+LogPluginManager: Loaded Plugin SteamVR, From P:/UNREAL/Epic Games/4.13/Engine/Plugins/Runtime/Steam/SteamVR/SteamVR.uplugin
+LogPluginManager: Loaded Plugin WebBrowserWidget, From P:/UNREAL/Epic Games/4.13/Engine/Plugins/Runtime/WebBrowserWidget/WebBrowserWidget.uplugin
+LogPluginManager: Loaded Plugin WindowsDeviceProfileSelector, From P:/UNREAL/Epic Games/4.13/Engine/Plugins/Runtime/WindowsDeviceProfileSelector/WindowsDeviceProfileSelector.uplugin
+LogPluginManager: Loaded Plugin WindowsMoviePlayer, From P:/UNREAL/Epic Games/4.13/Engine/Plugins/Runtime/WindowsMoviePlayer/WindowsMoviePlayer.uplugin
+LogPluginManager: Loaded Plugin ScriptPlugin, From P:/UNREAL/Epic Games/4.13/Engine/Plugins/ScriptPlugin/ScriptPlugin.uplugin
+LogPluginManager: Loaded Plugin SlateRemote, From P:/UNREAL/Epic Games/4.13/Engine/Plugins/Slate/SlateRemote/SlateRemote.uplugin
+LogInit: Using libcurl 7.47.1
+LogInit:  - built for x86_64-pc-win32
+LogInit:  - supports SSL with WinSSL
+LogInit:  - other features:
+LogInit:      CURL_VERSION_SSL
+LogInit:      CURL_VERSION_IPV6
+LogInit:      CURL_VERSION_ASYNCHDNS
+LogInit:      CURL_VERSION_LARGEFILE
+LogInit:      CURL_VERSION_IDN
+LogInit:  CurlRequestOptions (configurable via config and command line):
+LogInit:  - bVerifyPeer = false  - Libcurl will NOT verify peer certificate
+LogInit:  - bUseHttpProxy = false  - Libcurl will NOT use HTTP proxy
+LogInit:  - bDontReuseConnections = false  - Libcurl will reuse connections
+LogInit:  - CertBundlePath = nullptr  - Libcurl will use whatever was configured at build time.
+LogInit: Build: ++UE4+Release-4.13-CL-3172292
+LogInit: Engine Version: 4.13.2-3172292+++UE4+Release-4.13
+LogInit: Compatible Engine Version: 4.13.0-3106830+++UE4+Release-4.13
+LogInit: Net CL: 3172292
+LogDevObjectVersion: Number of dev versions registered: 13
+LogDevObjectVersion:   Dev-Blueprints (B0D832E4-1F89-4F0D-ACCF-7EB736FD4AA2): 5
+LogDevObjectVersion:   Dev-Build (E1C64328-A22C-4D53-A36C-8E866417BD8C): 0
+LogDevObjectVersion:   Dev-Core (375EC13C-06E4-48FB-B500-84F0262A717E): 1
+LogDevObjectVersion:   Dev-Editor (E4B068ED-F494-42E9-A231-DA0B2E46BB41): 6
+LogDevObjectVersion:   Dev-Framework (CFFC743F-43B0-4480-9391-14DF171D2073): 12
+LogDevObjectVersion:   Dev-Mobile (B02B49B5-BB20-44E9-A304-32B752E40360): 0
+LogDevObjectVersion:   Dev-Networking (A4E4105C-59A1-49B5-A7C5-40C4547EDFEE): 0
+LogDevObjectVersion:   Dev-Online (39C831C9-5AE6-47DC-9A44-9C173E1C8E7C): 0
+LogDevObjectVersion:   Dev-Physics (78F01B33-EBEA-4F98-B9B4-84EACCB95AA2): 0
+LogDevObjectVersion:   Dev-Platform (6631380F-2D4D-43E0-8009-CF276956A95A): 0
+LogDevObjectVersion:   Dev-Rendering (12F88B9F-8875-4AFC-A67C-D90C383ABD29): 4
+LogDevObjectVersion:   Dev-Sequencer (7B5AE74C-D270-4C10-A958-57980B212A5A): 0
+LogDevObjectVersion:   Dev-VR (D7296918-1DD6-4BDD-9DE2-64A83CC13884): 0
+LogInit: Compiled (64-bit): Oct 24 2016 14:29:06
+LogInit: Compiled with Visual C++: 19.00.23026.00
+LogInit: Build Configuration: Development
+LogInit: Branch Name: ++UE4+Release-4.13
+LogInit: Command line: -EpicPortal 
+LogInit: Base directory: P:/UNREAL/Epic Games/4.13/Engine/Binaries/Win64/
+LogInit: Installed Engine Build: 1
+LogInit: Presizing for max 8388607 objects, including 0 objects not considered by GC, pre-allocating 0 bytes for permanent pool.
+LogInit: Object subsystem initialized
+[2017.05.18-15.19.07:070][  0]LogConsoleManager:Display: Setting the console variable 'r.SeparateTranslucency' with 'SetByProjectSetting' was ignored as it is lower priority than the previous 'SetBySystemSettingsIni'
+[2017.05.18-15.19.07:072][  0]LogConsoleManager:Display: Setting the console variable 'r.ScreenPercentage' with 'SetByScalability' was ignored as it is lower priority than the previous 'SetBySystemSettingsIni'
+[2017.05.18-15.19.07:072][  0]LogConsoleManager:Display: Setting the console variable 'r.PostProcessAAQuality' with 'SetByScalability' was ignored as it is lower priority than the previous 'SetBySystemSettingsIni'
+[2017.05.18-15.19.07:072][  0]LogConsoleManager:Display: Setting the console variable 'r.MotionBlurQuality' with 'SetByScalability' was ignored as it is lower priority than the previous 'SetBySystemSettingsIni'
+[2017.05.18-15.19.07:072][  0]LogConsoleManager:Display: Setting the console variable 'r.AmbientOcclusionLevels' with 'SetByScalability' was ignored as it is lower priority than the previous 'SetBySystemSettingsIni'
+[2017.05.18-15.19.07:072][  0]LogConsoleManager:Display: Setting the console variable 'r.DepthOfFieldQuality' with 'SetByScalability' was ignored as it is lower priority than the previous 'SetBySystemSettingsIni'
+[2017.05.18-15.19.07:072][  0]LogConsoleManager:Display: Setting the console variable 'r.LensFlareQuality' with 'SetByScalability' was ignored as it is lower priority than the previous 'SetBySystemSettingsIni'
+[2017.05.18-15.19.07:072][  0]LogConsoleManager:Display: Setting the console variable 'r.SceneColorFringeQuality' with 'SetByScalability' was ignored as it is lower priority than the previous 'SetBySystemSettingsIni'
+[2017.05.18-15.19.07:072][  0]LogConsoleManager:Display: Setting the console variable 'r.EyeAdaptationQuality' with 'SetByScalability' was ignored as it is lower priority than the previous 'SetBySystemSettingsIni'
+[2017.05.18-15.19.07:072][  0]LogConsoleManager:Display: Setting the console variable 'r.BloomQuality' with 'SetByScalability' was ignored as it is lower priority than the previous 'SetBySystemSettingsIni'
+[2017.05.18-15.19.07:072][  0]LogConsoleManager:Display: Setting the console variable 'r.FastBlurThreshold' with 'SetByScalability' was ignored as it is lower priority than the previous 'SetBySystemSettingsIni'
+[2017.05.18-15.19.07:072][  0]LogConsoleManager:Display: Setting the console variable 'r.MaxAnisotropy' with 'SetByScalability' was ignored as it is lower priority than the previous 'SetBySystemSettingsIni'
+[2017.05.18-15.19.07:072][  0]LogConsoleManager:Display: Setting the console variable 'r.TranslucencyLightingVolumeDim' with 'SetByScalability' was ignored as it is lower priority than the previous 'SetBySystemSettingsIni'
+[2017.05.18-15.19.07:072][  0]LogConsoleManager:Display: Setting the console variable 'r.SSR.Quality' with 'SetByScalability' was ignored as it is lower priority than the previous 'SetBySystemSettingsIni'
+[2017.05.18-15.19.07:072][  0]LogConsoleManager:Display: Setting the console variable 'r.SceneColorFormat' with 'SetByScalability' was ignored as it is lower priority than the previous 'SetBySystemSettingsIni'
+[2017.05.18-15.19.07:072][  0]LogConsoleManager:Display: Setting the console variable 'r.TranslucencyVolumeBlur' with 'SetByScalability' was ignored as it is lower priority than the previous 'SetBySystemSettingsIni'
+[2017.05.18-15.19.07:072][  0]LogInit: Selected Device Profile: [Windows]
+[2017.05.18-15.19.07:072][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
+[2017.05.18-15.19.07:083][  0]LogInit: Computer: MSI
+[2017.05.18-15.19.07:083][  0]LogInit: User: jbethune
+[2017.05.18-15.19.07:083][  0]LogInit: CPU Page size=65536, Cores=4
+[2017.05.18-15.19.07:083][  0]LogInit: High frequency timer resolution =2.435774 MHz
+[2017.05.18-15.19.07:084][  0]LogMemory: Memory total: Physical=7.9GB (8GB approx)
+[2017.05.18-15.19.07:084][  0]LogMemory: Platform Memory Stats for Windows
+[2017.05.18-15.19.07:084][  0]LogMemory: Process Physical Memory: 255.34 MB used, 255.34 MB peak
+[2017.05.18-15.19.07:084][  0]LogMemory: Process Virtual Memory: 259.82 MB used, 259.82 MB peak
+[2017.05.18-15.19.07:084][  0]LogMemory: Physical Memory: 4192.21 MB used, 8112.12 MB total
+[2017.05.18-15.19.07:084][  0]LogMemory: Virtual Memory: 605.96 MB used, 134217728.00 MB total
+[2017.05.18-15.19.07:113][  0]LogInit: Overriding culture en w/ editor configuration.
+[2017.05.18-15.19.07:589][  0]LogD3D11RHI: D3D11 adapters:
+[2017.05.18-15.19.07:613][  0]LogD3D11RHI:    0. 'NVIDIA GeForce GTX 860M   ' (Feature Level 11_0)
+[2017.05.18-15.19.07:613][  0]LogD3D11RHI:       1991/0/2048 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:1, VendorId:0x10de
+[2017.05.18-15.19.07:621][  0]LogD3D11RHI:    1. 'Intel(R) HD Graphics 4600' (Feature Level 11_0)
+[2017.05.18-15.19.07:621][  0]LogD3D11RHI:       0/0/1792 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x8086
+[2017.05.18-15.19.07:622][  0]LogD3D11RHI:    2. 'Microsoft Basic Render Driver' (Feature Level 11_0)
+[2017.05.18-15.19.07:622][  0]LogD3D11RHI:       0/0/256 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x1414
+[2017.05.18-15.19.07:622][  0]LogD3D11RHI: Chosen D3D11 Adapter: 0
+[2017.05.18-15.19.07:628][  0]LogD3D11RHI: Creating new Direct3DDevice
+[2017.05.18-15.19.07:628][  0]LogD3D11RHI:     GPU DeviceId: 0x1392 (for the marketing name, search the web for "GPU Device Id")
+[2017.05.18-15.19.07:628][  0]LogWindows: EnumDisplayDevices:
+[2017.05.18-15.19.07:628][  0]LogWindows:    0. 'Intel(R) HD Graphics 4600' (P:1 D:1)
+[2017.05.18-15.19.07:628][  0]LogWindows:    1. 'Intel(R) HD Graphics 4600' (P:0 D:0)
+[2017.05.18-15.19.07:629][  0]LogWindows:    2. 'Intel(R) HD Graphics 4600' (P:0 D:0)
+[2017.05.18-15.19.07:629][  0]LogWindows: DebugString: PrimaryIsNotTheChoosenAdapter PrimaryIsNotTheChoosenAdapter PrimaryIsNotTheChoosenAdapter FoundDriverCount:0 
+[2017.05.18-15.19.07:629][  0]LogD3D11RHI:     Adapter Name: NVIDIA GeForce GTX 860M   
+[2017.05.18-15.19.07:629][  0]LogD3D11RHI:   Driver Version: Unknown (internal:Unknown, unified:Unknown)
+[2017.05.18-15.19.07:629][  0]LogD3D11RHI:      Driver Date: Unknown
+[2017.05.18-15.19.07:629][  0]LogRHI: Texture pool is 1361 MB (70% of 1945 MB)
+[2017.05.18-15.19.07:644][  0]LogD3D11RHI: Async texture creation enabled
+[2017.05.18-15.19.08:547][  0]LogD3D11RHI: GPU Timing Frequency: 1000.000000 (Debug: 2 2)
+[2017.05.18-15.19.08:547][  0]LogShaderCompilers: Guid format shader working directory is -12 characters bigger than the processId version (C:/Users/jbethune/Downloads/MasterCamControl/MasterCamControl/Intermediate/Shaders/WorkingDirectory/5688/).
+[2017.05.18-15.19.08:547][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'C:/Users/jbethune/AppData/Local/Temp/UnrealShaderWorkingDir/B75D84884528E0AECF9BE0810549564F/'.
+[2017.05.18-15.19.08:547][  0]LogShaderCompilers:Display: Using Local Shader Compiler.
+[2017.05.18-15.19.09:485][  0]LogTemp:Display: Loaded TP AllDesktopTargetPlatform
+[2017.05.18-15.19.09:492][  0]LogTemp:Display: Loaded TP WindowsClientTargetPlatform
+[2017.05.18-15.19.09:499][  0]LogTemp:Display: Loaded TP WindowsNoEditorTargetPlatform
+[2017.05.18-15.19.09:506][  0]LogTemp:Display: Loaded TP WindowsServerTargetPlatform
+[2017.05.18-15.19.09:514][  0]LogTemp:Display: Loaded TP WindowsTargetPlatform
+[2017.05.18-15.19.09:520][  0]LogTemp:Display: Loaded TP AndroidTargetPlatform
+[2017.05.18-15.19.09:527][  0]LogTemp:Display: Loaded TP Android_ASTCTargetPlatform
+[2017.05.18-15.19.09:534][  0]LogTemp:Display: Loaded TP Android_ATCTargetPlatform
+[2017.05.18-15.19.09:541][  0]LogTemp:Display: Loaded TP Android_DXTTargetPlatform
+[2017.05.18-15.19.09:548][  0]LogTemp:Display: Loaded TP Android_ETC1TargetPlatform
+[2017.05.18-15.19.09:555][  0]LogTemp:Display: Loaded TP Android_ETC2TargetPlatform
+[2017.05.18-15.19.09:569][  0]LogTemp:Display: Loaded TP Android_MultiTargetPlatform
+[2017.05.18-15.19.09:569][  0]LogTemp:Display: Loaded TP Android_PVRTCTargetPlatform
+[2017.05.18-15.19.09:570][  0]LogTemp:Display: Loaded TP HTML5TargetPlatform
+[2017.05.18-15.19.09:590][  0]LogTemp:Display: Loaded TP IOSTargetPlatform
+[2017.05.18-15.19.09:597][  0]LogTemp:Display: Loaded TP TVOSTargetPlatform
+[2017.05.18-15.19.09:613][  0]LogTemp:Display: Loaded TP LinuxClientTargetPlatform
+[2017.05.18-15.19.09:629][  0]LogTemp:Display: Loaded TP LinuxNoEditorTargetPlatform
+[2017.05.18-15.19.09:638][  0]LogTemp:Display: Loaded TP LinuxServerTargetPlatform
+[2017.05.18-15.19.09:645][  0]LogTemp:Display: Loaded TP LinuxTargetPlatform
+[2017.05.18-15.19.09:645][  0]LogTargetPlatformManager:Display: Building Assets For Windows
+[2017.05.18-15.19.09:691][  0]LogDerivedDataCache:Display: Max Cache Size: 512 MB
+[2017.05.18-15.19.09:815][  0]LogDerivedDataCache: Loaded boot cache 0.12s 87MB C:/Users/jbethune/AppData/Local/UnrealEngine/4.13/DerivedDataCache/Boot.ddc.
+[2017.05.18-15.19.09:815][  0]LogDerivedDataCache:Display: Loaded Boot cache: C:/Users/jbethune/AppData/Local/UnrealEngine/4.13/DerivedDataCache/Boot.ddc
+[2017.05.18-15.19.09:815][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file C:/Users/jbethune/Downloads/MasterCamControl/MasterCamControl/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+[2017.05.18-15.19.09:815][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
+[2017.05.18-15.19.09:815][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file C:/Users/jbethune/Downloads/MasterCamControl/MasterCamControl/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2017.05.18-15.19.09:815][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
+[2017.05.18-15.19.09:832][  0]LogDerivedDataCache:Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
+[2017.05.18-15.19.09:844][  0]LogDerivedDataCache: Using Local data cache path C:/Users/jbethune/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
+[2017.05.18-15.19.10:032][  0]LogInit: Selected Device Profile: [Windows]
+[2017.05.18-15.19.10:035][  0]LogContentStreaming: Texture pool size is 0.00 MB
+[2017.05.18-15.19.10:121][  0]LogMeshUtilities: No automatic mesh reduction module available
+[2017.05.18-15.19.10:121][  0]LogMeshUtilities: No automatic mesh merging module available
+[2017.05.18-15.19.10:121][  0]LogMeshUtilities: No distributed automatic mesh merging module available
+[2017.05.18-15.19.10:182][  0]LogMaterial: Uniform references updated for custom material expression Custom.
+[2017.05.18-15.19.10:685][  0]LogNetVersion: GetLocalNetworkVersion: CL: 3106830, ProjectName: cameracontrol, ProjectVersion: , EngineNetworkVersion: 1, GameNetworkVersion: 0, NetworkChecksum: 646504735
+[2017.05.18-15.19.10:722][  0]LogAssetRegistry: FAssetRegistry took 0.0218 seconds to start up
+[2017.05.18-15.19.10:735][  0]LogPackageLocalizationCache: Processed 3 localized package path(s) for 1 prioritized culture(s) in 0.011934 seconds
+[2017.05.18-15.19.10:744][  0]LogUObjectArray: 29778 objects as part of root set at end of initial load.
+[2017.05.18-15.19.10:744][  0]LogUObjectAllocator: 6125456 out of 0 bytes used by permanent object pool.
+[2017.05.18-15.19.10:744][  0]LogUObjectArray: CloseDisregardForGC: 0/0 objects in disregard for GC pool
+[2017.05.18-15.19.10:747][  0]LogInit: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
+[2017.05.18-15.19.10:927][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2017.05.18-15.19.10:927][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2017.05.18-15.19.11:525][  0]LogTcpMessaging: Initializing TcpMessaging bridge
+[2017.05.18-15.19.11:543][  0]LogUdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
+[2017.05.18-15.19.11:783][  0]SourceControl: Info Source control is disabled
+[2017.05.18-15.19.11:825][  0]SourceControl: Info Source control is disabled
+[2017.05.18-15.19.11:830][  0]SourceControl: Info Source control is disabled
+[2017.05.18-15.19.11:835][  0]SourceControl: Info Source control is disabled
+[2017.05.18-15.19.12:018][  0]LogEngine: Initializing Engine...
+[2017.05.18-15.19.12:172][  0]LogAIModule: Creating AISystem for world Untitled
+[2017.05.18-15.19.12:178][  0]LogInit: XAudio2 using 'Altavoces (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2017.05.18-15.19.12:205][  0]LogInit: FAudioDevice initialized.
+[2017.05.18-15.19.12:263][  0]LogDerivedDataCache: Saved boot cache 0.06s 87MB C:/Users/jbethune/AppData/Local/UnrealEngine/4.13/DerivedDataCache/Boot.ddc.
+[2017.05.18-15.19.12:282][  0]LogInit: Texture streaming: Enabled
+[2017.05.18-15.19.12:378][  0]LogInit: Transaction tracking system initialized
+[2017.05.18-15.19.12:391][  0]BlueprintLog: New page: Editor Load
+[2017.05.18-15.19.12:432][  0]LocalizationService: Info Localization service is disabled
+[2017.05.18-15.19.13:036][  0]LogConsoleResponse:Display: 
+[2017.05.18-15.19.16:173][  0]LogCook:Display: Max memory allowance for cook 16384mb min free memory 0mb
+[2017.05.18-15.19.16:173][  0]LogCook:Display: Mobile HDR setting 1
+[2017.05.18-15.19.16:300][  0]LogFileCache: Scanning file cache for directory 'C:/Users/jbethune/Downloads/MasterCamControl/MasterCamControl/Content/' took 0.03s
+[2017.05.18-15.19.16:300][  0]SourceControl: Info Source control is disabled
+[2017.05.18-15.19.16:300][  0]Cmd: MAP LOAD FILE="C:/Users/jbethune/Downloads/MasterCamControl/MasterCamControl/Content/Lmenu/Lmenu.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2017.05.18-15.19.16:301][  0]LightingResults: New page: Lighting Build
+[2017.05.18-15.19.16:302][  0]MapCheck: New page: Map Check
+[2017.05.18-15.19.16:302][  0]LightingResults: New page: Lighting Build
+[2017.05.18-15.19.18:292][  0]LogBlueprint:Warning: [Compiler PersistentLevel.Lmenu] Warning InputAction Event references unknown Action 'changeCamera' for  K2Node_InputAction_151
+[2017.05.18-15.19.18:295][  0]LogBlueprint:Warning: [Compiler PersistentLevel.Lmenu] Warning [0012.01] Compile of PersistentLevel.Lmenu successful, but with 1 Warning(s) [in 5 ms] (/Game/Lmenu/Lmenu.Lmenu:PersistentLevel.Lmenu)
+[2017.05.18-15.19.18:295][  0]LogBlueprint:Warning: [Compiler PersistentLevel.Lmenu] Warning [0012.01] Compile of PersistentLevel.Lmenu successful, but with 2 Warning(s) [in 0 ms] (/Game/Lmenu/Lmenu.Lmenu:PersistentLevel.Lmenu)
+[2017.05.18-15.19.18:295][  0]LogBlueprint:Warning: [Compiler PersistentLevel.Lmenu] Warning [0012.01] Compile of PersistentLevel.Lmenu successful, but with 3 Warning(s) [in 0 ms] (/Game/Lmenu/Lmenu.Lmenu:PersistentLevel.Lmenu)
+[2017.05.18-15.19.18:300][  0]LogBlueprint:Warning: [Compiler PersistentLevel.Lmenu] Warning InputAction Event references unknown Action 'changeCamera' for  K2Node_InputAction_151
+[2017.05.18-15.19.18:303][  0]LogBlueprint:Warning: [Compiler PersistentLevel.Lmenu] Warning [0012.02] Compile of PersistentLevel.Lmenu successful, but with 1 Warning(s) [in 6 ms] (/Game/Lmenu/Lmenu.Lmenu:PersistentLevel.Lmenu)
+[2017.05.18-15.19.18:303][  0]LogBlueprint:Warning: [Compiler PersistentLevel.Lmenu] Warning [0012.02] Compile of PersistentLevel.Lmenu successful, but with 2 Warning(s) [in 0 ms] (/Game/Lmenu/Lmenu.Lmenu:PersistentLevel.Lmenu)
+[2017.05.18-15.19.18:303][  0]LogBlueprint:Warning: [Compiler PersistentLevel.Lmenu] Warning [0012.02] Compile of PersistentLevel.Lmenu successful, but with 3 Warning(s) [in 0 ms] (/Game/Lmenu/Lmenu.Lmenu:PersistentLevel.Lmenu)
+[2017.05.18-15.19.18:613][  0]LogTexture:Display: Building textures: boy_D03 (AutoDXT)
+[2017.05.18-15.19.19:482][  0]LogTexture:Display: Building textures: boy_D01 (AutoDXT)
+[2017.05.18-15.19.20:092][  0]LogMaterial: Missing cached shader map for material clothes, compiling. 
+[2017.05.18-15.19.20:377][  0]LogAnimationCompression: Building Anim DDC data for AnimSequence /Game/Art/Meshes/Characters/Boy/Social/NewBoy/Animations/walking_inPlace.walking_inPlace
+[2017.05.18-15.19.20:528][  0]LogAnimationCompression: Building Anim DDC data for AnimSequence /Game/Art/Meshes/Characters/Boy/Social/NewBoy/Animations/happy_idle.happy_idle
+[2017.05.18-15.19.20:533][  0]LogAnimationCompression: Building Anim DDC data for AnimSequence /Game/Art/Meshes/Characters/Boy/Social/NewBoy/Animations/talking.talking
+[2017.05.18-15.19.21:188][  0]LogTexture:Display: Building textures: mrGuau_D (AutoDXT)
+[2017.05.18-15.19.21:812][  0]LogMaterial: Missing cached shader map for material 09_-_Default, compiling. 
+[2017.05.18-15.19.21:901][  0]LogTexture:Display: Building textures: girl_D03 (AutoDXT)
+[2017.05.18-15.19.22:552][  0]LogMaterial: Missing cached shader map for material skin, compiling. 
+[2017.05.18-15.19.22:641][  0]LogTexture:Display: Building textures: girl_D02 (AutoDXT)
+[2017.05.18-15.19.23:382][  0]LogMaterial: Missing cached shader map for material hair, compiling. 
+[2017.05.18-15.19.23:482][  0]LogTexture:Display: Building textures: girl_D01 (AutoDXT)
+[2017.05.18-15.19.24:236][  0]LogMaterial: Missing cached shader map for material clothes, compiling. 
+[2017.05.18-15.19.24:383][  0]LogTexture:Display: Building textures: bear_D (AutoDXT)
+[2017.05.18-15.19.25:479][  0]LogMaterial: Missing cached shader map for material 01_-_Default, compiling. 
+[2017.05.18-15.19.25:649][  0]LogTexture:Display: Building textures: boy_D02 (AutoDXT)
+[2017.05.18-15.19.26:810][  0]LogMaterial: Missing cached shader map for material Material__2, compiling. 
+[2017.05.18-15.19.27:034][  0]LogMaterial: Missing cached shader map for material 07_-_Default, compiling. 
+[2017.05.18-15.19.27:217][  0]LogAnimationCompression: Building Anim DDC data for AnimSequence /Game/Art/Meshes/Characters/MrGuau/naughty/NewMrGuau/walking_inPlace.walking_inPlace
+[2017.05.18-15.19.27:271][  0]LogAnimationCompression: Building Anim DDC data for AnimSequence /Game/Art/Meshes/Characters/MrGuau/naughty/NewMrGuau/happy_idle.happy_idle
+[2017.05.18-15.19.27:289][  0]LogAnimationCompression: Building Anim DDC data for AnimSequence /Game/Art/Meshes/Characters/MrGuau/naughty/NewMrGuau/talking.talking
+[2017.05.18-15.19.27:317][  0]LogAnimationCompression: Building Anim DDC data for AnimSequence /Game/Art/Meshes/Characters/Girl/explorer/NewGirl/happy_idle.happy_idle
+[2017.05.18-15.19.27:338][  0]LogAnimationCompression: Building Anim DDC data for AnimSequence /Game/Art/Meshes/Characters/Girl/explorer/NewGirl/female_walk_inPlace.female_walk_inPlace
+[2017.05.18-15.19.27:371][  0]LogAnimationCompression: Building Anim DDC data for AnimSequence /Game/Art/Meshes/Characters/Girl/explorer/NewGirl/talking.talking
+[2017.05.18-15.19.30:039][  0]LogAnimationCompression: Building Anim DDC data for AnimSequence /Game/Art/Meshes/Characters/Bear/Curious/NewBear/Animations/talking.talking
+[2017.05.18-15.19.30:287][  0]LogAnimationCompression: Building Anim DDC data for AnimSequence /Game/Art/Meshes/Characters/Bear/Curious/NewBear/Animations/walking_inPlace.walking_inPlace
+[2017.05.18-15.19.30:310][  0]LogAnimationCompression: Building Anim DDC data for AnimSequence /Game/Art/Meshes/Characters/Bear/Curious/NewBear/Animations/happy_idle.happy_idle
+[2017.05.18-15.19.30:401][  0]LogAIModule: Creating AISystem for world Lmenu
+[2017.05.18-15.19.30:934][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2017.05.18-15.19.30:992][  0]Cmd: MAP CHECKDEP NOCLEARLOG
+[2017.05.18-15.19.31:094][  0]MapCheck: Info Map check complete: 0 Error(s), 0 Warning(s), took 101.491ms to complete.
+[2017.05.18-15.19.31:094][  0]LogFileHelpers: Loading map 'Lmenu' took 14.794
+[2017.05.18-15.19.32:679][  0]LogCollectionManager: Loaded 0 collections in 0.002200 seconds
+[2017.05.18-15.19.32:941][  0]LogFileCache: Scanning file cache for directory 'C:/Users/jbethune/Downloads/MasterCamControl/MasterCamControl/Saved/Collections/' took 0.01s
+[2017.05.18-15.19.32:941][  0]LogFileCache: Scanning file cache for directory 'C:/Users/jbethune/Downloads/MasterCamControl/MasterCamControl/Content/Developers/jbethune/Collections/' took 0.01s
+[2017.05.18-15.19.32:941][  0]LogFileCache: Scanning file cache for directory 'C:/Users/jbethune/Downloads/MasterCamControl/MasterCamControl/Content/Collections/' took 0.01s
+[2017.05.18-15.19.32:941][  0]LogCollectionManager: Rebuilt the GUID cache for 0 collections in 0.000003 seconds
+[2017.05.18-15.19.32:999][  0]LogContentBrowser: Native class hierarchy populated in 0.0465 seconds. Added 2139 classes and 412 folders.
+[2017.05.18-15.19.33:071][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: Construct from data asset -  0.000 s
+[2017.05.18-15.19.33:071][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: GameplayTagTreeChangedEvent.Broadcast -  0.000 s
+[2017.05.18-15.19.33:082][  0]LogContentBrowser: Native class hierarchy updated for 'GameplayTags' in 0.0083 seconds. Added 12 classes and 0 folders.
+[2017.05.18-15.19.33:126][  0]LogContentBrowser: Native class hierarchy updated for 'WidgetCarousel' in 0.0010 seconds. Added 0 classes and 0 folders.
+[2017.05.18-15.19.35:408][  0]LogContentBrowser: Native class hierarchy updated for 'AddContentDialog' in 0.0007 seconds. Added 0 classes and 0 folders.
+[2017.05.18-15.19.35:468][  0]LogContentBrowser: Native class hierarchy updated for 'SceneOutliner' in 0.0019 seconds. Added 1 classes and 2 folders.
+[2017.05.18-15.19.36:722][  0]LogCrashTracker: Crashtracker disabled due to settings.
+[2017.05.18-15.19.36:817][  0]LogUObjectGlobals:Warning: Failed to find object 'Class None.'
+[2017.05.18-15.19.36:881][  0]LogContentBrowser: Native class hierarchy updated for 'HierarchicalLODOutliner' in 0.0010 seconds. Added 1 classes and 2 folders.
+[2017.05.18-15.19.36:881][  0]LogLoad: (Engine Initialization) Total time: 30.60 seconds
+[2017.05.18-15.19.36:881][  0]LogLoad: (Engine Initialization) Total Blueprint compile time: 1.03 seconds
+[2017.05.18-15.19.36:881][  0]LogExternalProfiler: Found external profiler: VSPerf
+[2017.05.18-15.19.36:881][  0]LogExternalProfiler: Using external profiler: VSPerf
+[2017.05.18-15.19.36:891][  0]LogWindowsTextInputMethodSystem:Display: IME system now deactivated.
+[2017.05.18-15.19.36:892][  0]LogOcInput: OculusInput pre-init called
+[2017.05.18-15.19.36:976][  0]LogContentStreaming: Texture pool size now 400 MB
+[2017.05.18-15.19.37:623][  0]LogRenderer: Reallocating scene render targets to support 1416x584 (Frame:2).
+[2017.05.18-15.19.38:668][  3]LogAssetRegistry: Asset discovery search completed in 27.9686 seconds
+[2017.05.18-15.19.38:669][  3]LogCollectionManager: Rebuilt the object cache for 0 collections in 0.000001 seconds (found 0 objects)
+[2017.05.18-15.19.38:669][  3]LogCollectionManager: Fixed up redirectors for 0 collections in 0.000027 seconds (updated 0 objects)
+[2017.05.18-15.20.20:224][928]LogLinker:Warning: Asset 'C:/Users/jbethune/Downloads/MasterCamControl/MasterCamControl/Content/Materials/PP_Outliner_M.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
+[2017.05.18-15.20.20:225][928]LogLinker:Warning: Asset 'C:/Users/jbethune/Downloads/MasterCamControl/MasterCamControl/Content/Materials/MF_ConvolveTexture.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
+[2017.05.18-15.20.20:227][928]LogLinker:Warning: Asset 'C:/Users/jbethune/Downloads/MasterCamControl/MasterCamControl/Content/Materials/MF_ExtractDepth.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
+[2017.05.18-15.20.20:229][928]LogLinker:Warning: Asset 'C:/Users/jbethune/Downloads/MasterCamControl/MasterCamControl/Content/Materials/MF_SampleSceneTextureNeighbourUVs.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
+[2017.05.18-15.20.20:252][928]LogLinker:Warning: Can't find file '/Game/L1/Props/estatua01_PhysicsAsset'
+[2017.05.18-15.20.20:252][928]LogLinker:Warning: Can't find file for asset '/Game/L1/Props/estatua01_PhysicsAsset' while loading C:/Users/jbethune/Downloads/MasterCamControl/MasterCamControl/Content/L1/Props/estatua01.uasset.
+[2017.05.18-15.20.20:252][928]LoadErrors:Error: Error /Game/L1/Props/estatua01 : Can't find file for asset. /Game/L1/Props/estatua01_PhysicsAsset
+[2017.05.18-15.20.20:252][928]LogLinker:Warning: Can't find file '/Game/L1/Props/estatua01_Skeleton'
+[2017.05.18-15.20.20:252][928]LogLinker:Warning: Can't find file for asset '/Game/L1/Props/estatua01_Skeleton' while loading C:/Users/jbethune/Downloads/MasterCamControl/MasterCamControl/Content/L1/Props/estatua01.uasset.
+[2017.05.18-15.20.20:252][928]LoadErrors:Error: Error /Game/L1/Props/estatua01 : Can't find file for asset. /Game/L1/Props/estatua01_Skeleton
+[2017.05.18-15.20.20:252][928]LogLinker:Warning: Can't find file '/Game/L1/Props/estatua01_PhysicsAsset'
+[2017.05.18-15.20.20:252][928]LogLinker:Warning: Can't find file for asset '/Game/L1/Props/estatua01_PhysicsAsset' while loading C:/Users/jbethune/Downloads/MasterCamControl/MasterCamControl/Content/L1/Props/estatua01.uasset.
+[2017.05.18-15.20.20:252][928]LogLinker:Warning: Can't find file '/Game/L1/Props/estatua01_Skeleton'
+[2017.05.18-15.20.20:253][928]LogLinker:Warning: Can't find file for asset '/Game/L1/Props/estatua01_Skeleton' while loading C:/Users/jbethune/Downloads/MasterCamControl/MasterCamControl/Content/L1/Props/estatua01.uasset.
+[2017.05.18-15.20.20:253][928]LogLinker:Warning: Can't find file '/Game/L1/Props/estatua02_PhysicsAsset'
+[2017.05.18-15.20.20:253][928]LogLinker:Warning: Can't find file for asset '/Game/L1/Props/estatua02_PhysicsAsset' while loading C:/Users/jbethune/Downloads/MasterCamControl/MasterCamControl/Content/L1/Props/estatua02.uasset.
+[2017.05.18-15.20.20:253][928]LoadErrors:Error: Error /Game/L1/Props/estatua02 : Can't find file for asset. /Game/L1/Props/estatua02_PhysicsAsset
+[2017.05.18-15.20.20:254][928]LogLinker:Warning: Can't find file '/Game/L1/Props/estatua02_Skeleton'
+[2017.05.18-15.20.20:254][928]LogLinker:Warning: Can't find file for asset '/Game/L1/Props/estatua02_Skeleton' while loading C:/Users/jbethune/Downloads/MasterCamControl/MasterCamControl/Content/L1/Props/estatua02.uasset.
+[2017.05.18-15.20.20:254][928]LoadErrors:Error: Error /Game/L1/Props/estatua02 : Can't find file for asset. /Game/L1/Props/estatua02_Skeleton
+[2017.05.18-15.20.20:254][928]LogLinker:Warning: Can't find file '/Game/L1/Props/estatua02_PhysicsAsset'
+[2017.05.18-15.20.20:254][928]LogLinker:Warning: Can't find file for asset '/Game/L1/Props/estatua02_PhysicsAsset' while loading C:/Users/jbethune/Downloads/MasterCamControl/MasterCamControl/Content/L1/Props/estatua02.uasset.
+[2017.05.18-15.20.20:254][928]LogLinker:Warning: Can't find file '/Game/L1/Props/estatua02_Skeleton'
+[2017.05.18-15.20.20:254][928]LogLinker:Warning: Can't find file for asset '/Game/L1/Props/estatua02_Skeleton' while loading C:/Users/jbethune/Downloads/MasterCamControl/MasterCamControl/Content/L1/Props/estatua02.uasset.
+[2017.05.18-15.20.20:255][928]LogLinker:Warning: Can't find file '/Game/L1/Props/estatua03_PhysicsAsset'
+[2017.05.18-15.20.20:255][928]LogLinker:Warning: Can't find file for asset '/Game/L1/Props/estatua03_PhysicsAsset' while loading C:/Users/jbethune/Downloads/MasterCamControl/MasterCamControl/Content/L1/Props/estatua03.uasset.
+[2017.05.18-15.20.20:255][928]LoadErrors:Error: Error /Game/L1/Props/estatua03 : Can't find file for asset. /Game/L1/Props/estatua03_PhysicsAsset
+[2017.05.18-15.20.20:255][928]LogLinker:Warning: Can't find file '/Game/L1/Props/estatua03_Skeleton'
+[2017.05.18-15.20.20:255][928]LogLinker:Warning: Can't find file for asset '/Game/L1/Props/estatua03_Skeleton' while loading C:/Users/jbethune/Downloads/MasterCamControl/MasterCamControl/Content/L1/Props/estatua03.uasset.
+[2017.05.18-15.20.20:255][928]LoadErrors:Error: Error /Game/L1/Props/estatua03 : Can't find file for asset. /Game/L1/Props/estatua03_Skeleton
+[2017.05.18-15.20.20:255][928]LogLinker:Warning: Can't find file '/Game/L1/Props/estatua03_PhysicsAsset'
+[2017.05.18-15.20.20:255][928]LogLinker:Warning: Can't find file for asset '/Game/L1/Props/estatua03_PhysicsAsset' while loading C:/Users/jbethune/Downloads/MasterCamControl/MasterCamControl/Content/L1/Props/estatua03.uasset.
+[2017.05.18-15.20.20:255][928]LogLinker:Warning: Can't find file '/Game/L1/Props/estatua03_Skeleton'
+[2017.05.18-15.20.20:255][928]LogLinker:Warning: Can't find file for asset '/Game/L1/Props/estatua03_Skeleton' while loading C:/Users/jbethune/Downloads/MasterCamControl/MasterCamControl/Content/L1/Props/estatua03.uasset.
+[2017.05.18-15.20.20:362][928]LogLinker:Warning: Can't find file '/Game/L1/Props/estatua03_Skeleton'
+[2017.05.18-15.20.20:362][928]LoadErrors: Info Failed to load /Game/L1/Props/estatua03_Skeleton.estatua03_Skeleton Referenced by estatua03
+[2017.05.18-15.20.20:362][928]LogLinker:Warning: Can't find file for asset '/Game/L1/Props/estatua03_Skeleton' while loading NULL.
+[2017.05.18-15.20.20:362][928]LogLinker:Warning: Can't find file '/Game/L1/Props/estatua03_PhysicsAsset'
+[2017.05.18-15.20.20:362][928]LoadErrors: Info Failed to load /Game/L1/Props/estatua03_PhysicsAsset.estatua03_PhysicsAsset Referenced by estatua03
+[2017.05.18-15.20.20:362][928]LogLinker:Warning: Can't find file for asset '/Game/L1/Props/estatua03_PhysicsAsset' while loading NULL.
+[2017.05.18-15.20.20:363][928]LogLinker:Warning: Can't find file '/Game/L1/Props/estatua02_Skeleton'
+[2017.05.18-15.20.20:363][928]LoadErrors: Info Failed to load /Game/L1/Props/estatua02_Skeleton.estatua02_Skeleton Referenced by estatua02
+[2017.05.18-15.20.20:363][928]LogLinker:Warning: Can't find file for asset '/Game/L1/Props/estatua02_Skeleton' while loading NULL.
+[2017.05.18-15.20.20:363][928]LogLinker:Warning: Can't find file '/Game/L1/Props/estatua02_PhysicsAsset'
+[2017.05.18-15.20.20:363][928]LoadErrors: Info Failed to load /Game/L1/Props/estatua02_PhysicsAsset.estatua02_PhysicsAsset Referenced by estatua02
+[2017.05.18-15.20.20:363][928]LogLinker:Warning: Can't find file for asset '/Game/L1/Props/estatua02_PhysicsAsset' while loading NULL.
+[2017.05.18-15.20.20:364][928]LogLinker:Warning: Can't find file '/Game/L1/Props/estatua01_Skeleton'
+[2017.05.18-15.20.20:364][928]LoadErrors: Info Failed to load /Game/L1/Props/estatua01_Skeleton.estatua01_Skeleton Referenced by estatua01
+[2017.05.18-15.20.20:364][928]LogLinker:Warning: Can't find file for asset '/Game/L1/Props/estatua01_Skeleton' while loading NULL.
+[2017.05.18-15.20.20:364][928]LogLinker:Warning: Can't find file '/Game/L1/Props/estatua01_PhysicsAsset'
+[2017.05.18-15.20.20:364][928]LoadErrors: Info Failed to load /Game/L1/Props/estatua01_PhysicsAsset.estatua01_PhysicsAsset Referenced by estatua01
+[2017.05.18-15.20.20:364][928]LogLinker:Warning: Can't find file for asset '/Game/L1/Props/estatua01_PhysicsAsset' while loading NULL.
+[2017.05.18-15.20.20:785][928]LogMaterial: Missing cached shader map for material cambotuw_Mat, compiling. 
+[2017.05.18-15.20.20:857][928]LogMaterial: Missing cached shader map for material PP_Outliner_M, compiling. 
+[2017.05.18-15.20.21:287][928]LogStaticMesh: Building static mesh cuadro001_by_yuumirin-db7eoam...
+[2017.05.18-15.20.21:952][928]LogStaticMesh: Built static mesh [0.66s] /Game/L1/Props/Cuadros/cuadro001_by_yuumirin-db7eoam.cuadro001_by_yuumirin-db7eoam
+[2017.05.18-15.20.22:602][928]LogStaticMesh: Building static mesh cuadro012_by_yuumirin-db7eq0d...
+[2017.05.18-15.20.22:604][928]LogStaticMesh: Built static mesh [0.00s] /Game/L1/Decoracion/SalaEnorme/cuadro012_by_yuumirin-db7eq0d.cuadro012_by_yuumirin-db7eq0d
+[2017.05.18-15.20.22:615][928]LogStaticMesh: Building static mesh cuadro011_by_yuumirin-db7eq0f...
+[2017.05.18-15.20.22:618][928]LogStaticMesh: Built static mesh [0.00s] /Game/L1/Decoracion/SalaEnorme/cuadro011_by_yuumirin-db7eq0f.cuadro011_by_yuumirin-db7eq0f
+[2017.05.18-15.20.22:636][928]LogStaticMesh: Building static mesh cuadro010_by_yuumirin-db7eq0i...
+[2017.05.18-15.20.22:638][928]LogStaticMesh: Built static mesh [0.02s] /Game/L1/Decoracion/SalaEnorme/cuadro010_by_yuumirin-db7eq0i.cuadro010_by_yuumirin-db7eq0i
+[2017.05.18-15.20.22:654][928]LogStaticMesh: Building static mesh cuadro009_by_yuumirin-db7eq0k...
+[2017.05.18-15.20.22:657][928]LogStaticMesh: Built static mesh [0.00s] /Game/L1/Decoracion/SalaEnorme/cuadro009_by_yuumirin-db7eq0k.cuadro009_by_yuumirin-db7eq0k
+[2017.05.18-15.20.22:658][928]LogStaticMesh: Building static mesh cuadro008_by_yuumirin-db7eq0q...
+[2017.05.18-15.20.22:661][928]LogStaticMesh: Built static mesh [0.00s] /Game/L1/Decoracion/SalaEnorme/cuadro008_by_yuumirin-db7eq0q.cuadro008_by_yuumirin-db7eq0q
+[2017.05.18-15.20.22:661][928]LogStaticMesh: Building static mesh cuadro007_by_yuumirin-db7eq0v...
+[2017.05.18-15.20.22:665][928]LogStaticMesh: Built static mesh [0.00s] /Game/L1/Decoracion/SalaEnorme/cuadro007_by_yuumirin-db7eq0v.cuadro007_by_yuumirin-db7eq0v
+[2017.05.18-15.20.22:665][928]LogStaticMesh: Building static mesh cuadro006_by_yuumirin-db86tn9...
+[2017.05.18-15.20.22:668][928]LogStaticMesh: Built static mesh [0.00s] /Game/L1/Decoracion/SalaEnorme/cuadro006_by_yuumirin-db86tn9.cuadro006_by_yuumirin-db86tn9
+[2017.05.18-15.20.22:669][928]LogStaticMesh: Building static mesh cuadro005_by_yuumirin-db7eq13...
+[2017.05.18-15.20.22:672][928]LogStaticMesh: Built static mesh [0.00s] /Game/L1/Decoracion/SalaEnorme/cuadro005_by_yuumirin-db7eq13.cuadro005_by_yuumirin-db7eq13
+[2017.05.18-15.20.22:672][928]LogStaticMesh: Building static mesh cuadro003_by_yuumirin-db7eq1f...
+[2017.05.18-15.20.22:675][928]LogStaticMesh: Built static mesh [0.00s] /Game/L1/Decoracion/SalaEnorme/cuadro003_by_yuumirin-db7eq1f.cuadro003_by_yuumirin-db7eq1f
+[2017.05.18-15.20.22:695][928]LogStaticMesh: Building static mesh cuadro002_by_yuumirin-db7eq1i...
+[2017.05.18-15.20.22:698][928]LogStaticMesh: Built static mesh [0.00s] /Game/L1/Decoracion/SalaEnorme/cuadro002_by_yuumirin-db7eq1i.cuadro002_by_yuumirin-db7eq1i
+[2017.05.18-15.20.23:028][928]LogMaterial: Missing cached shader map for material suelo_by_yuumirin-db0wuxi_Mat, compiling. 
+[2017.05.18-15.20.23:151][928]LogMaterial: Missing cached shader map for material paredConiRounded, compiling. 
+[2017.05.18-15.20.23:273][928]LogTexture:Display: Building textures: estatua03_d_by_yuumirin-db69ffq (BGRA8)
+[2017.05.18-15.20.23:406][928]LogMaterial: Missing cached shader map for material estatua03_d_by_yuumirin-db69ffq_Mat, compiling. 
+[2017.05.18-15.20.23:476][928]LogTexture:Display: Building textures: estatua02_d_by_yuumirin-db69ffx (BGRA8)
+[2017.05.18-15.20.23:624][928]LogMaterial: Missing cached shader map for material estatua02_d_by_yuumirin-db69ffx_Mat, compiling. 
+[2017.05.18-15.20.23:703][928]LogTexture:Display: Building textures: estatua01_d_by_yuumirin-db69fg3 (BGRA8)
+[2017.05.18-15.20.23:827][928]LogMaterial: Missing cached shader map for material estatua01_d_by_yuumirin-db69fg3_Mat, compiling. 
+[2017.05.18-15.20.23:959][928]LogMaterial: Missing cached shader map for material llaveb_d_by_yuumirin-db194dj_Mat2, compiling. 
+[2017.05.18-15.20.24:083][928]LogTexture:Display: Building textures: cuadro009_d_by_yuumirin-db7eqzw (BGRA8)
+[2017.05.18-15.20.24:106][928]LogMaterial: Missing cached shader map for material cuadro009_d_by_yuumirin-db7eqzw_Mat, compiling. 
+[2017.05.18-15.20.24:154][928]LogTexture:Display: Building textures: cuadro008_d_by_yuumirin-db7eqzz (BGRA8)
+[2017.05.18-15.20.24:478][928]LogMaterial: Missing cached shader map for material cuadro008_d_by_yuumirin-db7eqzz_Mat, compiling. 
+[2017.05.18-15.20.24:515][928]LogTexture:Display: Building textures: cuadro007_d_by_yuumirin-db7er02 (AutoDXT)
+[2017.05.18-15.20.24:637][928]LogMaterial: Missing cached shader map for material cuadro007_d_by_yuumirin-db7er02_Mat, compiling. 
+[2017.05.18-15.20.24:681][928]LogTexture:Display: Building textures: cuadro006_d_by_yuumirin-db7er05 (AutoDXT)
+[2017.05.18-15.20.24:790][928]LogMaterial: Missing cached shader map for material cuadro006_d_by_yuumirin-db7er05_Mat, compiling. 
+[2017.05.18-15.20.24:827][928]LogTexture:Display: Building textures: cuadro005_d_by_yuumirin-db7er0a (BGRA8)
+[2017.05.18-15.20.25:052][928]LogMaterial: Missing cached shader map for material cuadro005_d_by_yuumirin-db7er0a_Mat, compiling. 
+[2017.05.18-15.20.25:126][928]LogTexture:Display: Building textures: cuadro003_d_by_yuumirin-db7er0o (BGRA8)
+[2017.05.18-15.20.25:540][928]LogMaterial: Missing cached shader map for material cuadro003_d_by_yuumirin-db7er0o_Mat, compiling. 
+[2017.05.18-15.20.25:586][928]LogTexture:Display: Building textures: cuadro002_d_by_yuumirin-db7er0v (AutoDXT)
+[2017.05.18-15.20.26:017][928]LogTexture:Display: Building textures: monalisa_by_yuumirin-db7eofp (BGRA8)
+[2017.05.18-15.20.26:268][928]LogMaterial: Missing cached shader map for material monali, compiling. 
+[2017.05.18-15.20.26:479][928]LogTexture:Display: Building textures: cuadro012_d_by_yuumirin-db7eqzc (BGRA8)
+[2017.05.18-15.20.26:938][928]LogMaterial: Missing cached shader map for material cuadro012_d_by_yuumirin-db7eqzc_Mat, compiling. 
+[2017.05.18-15.20.27:029][928]LogTexture:Display: Building textures: cuadro011_d_by_yuumirin-db7eqzm (BGRA8)
+[2017.05.18-15.20.27:546][928]LogMaterial: Missing cached shader map for material cuadro011_d_by_yuumirin-db7eqzm_Mat, compiling. 
+[2017.05.18-15.20.27:578][928]LogTexture:Display: Building textures: cuadro010_d_by_yuumirin-db7eqzs (AutoDXT)
+[2017.05.18-15.20.27:638][928]LogMaterial: Missing cached shader map for material cuadro010_d_by_yuumirin-db7eqzs_Mat, compiling. 
+[2017.05.18-15.20.27:735][928]LogMaterial: Missing cached shader map for material cuadro002_d_by_yuumirin-db7er0v_Mat, compiling. 
+[2017.05.18-15.20.27:803][928]LogTexture:Display: Building textures: HQ_Lightmap0_3 (AutoDXT)
+[2017.05.18-15.20.27:858][928]LogTexture:Display: Building textures: HQ_Lightmap1_1 (AutoDXT)
+[2017.05.18-15.20.28:369][928]LogTexture:Display: Building textures: HQ_Lightmap1_2 (AutoDXT)
+[2017.05.18-15.20.28:474][928]LogTexture:Display: Building textures: LQ_Lightmap_0_3 (DXT1)
+[2017.05.18-15.20.28:514][928]LogTexture:Display: Building textures: LQ_Lightmap_1_1 (DXT1)
+[2017.05.18-15.20.28:834][928]LogTexture:Display: Building textures: LQ_Lightmap_1_2 (DXT1)
+[2017.05.18-15.20.29:181][928]LogStaticMesh: Building static mesh g_colum...
+[2017.05.18-15.20.29:207][928]LogStaticMesh: Built static mesh [0.07s] /Game/L1/Props/g_colum.g_colum
+[2017.05.18-15.20.30:340][928]LogAIModule: Creating AISystem for world L1map
+[2017.05.18-15.20.30:797][928]LogAnimation:Warning: AnimBP Boy_AnimationBlueprint_C is incompatible with skeleton bear_Skeleton, removing AnimBP from actor.
+[2017.05.18-15.20.30:798][928]LogAnimation:Warning: AnimBP Girl_anim_bp_C is incompatible with skeleton boy_Skeleton, removing AnimBP from actor.
+[2017.05.18-15.20.30:900][928]Cmd: MAP LOAD FILE="C:/Users/jbethune/Downloads/MasterCamControl/MasterCamControl/Content/L1/L1map.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2017.05.18-15.20.30:900][928]LightingResults: New page: Lighting Build
+[2017.05.18-15.20.30:901][928]LoadErrors: New page: Loading map: L1map.umap
+[2017.05.18-15.20.30:903][928]MapCheck: New page: Map Check
+[2017.05.18-15.20.30:903][928]LightingResults: New page: Lighting Build
+[2017.05.18-15.20.31:086][928]LogAnimation:Warning: AnimBP MrBear_a_bp_old_C is incompatible with skeleton boy_Skeleton, removing AnimBP from actor.
+[2017.05.18-15.20.31:088][928]LogAnimation:Warning: AnimBP Boy_AnimationBlueprint_C is incompatible with skeleton girl_Skeleton, removing AnimBP from actor.
+[2017.05.18-15.20.31:092][928]LogAnimation:Warning: AnimBP MrBear_a_bp_old_C is incompatible with skeleton boy_Skeleton, removing AnimBP from actor.
+[2017.05.18-15.20.31:095][928]LogAnimation:Warning: AnimBP Boy_AnimationBlueprint_C is incompatible with skeleton mrGuau_Skeleton, removing AnimBP from actor.
+[2017.05.18-15.20.31:277][928]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2017.05.18-15.20.31:346][928]Cmd: MAP CHECKDEP NOCLEARLOG
+[2017.05.18-15.20.31:486][928]MapCheck: Info Map check complete: 0 Error(s), 0 Warning(s), took 139.055ms to complete.
+[2017.05.18-15.20.31:486][928]LogFileHelpers: Loading map 'L1map' took 0.588
+[2017.05.18-15.21.25:414][359]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/L1/L1map.L1map:PersistentLevel' has LevelScriptBlueprint '/Game/L1/L1map.L1map:PersistentLevel.L1map' with GeneratedClass '/Game/L1/L1map.L1map_C' with ClassGeneratedBy '/Game/L1/L1map.L1map:PersistentLevel.L1map'
+[2017.05.18-15.21.25:433][359]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.05.18-15.21.25:447][359]PIE: New page: PIE session: L1map (May 18, 2017, 6:21:25 PM)
+[2017.05.18-15.21.25:447][359]LogPlayLevel: Creating play world package: /Game/L1/UEDPIE_0_L1map
+[2017.05.18-15.21.25:470][359]LogPlayLevel: PIE: StaticDuplicateObject took: (0.023003s)
+[2017.05.18-15.21.25:470][359]LogAIModule: Creating AISystem for world L1map
+[2017.05.18-15.21.25:471][359]LogPlayLevel: PIE: World Init took: (0.000763s)
+[2017.05.18-15.21.25:471][359]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/L1/L1map.L1map to /Game/L1/UEDPIE_0_L1map.L1map (0.024093s)
+[2017.05.18-15.21.25:499][359]LogInit: XAudio2 using 'Altavoces (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2017.05.18-15.21.25:507][359]LogInit: FAudioDevice initialized.
+[2017.05.18-15.21.25:575][359]LogWorld: Game class is 'GameMode'
+[2017.05.18-15.21.25:625][359]LogWorld: Bringing World /Game/L1/UEDPIE_0_L1map.L1map up for play (max tick rate 0) at 2017.05.18-17.21.25
+[2017.05.18-15.21.25:698][359]LogWorld: Bringing up level for play took: 0.087920
+[2017.05.18-15.21.25:726][359]LogGameMode: Warning - PATHS NOT DEFINED or NO PLAYERSTART with positive rating
+[2017.05.18-15.21.25:757][359]LogContentBrowser: Native class hierarchy updated for 'MovieSceneCapture' in 0.0018 seconds. Added 11 classes and 0 folders.
+[2017.05.18-15.21.25:758][359]LogGameMode:Display: Match State Changed from EnteringMap to WaitingToStart
+[2017.05.18-15.21.25:758][359]LogGameState: Match State Changed from EnteringMap to WaitingToStart
+[2017.05.18-15.21.25:758][359]LogGameMode:Display: Match State Changed from WaitingToStart to InProgress
+[2017.05.18-15.21.25:777][359]LogBlueprintUserMessages: [NPCS5] NPCS5  Curious
+[2017.05.18-15.21.25:777][359]LogBlueprintUserMessages: [NPCS3_880] NPCS3  Explorer
+[2017.05.18-15.21.25:777][359]LogAnimation:Warning: AnimBP Boy_AnimationBlueprint_C is incompatible with skeleton girl_Skeleton, removing AnimBP from actor.
+[2017.05.18-15.21.25:779][359]LogBlueprintUserMessages: [NPCS4] NPCS4  Explorer
+[2017.05.18-15.21.25:779][359]LogAnimation:Warning: AnimBP MrGuau_a_bp_C is incompatible with skeleton bear_Skeleton, removing AnimBP from actor.
+[2017.05.18-15.21.25:781][359]LogBlueprintUserMessages: [NPCS_206] NPCS  Social
+[2017.05.18-15.21.25:785][359]LogPawn:Error: EnableInput can only be specified on a Pawn for its Controller
+[2017.05.18-15.21.25:816][359]LogPawn:Error: EnableInput can only be specified on a Pawn for its Controller
+[2017.05.18-15.21.25:816][359]LogPawn:Error: EnableInput can only be specified on a Pawn for its Controller
+[2017.05.18-15.21.25:817][359]LogPawn:Error: EnableInput can only be specified on a Pawn for its Controller
+[2017.05.18-15.21.25:818][359]LogPawn:Error: EnableInput can only be specified on a Pawn for its Controller
+[2017.05.18-15.21.25:818][359]LogPawn:Error: EnableInput can only be specified on a Pawn for its Controller
+[2017.05.18-15.21.25:819][359]LogPawn:Error: EnableInput can only be specified on a Pawn for its Controller
+[2017.05.18-15.21.25:819][359]LogPawn:Error: EnableInput can only be specified on a Pawn for its Controller
+[2017.05.18-15.21.25:820][359]LogPawn:Error: EnableInput can only be specified on a Pawn for its Controller
+[2017.05.18-15.21.25:820][359]LogPawn:Error: EnableInput can only be specified on a Pawn for its Controller
+[2017.05.18-15.21.25:820][359]LogPawn:Error: EnableInput can only be specified on a Pawn for its Controller
+[2017.05.18-15.21.25:821][359]LogPawn:Error: EnableInput can only be specified on a Pawn for its Controller
+[2017.05.18-15.21.25:821][359]LogPawn:Error: EnableInput can only be specified on a Pawn for its Controller
+[2017.05.18-15.21.25:822][359]LogPawn:Error: EnableInput can only be specified on a Pawn for its Controller
+[2017.05.18-15.21.25:828][359]LogBlueprintUserMessages: [L1map_C_1] m to Menu
+[2017.05.18-15.21.25:831][359]LogGameState: Match State Changed from WaitingToStart to InProgress
+[2017.05.18-15.21.25:831][359]PIE: Info Play in editor start time for /Game/L1/UEDPIE_0_L1map 0.937
+[2017.05.18-15.21.25:832][359]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/L1/L1map.L1map:PersistentLevel' has LevelScriptBlueprint '/Game/L1/L1map.L1map:PersistentLevel.L1map' with GeneratedClass '/Game/L1/L1map.L1map_C' with ClassGeneratedBy '/Game/L1/L1map.L1map:PersistentLevel.L1map'
+[2017.05.18-15.21.26:115][360]LogRenderer: Reallocating scene render targets to support 1840x756 (Frame:6580).
+[2017.05.18-15.21.57:917][805]LogBlueprintUserMessages: [SteleableObject2_58] 0
+[2017.05.18-15.21.57:931][806]LogBlueprintUserMessages: [SteleableObject2_58] 1
+[2017.05.18-15.21.57:947][807]LogBlueprintUserMessages: [SteleableObject2_58] 2
+[2017.05.18-15.21.58:192][824]LogScript:Warning: Accessed None trying to read property K2Node_DynamicCast_AsNPCS
+	Node_C /Game/L1/UEDPIE_0_L1map.L1map:PersistentLevel.Node18_1700
+	Function /Game/AI_Stuff/AI/Node.Node_C:ExecuteUbergraph_Node:025E
+[2017.05.18-15.21.58:192][824]PIE:Error: Error Blueprint Runtime Error: Accessed None trying to read property K2Node_DynamicCast_AsNPCS from function: 'ExecuteUbergraph_Node' from node: Set wait in graph: EventGraph in object: Node with description: Accessed None trying to read property K2Node_DynamicCast_AsNPCS
+[2017.05.18-15.22.35:232][541]LogScript:Warning: Accessed None trying to read property K2Node_DynamicCast_AsNPCS
+	Node_C /Game/L1/UEDPIE_0_L1map.L1map:PersistentLevel.Node19_166
+	Function /Game/AI_Stuff/AI/Node.Node_C:ExecuteUbergraph_Node:043B
+[2017.05.18-15.22.35:233][541]PIE:Error: Error Blueprint Runtime Error: Accessed None trying to read property K2Node_DynamicCast_AsNPCS from function: 'ExecuteUbergraph_Node' from node: Set wait in graph: EventGraph in object: Node with description: Accessed None trying to read property K2Node_DynamicCast_AsNPCS
+[2017.05.18-15.23.12:835][338]LogScript:Warning: Accessed None trying to read property K2Node_DynamicCast_AsNPCS2
+	Node_C /Game/L1/UEDPIE_0_L1map.L1map:PersistentLevel.Node2_473
+	Function /Game/AI_Stuff/AI/Node.Node_C:ExecuteUbergraph_Node:037B
+[2017.05.18-15.23.12:835][338]PIE:Error: Error Blueprint Runtime Error: Accessed None trying to read property K2Node_DynamicCast_AsNPCS2 from function: 'ExecuteUbergraph_Node' from node: Set movementNode in graph: EventGraph in object: Node with description: Accessed None trying to read property K2Node_DynamicCast_AsNPCS2
+[2017.05.18-15.23.12:835][338]LogScript:Warning: Accessed None attempting to assign variable on an object
+	Node_C /Game/L1/UEDPIE_0_L1map.L1map:PersistentLevel.Node2_473
+	Function /Game/AI_Stuff/AI/Node.Node_C:ExecuteUbergraph_Node:0390
+[2017.05.18-15.23.12:835][338]PIE:Error: Error Blueprint Runtime Error: Accessed None attempting to assign variable on an object from function: 'ExecuteUbergraph_Node' from node: Set movementNode in graph: EventGraph in object: Node with description: Accessed None attempting to assign variable on an object
+[2017.05.18-15.23.12:835][338]LogScript:Warning: Accessed None trying to read property K2Node_DynamicCast_AsNPCS2
+	Node_C /Game/L1/UEDPIE_0_L1map.L1map:PersistentLevel.Node2_473
+	Function /Game/AI_Stuff/AI/Node.Node_C:ExecuteUbergraph_Node:03A6
+[2017.05.18-15.23.12:835][338]PIE:Error: Error Blueprint Runtime Error: Accessed None trying to read property K2Node_DynamicCast_AsNPCS2 from function: 'ExecuteUbergraph_Node' from node: Set wait in graph: EventGraph in object: Node with description: Accessed None trying to read property K2Node_DynamicCast_AsNPCS2
+[2017.05.18-15.23.12:835][338]LogScript:Warning: Accessed None trying to read property K2Node_DynamicCast_AsNPCS2
+	Node_C /Game/L1/UEDPIE_0_L1map.L1map:PersistentLevel.Node2_473
+	Function /Game/AI_Stuff/AI/Node.Node_C:ExecuteUbergraph_Node:03C9
+[2017.05.18-15.23.12:835][338]PIE:Error: Error Blueprint Runtime Error: Accessed None trying to read property K2Node_DynamicCast_AsNPCS2 from function: 'ExecuteUbergraph_Node' from node: Set walkingk in graph: EventGraph in object: Node with description: Accessed None trying to read property K2Node_DynamicCast_AsNPCS2
+[2017.05.18-15.23.13:221][364]LogScript:Warning: Accessed None trying to read property K2Node_DynamicCast_AsNPCS
+	Node_C /Game/L1/UEDPIE_0_L1map.L1map:PersistentLevel.Node19_166
+	Function /Game/AI_Stuff/AI/Node.Node_C:ExecuteUbergraph_Node:043B
+[2017.05.18-15.23.13:221][364]PIE:Error: Error Blueprint Runtime Error: Accessed None trying to read property K2Node_DynamicCast_AsNPCS from function: 'ExecuteUbergraph_Node' from node: Set wait in graph: EventGraph in object: Node with description: Accessed None trying to read property K2Node_DynamicCast_AsNPCS
+[2017.05.18-15.23.22:276][  2]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/L1/L1map.L1map:PersistentLevel' has LevelScriptBlueprint '/Game/L1/L1map.L1map:PersistentLevel.L1map' with GeneratedClass '/Game/L1/L1map.L1map_C' with ClassGeneratedBy '/Game/L1/L1map.L1map:PersistentLevel.L1map'
+[2017.05.18-15.23.23:131][  2]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/L1/L1map.L1map:PersistentLevel' has LevelScriptBlueprint '/Game/L1/L1map.L1map:PersistentLevel.L1map' with GeneratedClass '/Game/L1/L1map.L1map_C' with ClassGeneratedBy '/Game/L1/L1map.L1map:PersistentLevel.L1map'
+[2017.05.18-15.24.17:880][822]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/L1/L1map.L1map:PersistentLevel' has LevelScriptBlueprint '/Game/L1/L1map.L1map:PersistentLevel.L1map' with GeneratedClass '/Game/L1/L1map.L1map_C' with ClassGeneratedBy '/Game/L1/L1map.L1map:PersistentLevel.L1map'
+[2017.05.18-15.24.17:880][822]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.05.18-15.24.17:881][822]PIE: New page: PIE session: L1map (May 18, 2017, 6:24:17 PM)
+[2017.05.18-15.24.17:881][822]LogPlayLevel: Creating play world package: /Game/L1/UEDPIE_0_L1map
+[2017.05.18-15.24.17:907][822]LogPlayLevel: PIE: StaticDuplicateObject took: (0.025771s)
+[2017.05.18-15.24.17:907][822]LogAIModule: Creating AISystem for world L1map
+[2017.05.18-15.24.17:907][822]LogPlayLevel: PIE: World Init took: (0.000873s)
+[2017.05.18-15.24.17:908][822]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/L1/L1map.L1map to /Game/L1/UEDPIE_0_L1map.L1map (0.027008s)
+[2017.05.18-15.24.17:918][822]LogInit: XAudio2 using 'Altavoces (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2017.05.18-15.24.17:927][822]LogInit: FAudioDevice initialized.
+[2017.05.18-15.24.17:962][822]LogWorld: Game class is 'GameMode'
+[2017.05.18-15.24.17:990][822]LogWorld: Bringing World /Game/L1/UEDPIE_0_L1map.L1map up for play (max tick rate 0) at 2017.05.18-17.24.17
+[2017.05.18-15.24.17:996][822]LogWorld: Bringing up level for play took: 0.032705
+[2017.05.18-15.24.17:997][822]LogGameMode: Warning - PATHS NOT DEFINED or NO PLAYERSTART with positive rating
+[2017.05.18-15.24.17:997][822]LogGameMode:Display: Match State Changed from EnteringMap to WaitingToStart
+[2017.05.18-15.24.17:997][822]LogGameState: Match State Changed from EnteringMap to WaitingToStart
+[2017.05.18-15.24.17:997][822]LogGameMode:Display: Match State Changed from WaitingToStart to InProgress
+[2017.05.18-15.24.17:998][822]LogAnimation:Warning: AnimBP Boy_AnimationBlueprint_C is incompatible with skeleton mrGuau_Skeleton, removing AnimBP from actor.
+[2017.05.18-15.24.17:999][822]LogBlueprintUserMessages: [NPCS5] NPCS5  Naughty
+[2017.05.18-15.24.17:999][822]LogAnimation:Warning: AnimBP Girl_anim_bp_C is incompatible with skeleton bear_Skeleton, removing AnimBP from actor.
+[2017.05.18-15.24.18:000][822]LogBlueprintUserMessages: [NPCS3_880] NPCS3  Social
+[2017.05.18-15.24.18:000][822]LogBlueprintUserMessages: [NPCS4] NPCS4  Introvert
+[2017.05.18-15.24.18:000][822]LogAnimation:Warning: AnimBP MrGuau_a_bp_C is incompatible with skeleton bear_Skeleton, removing AnimBP from actor.
+[2017.05.18-15.24.18:000][822]LogBlueprintUserMessages: [NPCS_206] NPCS  Social
+[2017.05.18-15.24.18:000][822]LogPawn:Error: EnableInput can only be specified on a Pawn for its Controller
+[2017.05.18-15.24.18:001][822]LogPawn:Error: EnableInput can only be specified on a Pawn for its Controller
+[2017.05.18-15.24.18:001][822]LogPawn:Error: EnableInput can only be specified on a Pawn for its Controller
+[2017.05.18-15.24.18:001][822]LogPawn:Error: EnableInput can only be specified on a Pawn for its Controller
+[2017.05.18-15.24.18:001][822]LogPawn:Error: EnableInput can only be specified on a Pawn for its Controller
+[2017.05.18-15.24.18:001][822]LogPawn:Error: EnableInput can only be specified on a Pawn for its Controller
+[2017.05.18-15.24.18:002][822]LogPawn:Error: EnableInput can only be specified on a Pawn for its Controller
+[2017.05.18-15.24.18:002][822]LogPawn:Error: EnableInput can only be specified on a Pawn for its Controller
+[2017.05.18-15.24.18:002][822]LogPawn:Error: EnableInput can only be specified on a Pawn for its Controller
+[2017.05.18-15.24.18:002][822]LogPawn:Error: EnableInput can only be specified on a Pawn for its Controller
+[2017.05.18-15.24.18:002][822]LogPawn:Error: EnableInput can only be specified on a Pawn for its Controller
+[2017.05.18-15.24.18:002][822]LogPawn:Error: EnableInput can only be specified on a Pawn for its Controller
+[2017.05.18-15.24.18:002][822]LogPawn:Error: EnableInput can only be specified on a Pawn for its Controller
+[2017.05.18-15.24.18:002][822]LogPawn:Error: EnableInput can only be specified on a Pawn for its Controller
+[2017.05.18-15.24.18:003][822]LogBlueprintUserMessages: [L1map_C_1] m to Menu
+[2017.05.18-15.24.18:004][822]LogGameState: Match State Changed from WaitingToStart to InProgress
+[2017.05.18-15.24.18:004][822]PIE: Info Play in editor start time for /Game/L1/UEDPIE_0_L1map 1.109
+[2017.05.18-15.24.18:004][822]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/L1/L1map.L1map:PersistentLevel' has LevelScriptBlueprint '/Game/L1/L1map.L1map:PersistentLevel.L1map' with GeneratedClass '/Game/L1/L1map.L1map_C' with ClassGeneratedBy '/Game/L1/L1map.L1map:PersistentLevel.L1map'
+[2017.05.18-15.25.09:172][439]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/L1/L1map.L1map:PersistentLevel' has LevelScriptBlueprint '/Game/L1/L1map.L1map:PersistentLevel.L1map' with GeneratedClass '/Game/L1/L1map.L1map_C' with ClassGeneratedBy '/Game/L1/L1map.L1map:PersistentLevel.L1map'
+[2017.05.18-15.25.09:217][439]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/L1/L1map.L1map:PersistentLevel' has LevelScriptBlueprint '/Game/L1/L1map.L1map:PersistentLevel.L1map' with GeneratedClass '/Game/L1/L1map.L1map_C' with ClassGeneratedBy '/Game/L1/L1map.L1map:PersistentLevel.L1map'
+[2017.05.18-15.26.38:704][586]LogEditorViewport: Clicking on Actor (LMB): CameraPawn_C (CameraPawn3)
+[2017.05.18-15.27.01:903][931]LogContentBrowser: Native class hierarchy updated for 'BlueprintGraph' in 0.0011 seconds. Added 112 classes and 0 folders.
+[2017.05.18-15.27.02:914][931]LogSkeletalMesh: InitArticulated: Bodies already created (/Engine/Transient.DebugSkelMeshComponent_0) - call TermArticulated first.
+[2017.05.18-15.31.34:375][ 44]BlueprintLog: New page: Compile NewAnimBlueprint
+[2017.05.18-15.31.34:387][ 44]LogBlueprint:Warning: [Compiler NewAnimBlueprint] Warning  AnimStateTransitionNode_3  will never be taken, please connect something to  bCanEnterTransition
+[2017.05.18-15.31.34:563][ 44]BlueprintEditorCompileResults: Info  Result  was visible but ignored
+[2017.05.18-15.31.34:563][ 44]BlueprintEditorCompileResults:Warning: Warning  AnimStateTransitionNode_3  will never be taken, please connect something to  bCanEnterTransition
+[2017.05.18-15.31.34:564][ 44]LogBlueprint:Warning: [Compiler NewAnimBlueprint] Warning [0748.28] Compile of NewAnimBlueprint successful, but with 1 Warning(s) [in 188 ms] (/Game/Art/Meshes/Characters/CamBot/NewAnimBlueprint.NewAnimBlueprint)
+[2017.05.18-15.32.24:169][ 90]LogFactory: FactoryCreateFile: StaticMesh with FbxFactory (0 0 C:\Users\jbethune\Downloads\animacion1.FBX)
+[2017.05.18-15.32.24:340][ 90]LogFbx: ItemName: GlobalSettings, ItemCount : 1
+[2017.05.18-15.32.24:340][ 90]LogFbx: ItemName: AnimationStack, ItemCount : 1
+[2017.05.18-15.32.24:340][ 90]LogFbx: ItemName: AnimationLayer, ItemCount : 1
+[2017.05.18-15.32.24:340][ 90]LogFbx: ItemName: Model, ItemCount : 26
+[2017.05.18-15.32.24:340][ 90]LogFbx: ItemName: Geometry, ItemCount : 1
+[2017.05.18-15.32.24:340][ 90]LogFbx: ItemName: NodeAttribute, ItemCount : 47
+[2017.05.18-15.32.24:340][ 90]LogFbx: ItemName: AnimationCurve, ItemCount : 84
+[2017.05.18-15.32.24:340][ 90]LogFbx: ItemName: AnimationCurveNode, ItemCount : 28
+[2017.05.18-15.32.24:340][ 90]LogFbx: ItemName: Deformer, ItemCount : 23
+[2017.05.18-15.32.24:340][ 90]LogFbx: ItemName: Pose, ItemCount : 1
+[2017.05.18-15.32.24:346][ 90]LogFbx: Loading FBX Scene from C:\Users\jbethune\Downloads\animacion1.FBX
+[2017.05.18-15.32.24:405][ 90]LogFbx: FBX Scene Loaded Succesfully
+[2017.05.18-15.32.28:767][ 90]LogFbx: Loading FBX Scene from C:\Users\jbethune\Downloads\animacion1.FBX
+[2017.05.18-15.32.28:781][ 90]LogFbx: FBX Scene Loaded Succesfully
+[2017.05.18-15.32.28:802][ 90]LogFbx: =================================================
+[2017.05.18-15.32.28:802][ 90]LogFbx: Dumping Node START [Body] 
+[2017.05.18-15.32.28:802][ 90]LogFbx: 	Total Deformer Count -1687745088.
+[2017.05.18-15.32.28:802][ 90]LogFbx: 		[Node 1]  (Type Skin).
+[2017.05.18-15.32.28:802][ 90]LogFbx: =================================================
+[2017.05.18-15.32.28:802][ 90]LogFbx: 	Attribute () Type (4).
+[2017.05.18-15.32.28:802][ 90]LogFbx: 		[Node Attribute Child 1] Body (Type Mesh).
+[2017.05.18-15.32.28:802][ 90]LogFbx: Dumping Node END [Body]
+[2017.05.18-15.32.28:803][ 90]LogFbx: =================================================
+[2017.05.18-15.32.28:803][ 90]LogFbx: Dumping Node START [Body] 
+[2017.05.18-15.32.28:803][ 90]LogFbx: 	Total Deformer Count -1687746336.
+[2017.05.18-15.32.28:803][ 90]LogFbx: 		[Node 1]  (Type Skin).
+[2017.05.18-15.32.28:803][ 90]LogFbx: =================================================
+[2017.05.18-15.32.28:803][ 90]LogFbx: 	Attribute () Type (4).
+[2017.05.18-15.32.28:803][ 90]LogFbx: 		[Node Attribute Child 1] Body (Type Mesh).
+[2017.05.18-15.32.28:803][ 90]LogFbx: Dumping Node END [Body]
+[2017.05.18-15.32.28:810][ 90]LogFbx: Valid bind pose for Pose (BIND_POSES) - Body
+[2017.05.18-15.32.28:811][ 90]LogFbx: Triangulating skeletal mesh Body
+[2017.05.18-15.32.28:929][ 90]LogFbx:Warning: Bones digested - 25  Depth of hierarchy - 8
+[2017.05.18-15.32.28:982][ 90]LogSkeletalMesh: Section 0: 755 vertices, 22 active bones
+[2017.05.18-15.32.28:982][ 90]LogSkeletalMesh: Section 0: Material=0, 884 triangles
+[2017.05.18-15.32.28:983][ 90]LogLinker:Warning: Can't find file '/Game/Art/Meshes/Characters/CamBot/GuilleAnimations/animacion1_PhysicsAsset'
+[2017.05.18-15.32.28:984][ 90]LogLinker:Warning: Can't find file '/Game/Art/Meshes/Characters/CamBot/GuilleAnimations/animacion1_PhysicsAsset'
+[2017.05.18-15.32.28:984][ 90]LogUObjectGlobals:Warning: Failed to find object 'Object /Game/Art/Meshes/Characters/CamBot/GuilleAnimations/animacion1_PhysicsAsset.animacion1_PhysicsAsset'
+[2017.05.18-15.32.28:993][ 90]LogLinker:Warning: Can't find file '/Game/Art/Meshes/Characters/CamBot/GuilleAnimations/animacion1_Skeleton'
+[2017.05.18-15.32.28:993][ 90]LogLinker:Warning: Can't find file '/Game/Art/Meshes/Characters/CamBot/GuilleAnimations/animacion1_Skeleton'
+[2017.05.18-15.32.28:993][ 90]LogUObjectGlobals:Warning: Failed to find object 'Object /Game/Art/Meshes/Characters/CamBot/GuilleAnimations/animacion1_Skeleton.animacion1_Skeleton'
+[2017.05.18-15.32.28:996][ 90]LogFbx: =================================================
+[2017.05.18-15.32.28:996][ 90]LogFbx: Dumping Node START [Body] 
+[2017.05.18-15.32.28:996][ 90]LogFbx: 	Total Deformer Count -1687745232.
+[2017.05.18-15.32.28:996][ 90]LogFbx: 		[Node 1]  (Type Skin).
+[2017.05.18-15.32.28:996][ 90]LogFbx: =================================================
+[2017.05.18-15.32.28:996][ 90]LogFbx: 	Attribute () Type (4).
+[2017.05.18-15.32.28:996][ 90]LogFbx: 		[Node Attribute Child 1] Body (Type Mesh).
+[2017.05.18-15.32.28:996][ 90]LogFbx: Dumping Node END [Body]
+[2017.05.18-15.32.28:996][ 90]LogFbx: =================================================
+[2017.05.18-15.32.28:996][ 90]LogFbx: Dumping Node START [Body] 
+[2017.05.18-15.32.28:996][ 90]LogFbx: 	Total Deformer Count -1687745232.
+[2017.05.18-15.32.28:996][ 90]LogFbx: 		[Node 1]  (Type Skin).
+[2017.05.18-15.32.28:996][ 90]LogFbx: =================================================
+[2017.05.18-15.32.28:996][ 90]LogFbx: 	Attribute () Type (4).
+[2017.05.18-15.32.28:996][ 90]LogFbx: 		[Node Attribute Child 1] Body (Type Mesh).
+[2017.05.18-15.32.28:996][ 90]LogFbx: Dumping Node END [Body]
+[2017.05.18-15.32.29:005][ 90]LogFbx: SortedLinks :(0) Hips
+[2017.05.18-15.32.29:005][ 90]LogFbx: SortedLinks :(1) Spine
+[2017.05.18-15.32.29:005][ 90]LogFbx: SortedLinks :(2) Spine1
+[2017.05.18-15.32.29:005][ 90]LogFbx: SortedLinks :(3) Spine2
+[2017.05.18-15.32.29:005][ 90]LogFbx: SortedLinks :(4) Neck
+[2017.05.18-15.32.29:005][ 90]LogFbx: SortedLinks :(5) Head
+[2017.05.18-15.32.29:005][ 90]LogFbx: SortedLinks :(6) HeadTop_End
+[2017.05.18-15.32.29:005][ 90]LogFbx: SortedLinks :(7) LeftShoulder
+[2017.05.18-15.32.29:006][ 90]LogFbx: SortedLinks :(8) LeftArm
+[2017.05.18-15.32.29:006][ 90]LogFbx: SortedLinks :(9) LeftForeArm
+[2017.05.18-15.32.29:006][ 90]LogFbx: SortedLinks :(10) LeftHand
+[2017.05.18-15.32.29:006][ 90]LogFbx: SortedLinks :(11) RightShoulder
+[2017.05.18-15.32.29:006][ 90]LogFbx: SortedLinks :(12) RightArm
+[2017.05.18-15.32.29:006][ 90]LogFbx: SortedLinks :(13) RightForeArm
+[2017.05.18-15.32.29:006][ 90]LogFbx: SortedLinks :(14) RightHand
+[2017.05.18-15.32.29:006][ 90]LogFbx: SortedLinks :(15) LeftUpLeg
+[2017.05.18-15.32.29:006][ 90]LogFbx: SortedLinks :(16) LeftLeg
+[2017.05.18-15.32.29:006][ 90]LogFbx: SortedLinks :(17) LeftFoot
+[2017.05.18-15.32.29:006][ 90]LogFbx: SortedLinks :(18) LeftToeBase
+[2017.05.18-15.32.29:006][ 90]LogFbx: SortedLinks :(19) LeftToe_End
+[2017.05.18-15.32.29:006][ 90]LogFbx: SortedLinks :(20) RightUpLeg
+[2017.05.18-15.32.29:006][ 90]LogFbx: SortedLinks :(21) RightLeg
+[2017.05.18-15.32.29:006][ 90]LogFbx: SortedLinks :(22) RightFoot
+[2017.05.18-15.32.29:006][ 90]LogFbx: SortedLinks :(23) RightToeBase
+[2017.05.18-15.32.29:006][ 90]LogFbx: SortedLinks :(24) RightToe_End
+[2017.05.18-15.32.29:006][ 90]LogFbx: Parsing AnimStack Take 001
+[2017.05.18-15.32.29:018][ 90]LogLinker:Warning: Can't find file '/Game/Art/Meshes/Characters/CamBot/GuilleAnimations/animacion1_Anim'
+[2017.05.18-15.32.29:018][ 90]LogLinker:Warning: Can't find file '/Game/Art/Meshes/Characters/CamBot/GuilleAnimations/animacion1_Anim'
+[2017.05.18-15.32.29:018][ 90]LogUObjectGlobals:Warning: Failed to find object 'Object /Game/Art/Meshes/Characters/CamBot/GuilleAnimations/animacion1_Anim.animacion1_Anim'
+[2017.05.18-15.32.29:053][ 90]LogAnimationCompression: Building Anim DDC data for AnimSequence /Game/Art/Meshes/Characters/CamBot/GuilleAnimations/animacion1_Anim.animacion1_Anim
+[2017.05.18-15.32.29:086][ 90]FBXImport:Warning: Warning Warning: No smoothing group information was found in this FBX scene.  Please make sure to enable the 'Export Smoothing Groups' option in the FBX Exporter plug-in before exporting the file.  Even for tools that don't support smoothing groups, the FBX Exporter will generate appropriate smoothing data at export-time so that correct vertex normals can be inferred while importing. 
+[2017.05.18-15.32.29:086][ 90]FBXImport:Warning: Warning The following bones are missing from the bind pose:
+mixamorig:HeadTop_End  
+mixamorig:LeftToe_End  
+mixamorig:RightToe_End  
+
+This can happen for bones that are not vert weighted. If they are not in the correct orientation after importing,
+please set the "Use T0 as ref pose" option or add them to the bind pose and reimport the skeletal mesh. 
+[2017.05.18-15.32.39:777][425]LogFactory: FactoryCreateFile: StaticMesh with FbxFactory (0 0 C:\Users\jbethune\Downloads\animacion2.FBX)
+[2017.05.18-15.32.39:784][425]LogFbx: ItemName: GlobalSettings, ItemCount : 1
+[2017.05.18-15.32.39:784][425]LogFbx: ItemName: AnimationStack, ItemCount : 1
+[2017.05.18-15.32.39:784][425]LogFbx: ItemName: AnimationLayer, ItemCount : 1
+[2017.05.18-15.32.39:784][425]LogFbx: ItemName: Model, ItemCount : 26
+[2017.05.18-15.32.39:784][425]LogFbx: ItemName: Geometry, ItemCount : 1
+[2017.05.18-15.32.39:784][425]LogFbx: ItemName: NodeAttribute, ItemCount : 47
+[2017.05.18-15.32.39:784][425]LogFbx: ItemName: AnimationCurve, ItemCount : 18
+[2017.05.18-15.32.39:784][425]LogFbx: ItemName: AnimationCurveNode, ItemCount : 6
+[2017.05.18-15.32.39:784][425]LogFbx: ItemName: Deformer, ItemCount : 23
+[2017.05.18-15.32.39:784][425]LogFbx: ItemName: Pose, ItemCount : 1
+[2017.05.18-15.32.39:794][425]LogFbx: Loading FBX Scene from C:\Users\jbethune\Downloads\animacion2.FBX
+[2017.05.18-15.32.39:816][425]LogFbx: FBX Scene Loaded Succesfully
+[2017.05.18-15.32.41:685][425]LogFbx: Loading FBX Scene from C:\Users\jbethune\Downloads\animacion2.FBX
+[2017.05.18-15.32.41:700][425]LogFbx: FBX Scene Loaded Succesfully
+[2017.05.18-15.32.41:703][425]LogFbx: =================================================
+[2017.05.18-15.32.41:703][425]LogFbx: Dumping Node START [Body] 
+[2017.05.18-15.32.41:703][425]LogFbx: 	Total Deformer Count -551682960.
+[2017.05.18-15.32.41:703][425]LogFbx: 		[Node 1]  (Type Skin).
+[2017.05.18-15.32.41:703][425]LogFbx: =================================================
+[2017.05.18-15.32.41:704][425]LogFbx: 	Attribute () Type (4).
+[2017.05.18-15.32.41:704][425]LogFbx: 		[Node Attribute Child 1] Body (Type Mesh).
+[2017.05.18-15.32.41:704][425]LogFbx: Dumping Node END [Body]
+[2017.05.18-15.32.41:704][425]LogFbx: =================================================
+[2017.05.18-15.32.41:704][425]LogFbx: Dumping Node START [Body] 
+[2017.05.18-15.32.41:704][425]LogFbx: 	Total Deformer Count -551684880.
+[2017.05.18-15.32.41:704][425]LogFbx: 		[Node 1]  (Type Skin).
+[2017.05.18-15.32.41:704][425]LogFbx: =================================================
+[2017.05.18-15.32.41:704][425]LogFbx: 	Attribute () Type (4).
+[2017.05.18-15.32.41:704][425]LogFbx: 		[Node Attribute Child 1] Body (Type Mesh).
+[2017.05.18-15.32.41:704][425]LogFbx: Dumping Node END [Body]
+[2017.05.18-15.32.41:705][425]LogFbx: Valid bind pose for Pose (BIND_POSES) - Body
+[2017.05.18-15.32.41:705][425]LogFbx: Triangulating skeletal mesh Body
+[2017.05.18-15.32.41:809][425]LogFbx:Warning: Bones digested - 25  Depth of hierarchy - 8
+[2017.05.18-15.32.41:826][425]LogSkeletalMesh: Section 0: 755 vertices, 22 active bones
+[2017.05.18-15.32.41:826][425]LogSkeletalMesh: Section 0: Material=0, 884 triangles
+[2017.05.18-15.32.41:827][425]LogLinker:Warning: Can't find file '/Game/Art/Meshes/Characters/CamBot/GuilleAnimations/animacion2_PhysicsAsset'
+[2017.05.18-15.32.41:828][425]LogLinker:Warning: Can't find file '/Game/Art/Meshes/Characters/CamBot/GuilleAnimations/animacion2_PhysicsAsset'
+[2017.05.18-15.32.41:828][425]LogUObjectGlobals:Warning: Failed to find object 'Object /Game/Art/Meshes/Characters/CamBot/GuilleAnimations/animacion2_PhysicsAsset.animacion2_PhysicsAsset'
+[2017.05.18-15.32.41:829][425]LogLinker:Warning: Can't find file '/Game/Art/Meshes/Characters/CamBot/GuilleAnimations/animacion2_Skeleton'
+[2017.05.18-15.32.41:829][425]LogLinker:Warning: Can't find file '/Game/Art/Meshes/Characters/CamBot/GuilleAnimations/animacion2_Skeleton'
+[2017.05.18-15.32.41:829][425]LogUObjectGlobals:Warning: Failed to find object 'Object /Game/Art/Meshes/Characters/CamBot/GuilleAnimations/animacion2_Skeleton.animacion2_Skeleton'
+[2017.05.18-15.32.41:831][425]LogFbx: =================================================
+[2017.05.18-15.32.41:831][425]LogFbx: Dumping Node START [Body] 
+[2017.05.18-15.32.41:831][425]LogFbx: 	Total Deformer Count -551690064.
+[2017.05.18-15.32.41:831][425]LogFbx: 		[Node 1]  (Type Skin).
+[2017.05.18-15.32.41:831][425]LogFbx: =================================================
+[2017.05.18-15.32.41:831][425]LogFbx: 	Attribute () Type (4).
+[2017.05.18-15.32.41:831][425]LogFbx: 		[Node Attribute Child 1] Body (Type Mesh).
+[2017.05.18-15.32.41:831][425]LogFbx: Dumping Node END [Body]
+[2017.05.18-15.32.41:831][425]LogFbx: =================================================
+[2017.05.18-15.32.41:831][425]LogFbx: Dumping Node START [Body] 
+[2017.05.18-15.32.41:831][425]LogFbx: 	Total Deformer Count -551690064.
+[2017.05.18-15.32.41:831][425]LogFbx: 		[Node 1]  (Type Skin).
+[2017.05.18-15.32.41:831][425]LogFbx: =================================================
+[2017.05.18-15.32.41:831][425]LogFbx: 	Attribute () Type (4).
+[2017.05.18-15.32.41:831][425]LogFbx: 		[Node Attribute Child 1] Body (Type Mesh).
+[2017.05.18-15.32.41:831][425]LogFbx: Dumping Node END [Body]
+[2017.05.18-15.32.41:831][425]LogFbx: SortedLinks :(0) Hips
+[2017.05.18-15.32.41:831][425]LogFbx: SortedLinks :(1) Spine
+[2017.05.18-15.32.41:831][425]LogFbx: SortedLinks :(2) Spine1
+[2017.05.18-15.32.41:831][425]LogFbx: SortedLinks :(3) Spine2
+[2017.05.18-15.32.41:831][425]LogFbx: SortedLinks :(4) Neck
+[2017.05.18-15.32.41:831][425]LogFbx: SortedLinks :(5) Head
+[2017.05.18-15.32.41:831][425]LogFbx: SortedLinks :(6) HeadTop_End
+[2017.05.18-15.32.41:831][425]LogFbx: SortedLinks :(7) LeftShoulder
+[2017.05.18-15.32.41:831][425]LogFbx: SortedLinks :(8) LeftArm
+[2017.05.18-15.32.41:831][425]LogFbx: SortedLinks :(9) LeftForeArm
+[2017.05.18-15.32.41:831][425]LogFbx: SortedLinks :(10) LeftHand
+[2017.05.18-15.32.41:831][425]LogFbx: SortedLinks :(11) RightShoulder
+[2017.05.18-15.32.41:831][425]LogFbx: SortedLinks :(12) RightArm
+[2017.05.18-15.32.41:831][425]LogFbx: SortedLinks :(13) RightForeArm
+[2017.05.18-15.32.41:831][425]LogFbx: SortedLinks :(14) RightHand
+[2017.05.18-15.32.41:831][425]LogFbx: SortedLinks :(15) LeftUpLeg
+[2017.05.18-15.32.41:831][425]LogFbx: SortedLinks :(16) LeftLeg
+[2017.05.18-15.32.41:831][425]LogFbx: SortedLinks :(17) LeftFoot
+[2017.05.18-15.32.41:831][425]LogFbx: SortedLinks :(18) LeftToeBase
+[2017.05.18-15.32.41:831][425]LogFbx: SortedLinks :(19) LeftToe_End
+[2017.05.18-15.32.41:831][425]LogFbx: SortedLinks :(20) RightUpLeg
+[2017.05.18-15.32.41:831][425]LogFbx: SortedLinks :(21) RightLeg
+[2017.05.18-15.32.41:831][425]LogFbx: SortedLinks :(22) RightFoot
+[2017.05.18-15.32.41:831][425]LogFbx: SortedLinks :(23) RightToeBase
+[2017.05.18-15.32.41:831][425]LogFbx: SortedLinks :(24) RightToe_End
+[2017.05.18-15.32.41:831][425]LogFbx: Parsing AnimStack Take 001
+[2017.05.18-15.32.41:832][425]LogLinker:Warning: Can't find file '/Game/Art/Meshes/Characters/CamBot/GuilleAnimations/animacion2_Anim'
+[2017.05.18-15.32.41:832][425]LogLinker:Warning: Can't find file '/Game/Art/Meshes/Characters/CamBot/GuilleAnimations/animacion2_Anim'
+[2017.05.18-15.32.41:832][425]LogUObjectGlobals:Warning: Failed to find object 'Object /Game/Art/Meshes/Characters/CamBot/GuilleAnimations/animacion2_Anim.animacion2_Anim'
+[2017.05.18-15.32.41:879][425]LogAnimationCompression: Building Anim DDC data for AnimSequence /Game/Art/Meshes/Characters/CamBot/GuilleAnimations/animacion2_Anim.animacion2_Anim
+[2017.05.18-15.32.41:882][425]FBXImport:Warning: Warning Warning: No smoothing group information was found in this FBX scene.  Please make sure to enable the 'Export Smoothing Groups' option in the FBX Exporter plug-in before exporting the file.  Even for tools that don't support smoothing groups, the FBX Exporter will generate appropriate smoothing data at export-time so that correct vertex normals can be inferred while importing. 
+[2017.05.18-15.32.41:882][425]FBXImport:Warning: Warning The following bones are missing from the bind pose:
+mixamorig:HeadTop_End  
+mixamorig:LeftToe_End  
+mixamorig:RightToe_End  
+
+This can happen for bones that are not vert weighted. If they are not in the correct orientation after importing,
+please set the "Use T0 as ref pose" option or add them to the bind pose and reimport the skeletal mesh. 
+[2017.05.18-15.33.45:143][932]LogContentBrowser:Verbose: The majority of assets in the view are of type: AnimSequence
+[2017.05.18-15.34.33:007][681]LogSkeletalMesh: InitArticulated: Bodies already created (/Engine/Transient.DebugSkelMeshComponent_5) - call TermArticulated first.
+[2017.05.18-15.35.05:714][  0]BlueprintLog: New page: Compile NewAnimBlueprint
+[2017.05.18-15.35.05:738][  0]LogBlueprint:Warning: [Compiler NewAnimBlueprint] Warning  AnimStateTransitionNode_3  will never be taken, please connect something to  bCanEnterTransition
+[2017.05.18-15.35.05:837][  0]BlueprintEditorCompileResults: Info  Result  was visible but ignored
+[2017.05.18-15.35.05:837][  0]BlueprintEditorCompileResults:Warning: Warning  AnimStateTransitionNode_3  will never be taken, please connect something to  bCanEnterTransition
+[2017.05.18-15.35.05:837][  0]LogBlueprint:Warning: [Compiler NewAnimBlueprint] Warning [0959.56] Compile of NewAnimBlueprint successful, but with 1 Warning(s) [in 123 ms] (/Game/Art/Meshes/Characters/CamBot/NewAnimBlueprint.NewAnimBlueprint)
+[2017.05.18-15.35.17:065][439]BlueprintLog: New page: Compile NewAnimBlueprint
+[2017.05.18-15.35.17:082][439]LogBlueprint:Warning: [Compiler NewAnimBlueprint] Warning  AnimStateTransitionNode_3  will never be taken, please connect something to  bCanEnterTransition
+[2017.05.18-15.35.17:192][439]BlueprintEditorCompileResults: Info  Result  was visible but ignored
+[2017.05.18-15.35.17:192][439]BlueprintEditorCompileResults:Warning: Warning  AnimStateTransitionNode_3  will never be taken, please connect something to  bCanEnterTransition
+[2017.05.18-15.35.17:192][439]LogBlueprint:Warning: [Compiler NewAnimBlueprint] Warning [0970.91] Compile of NewAnimBlueprint successful, but with 1 Warning(s) [in 126 ms] (/Game/Art/Meshes/Characters/CamBot/NewAnimBlueprint.NewAnimBlueprint)
+[2017.05.18-15.35.18:044][463]LogSavePackage: Save=44.81ms
+[2017.05.18-15.35.18:045][463]LogSavePackage: Moving 'C:/Users/jbethune/Downloads/MasterCamControl/MasterCamControl/Saved/NewAnimBlueprint484A0BFB47098F400A0BD3A78148E84A.tmp' to 'C:/Users/jbethune/Downloads/MasterCamControl/MasterCamControl/Content/Art/Meshes/Characters/CamBot/NewAnimBlueprint.uasset'
+[2017.05.18-15.35.18:047][463]LogSavePackage:Display: Finished SavePackage C:/Users/jbethune/Downloads/MasterCamControl/MasterCamControl/Content/Art/Meshes/Characters/CamBot/NewAnimBlueprint.uasset
+[2017.05.18-15.36.10:837][503]LogSkeletalMesh: InitArticulated: Bodies already created (/Engine/Transient.DebugSkelMeshComponent_7) - call TermArticulated first.
+[2017.05.18-15.36.11:042][503]LogContentBrowser:Verbose: The majority of assets in the view are of type: AnimSequence
+[2017.05.18-15.37.03:785][650]BlueprintLog: New page: Compile NewAnimBlueprint
+[2017.05.18-15.37.03:804][650]LogBlueprint:Warning: [Compiler NewAnimBlueprint] Warning  AnimStateTransitionNode_3  will never be taken, please connect something to  bCanEnterTransition
+[2017.05.18-15.37.03:931][650]BlueprintEditorCompileResults: Info  Result  was visible but ignored
+[2017.05.18-15.37.03:931][650]BlueprintEditorCompileResults:Warning: Warning  AnimStateTransitionNode_3  will never be taken, please connect something to  bCanEnterTransition
+[2017.05.18-15.37.03:932][650]LogBlueprint:Warning: [Compiler NewAnimBlueprint] Warning [1077.65] Compile of NewAnimBlueprint successful, but with 1 Warning(s) [in 146 ms] (/Game/Art/Meshes/Characters/CamBot/NewAnimBlueprint.NewAnimBlueprint)
+[2017.05.18-15.38.10:224][343]BlueprintLog: New page: Compile NewAnimBlueprint
+[2017.05.18-15.38.10:246][343]LogBlueprint:Warning: [Compiler NewAnimBlueprint] Warning  AnimStateTransitionNode_3  will never be taken, please connect something to  bCanEnterTransition
+[2017.05.18-15.38.10:363][343]BlueprintEditorCompileResults: Info  Result  was visible but ignored
+[2017.05.18-15.38.10:363][343]BlueprintEditorCompileResults:Warning: Warning  AnimStateTransitionNode_3  will never be taken, please connect something to  bCanEnterTransition
+[2017.05.18-15.38.10:363][343]LogBlueprint:Warning: [Compiler NewAnimBlueprint] Warning [1144.08] Compile of NewAnimBlueprint successful, but with 1 Warning(s) [in 139 ms] (/Game/Art/Meshes/Characters/CamBot/NewAnimBlueprint.NewAnimBlueprint)
+[2017.05.18-15.38.23:703][895]LogAnimation:Warning: AnimBP NewAnimBlueprint_C is incompatible with skeleton animacion1_Skeleton, removing AnimBP from actor.
+[2017.05.18-15.38.44:882][762]LogRenderer: Reallocating scene render targets to support 1840x784 (Frame:133474).
+[2017.05.18-15.38.44:882][762]LogContentBrowser:Verbose: The majority of assets in the view are of type: AnimSequence
+[2017.05.18-15.38.47:929][882]BlueprintLog: New page: Compile NewAnimBlueprint
+[2017.05.18-15.38.47:951][882]LogBlueprint:Warning: [Compiler NewAnimBlueprint] Warning  AnimStateTransitionNode_3  will never be taken, please connect something to  bCanEnterTransition
+[2017.05.18-15.38.48:064][882]BlueprintEditorCompileResults: Info  Result  was visible but ignored
+[2017.05.18-15.38.48:064][882]BlueprintEditorCompileResults:Warning: Warning  AnimStateTransitionNode_3  will never be taken, please connect something to  bCanEnterTransition
+[2017.05.18-15.38.48:065][882]LogBlueprint:Warning: [Compiler NewAnimBlueprint] Warning [1181.78] Compile of NewAnimBlueprint successful, but with 1 Warning(s) [in 134 ms] (/Game/Art/Meshes/Characters/CamBot/NewAnimBlueprint.NewAnimBlueprint)
+[2017.05.18-15.38.50:988][  0]LogContentBrowser:Verbose: The majority of assets in the view are of type: AnimSequence
+[2017.05.18-15.40.18:436][135]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/L1/L1map" FILE="C:/Users/jbethune/Downloads/MasterCamControl/MasterCamControl/Saved/Autosaves/Game/L1/L1map_Auto1.umap" SILENT=true AUTOSAVING=true KEEPDIRTY=false
+[2017.05.18-15.40.18:952][135]LogSavePackage: Save=506.35ms
+[2017.05.18-15.40.18:952][135]LogSavePackage: Moving 'C:/Users/jbethune/Downloads/MasterCamControl/MasterCamControl/Saved/L1map_Auto1ED3F527F4574CE4A002774A1BE9B8E0E.tmp' to 'C:/Users/jbethune/Downloads/MasterCamControl/MasterCamControl/Saved/Autosaves/Game/L1/L1map_Auto1.umap'
+[2017.05.18-15.40.18:954][135]LogSavePackage:Display: Finished SavePackage C:/Users/jbethune/Downloads/MasterCamControl/MasterCamControl/Saved/Autosaves/Game/L1/L1map_Auto1.umap
+[2017.05.18-15.40.18:955][135]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/L1/L1map' took 0.543
+[2017.05.18-15.40.18:955][135]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 0.543
+[2017.05.18-15.40.18:991][135]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Art/Meshes/Characters/CamBot/NewAnimBlueprint] ([1] browsable assets)...
+[2017.05.18-15.40.19:001][135]OBJ SavePackage:     Rendered thumbnail for [AnimBlueprint /Game/Art/Meshes/Characters/CamBot/NewAnimBlueprint.NewAnimBlueprint]
+[2017.05.18-15.40.19:001][135]OBJ SavePackage: Finished generating thumbnails for package [/Game/Art/Meshes/Characters/CamBot/NewAnimBlueprint]
+[2017.05.18-15.40.19:030][135]LogSavePackage: Save=25.03ms
+[2017.05.18-15.40.19:030][135]LogSavePackage: Moving 'C:/Users/jbethune/Downloads/MasterCamControl/MasterCamControl/Saved/NewAnimBlueprint_Auto16BDB7D9D44B235A341F4C2AD87A270A9.tmp' to 'C:/Users/jbethune/Downloads/MasterCamControl/MasterCamControl/Saved/Autosaves/Game/Art/Meshes/Characters/CamBot/NewAnimBlueprint_Auto1.uasset'
+[2017.05.18-15.40.19:031][135]LogSavePackage:Display: Finished SavePackage C:/Users/jbethune/Downloads/MasterCamControl/MasterCamControl/Saved/Autosaves/Game/Art/Meshes/Characters/CamBot/NewAnimBlueprint_Auto1.uasset
+[2017.05.18-15.40.19:032][135]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Art/Meshes/Characters/CamBot/GuilleAnimations/animacion1] ([1] browsable assets)...
+[2017.05.18-15.40.19:044][135]OBJ SavePackage:     Rendered thumbnail for [SkeletalMesh /Game/Art/Meshes/Characters/CamBot/GuilleAnimations/animacion1.animacion1]
+[2017.05.18-15.40.19:044][135]OBJ SavePackage: Finished generating thumbnails for package [/Game/Art/Meshes/Characters/CamBot/GuilleAnimations/animacion1]
+[2017.05.18-15.40.19:054][135]LogSavePackage: Save=8.61ms
+[2017.05.18-15.40.19:054][135]LogSavePackage: Moving 'C:/Users/jbethune/Downloads/MasterCamControl/MasterCamControl/Saved/animacion1_Auto132357D0C42484DA9F56F4C9DF9EFD6BF.tmp' to 'C:/Users/jbethune/Downloads/MasterCamControl/MasterCamControl/Saved/Autosaves/Game/Art/Meshes/Characters/CamBot/GuilleAnimations/animacion1_Auto1.uasset'
+[2017.05.18-15.40.19:055][135]LogSavePackage:Display: Finished SavePackage C:/Users/jbethune/Downloads/MasterCamControl/MasterCamControl/Saved/Autosaves/Game/Art/Meshes/Characters/CamBot/GuilleAnimations/animacion1_Auto1.uasset
+[2017.05.18-15.40.19:056][135]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/Art/Meshes/Characters/CamBot/GuilleAnimations/animacion1_PhysicsAsset] ([1] browsable assets)...
+[2017.05.18-15.40.19:056][135]OBJ SavePackage: Finished generating thumbnails for package [/Game/Art/Meshes/Characters/CamBot/GuilleAnimations/animacion1_PhysicsAsset]
+[2017.05.18-15.40.19:059][135]LogSavePackage: Save=2.75ms
+[2017.05.18-15.40.19:059][135]LogSavePackage: Moving 'C:/Users/jbethune/Downloads/MasterCamControl/MasterCamControl/Saved/animacion1_PhysicsAsset_Auto1FDE78D004AE5AB7DB9C61CB59A3EFFB0.tmp' to 'C:/Users/jbethune/Downloads/MasterCamControl/MasterCamControl/Saved/Autosaves/Game/Art/Meshes/Characters/CamBot/GuilleAnimations/animacion1_PhysicsAsset_Auto1.uasset'
+[2017.05.18-15.40.19:060][135]LogSavePackage:Display: Finished SavePackage C:/Users/jbethune/Downloads/MasterCamControl/MasterCamControl/Saved/Autosaves/Game/Art/Meshes/Characters/CamBot/GuilleAnimations/animacion1_PhysicsAsset_Auto1.uasset
+[2017.05.18-15.40.19:060][135]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/Art/Meshes/Characters/CamBot/GuilleAnimations/animacion1_Skeleton] ([1] browsable assets)...
+[2017.05.18-15.40.19:060][135]OBJ SavePackage: Finished generating thumbnails for package [/Game/Art/Meshes/Characters/CamBot/GuilleAnimations/animacion1_Skeleton]
+[2017.05.18-15.40.19:062][135]LogSavePackage: Save=0.98ms
+[2017.05.18-15.40.19:062][135]LogSavePackage: Moving 'C:/Users/jbethune/Downloads/MasterCamControl/MasterCamControl/Saved/animacion1_Skeleton_Auto10FCF382D4A9C44AE41FBDFA47B506044.tmp' to 'C:/Users/jbethune/Downloads/MasterCamControl/MasterCamControl/Saved/Autosaves/Game/Art/Meshes/Characters/CamBot/GuilleAnimations/animacion1_Skeleton_Auto1.uasset'
+[2017.05.18-15.40.19:063][135]LogSavePackage:Display: Finished SavePackage C:/Users/jbethune/Downloads/MasterCamControl/MasterCamControl/Saved/Autosaves/Game/Art/Meshes/Characters/CamBot/GuilleAnimations/animacion1_Skeleton_Auto1.uasset
+[2017.05.18-15.40.19:064][135]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Art/Meshes/Characters/CamBot/GuilleAnimations/animacion1_Anim] ([1] browsable assets)...
+[2017.05.18-15.40.19:074][135]OBJ SavePackage:     Rendered thumbnail for [AnimSequence /Game/Art/Meshes/Characters/CamBot/GuilleAnimations/animacion1_Anim.animacion1_Anim]
+[2017.05.18-15.40.19:074][135]OBJ SavePackage: Finished generating thumbnails for package [/Game/Art/Meshes/Characters/CamBot/GuilleAnimations/animacion1_Anim]
+[2017.05.18-15.40.19:082][135]LogSavePackage: Save=7.27ms
+[2017.05.18-15.40.19:082][135]LogSavePackage: Moving 'C:/Users/jbethune/Downloads/MasterCamControl/MasterCamControl/Saved/animacion1_Anim_Auto1E844EE9D47BA0FA309E0ECB3AEB4598F.tmp' to 'C:/Users/jbethune/Downloads/MasterCamControl/MasterCamControl/Saved/Autosaves/Game/Art/Meshes/Characters/CamBot/GuilleAnimations/animacion1_Anim_Auto1.uasset'
+[2017.05.18-15.40.19:083][135]LogSavePackage:Display: Finished SavePackage C:/Users/jbethune/Downloads/MasterCamControl/MasterCamControl/Saved/Autosaves/Game/Art/Meshes/Characters/CamBot/GuilleAnimations/animacion1_Anim_Auto1.uasset
+[2017.05.18-15.40.19:084][135]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Art/Meshes/Characters/CamBot/GuilleAnimations/animacion2] ([1] browsable assets)...
+[2017.05.18-15.40.19:093][135]OBJ SavePackage:     Rendered thumbnail for [SkeletalMesh /Game/Art/Meshes/Characters/CamBot/GuilleAnimations/animacion2.animacion2]
+[2017.05.18-15.40.19:093][135]OBJ SavePackage: Finished generating thumbnails for package [/Game/Art/Meshes/Characters/CamBot/GuilleAnimations/animacion2]
+[2017.05.18-15.40.19:102][135]LogSavePackage: Save=7.51ms
+[2017.05.18-15.40.19:102][135]LogSavePackage: Moving 'C:/Users/jbethune/Downloads/MasterCamControl/MasterCamControl/Saved/animacion2_Auto1C60D051B426B08A4C55AD48028EB0E44.tmp' to 'C:/Users/jbethune/Downloads/MasterCamControl/MasterCamControl/Saved/Autosaves/Game/Art/Meshes/Characters/CamBot/GuilleAnimations/animacion2_Auto1.uasset'
+[2017.05.18-15.40.19:103][135]LogSavePackage:Display: Finished SavePackage C:/Users/jbethune/Downloads/MasterCamControl/MasterCamControl/Saved/Autosaves/Game/Art/Meshes/Characters/CamBot/GuilleAnimations/animacion2_Auto1.uasset
+[2017.05.18-15.40.19:103][135]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/Art/Meshes/Characters/CamBot/GuilleAnimations/animacion2_PhysicsAsset] ([1] browsable assets)...
+[2017.05.18-15.40.19:103][135]OBJ SavePackage: Finished generating thumbnails for package [/Game/Art/Meshes/Characters/CamBot/GuilleAnimations/animacion2_PhysicsAsset]
+[2017.05.18-15.40.19:107][135]LogSavePackage: Save=2.72ms
+[2017.05.18-15.40.19:107][135]LogSavePackage: Moving 'C:/Users/jbethune/Downloads/MasterCamControl/MasterCamControl/Saved/animacion2_PhysicsAsset_Auto115C7FF5245EB2898FD90F08020B84151.tmp' to 'C:/Users/jbethune/Downloads/MasterCamControl/MasterCamControl/Saved/Autosaves/Game/Art/Meshes/Characters/CamBot/GuilleAnimations/animacion2_PhysicsAsset_Auto1.uasset'
+[2017.05.18-15.40.19:107][135]LogSavePackage:Display: Finished SavePackage C:/Users/jbethune/Downloads/MasterCamControl/MasterCamControl/Saved/Autosaves/Game/Art/Meshes/Characters/CamBot/GuilleAnimations/animacion2_PhysicsAsset_Auto1.uasset
+[2017.05.18-15.40.19:108][135]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/Art/Meshes/Characters/CamBot/GuilleAnimations/animacion2_Skeleton] ([1] browsable assets)...
+[2017.05.18-15.40.19:108][135]OBJ SavePackage: Finished generating thumbnails for package [/Game/Art/Meshes/Characters/CamBot/GuilleAnimations/animacion2_Skeleton]
+[2017.05.18-15.40.19:110][135]LogSavePackage: Save=0.99ms
+[2017.05.18-15.40.19:110][135]LogSavePackage: Moving 'C:/Users/jbethune/Downloads/MasterCamControl/MasterCamControl/Saved/animacion2_Skeleton_Auto1CCF7801244C1441EAEDB8ABE23ED009C.tmp' to 'C:/Users/jbethune/Downloads/MasterCamControl/MasterCamControl/Saved/Autosaves/Game/Art/Meshes/Characters/CamBot/GuilleAnimations/animacion2_Skeleton_Auto1.uasset'
+[2017.05.18-15.40.19:110][135]LogSavePackage:Display: Finished SavePackage C:/Users/jbethune/Downloads/MasterCamControl/MasterCamControl/Saved/Autosaves/Game/Art/Meshes/Characters/CamBot/GuilleAnimations/animacion2_Skeleton_Auto1.uasset
+[2017.05.18-15.40.19:111][135]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Art/Meshes/Characters/CamBot/GuilleAnimations/animacion2_Anim] ([1] browsable assets)...
+[2017.05.18-15.40.19:121][135]OBJ SavePackage:     Rendered thumbnail for [AnimSequence /Game/Art/Meshes/Characters/CamBot/GuilleAnimations/animacion2_Anim.animacion2_Anim]
+[2017.05.18-15.40.19:121][135]OBJ SavePackage: Finished generating thumbnails for package [/Game/Art/Meshes/Characters/CamBot/GuilleAnimations/animacion2_Anim]
+[2017.05.18-15.40.19:128][135]LogSavePackage: Save=5.89ms
+[2017.05.18-15.40.19:128][135]LogSavePackage: Moving 'C:/Users/jbethune/Downloads/MasterCamControl/MasterCamControl/Saved/animacion2_Anim_Auto124F386164D98817070F1F3B67BCE7329.tmp' to 'C:/Users/jbethune/Downloads/MasterCamControl/MasterCamControl/Saved/Autosaves/Game/Art/Meshes/Characters/CamBot/GuilleAnimations/animacion2_Anim_Auto1.uasset'
+[2017.05.18-15.40.19:128][135]LogSavePackage:Display: Finished SavePackage C:/Users/jbethune/Downloads/MasterCamControl/MasterCamControl/Saved/Autosaves/Game/Art/Meshes/Characters/CamBot/GuilleAnimations/animacion2_Anim_Auto1.uasset
+[2017.05.18-15.40.19:129][135]LogFileHelpers: Auto-saving content packages took 0.147
+[2017.05.18-15.41.37:630][943]LogAnimation:Warning: AnimBP NewAnimBlueprint_C is incompatible with skeleton animacion1_Skeleton, removing AnimBP from actor.
+[2017.05.18-15.41.37:632][943]LogAnimation:Warning: AnimBP NewAnimBlueprint_C is incompatible with skeleton animacion1_Skeleton, removing AnimBP from actor.
+[2017.05.18-15.41.37:634][943]LogAnimation:Warning: AnimBP NewAnimBlueprint_C is incompatible with skeleton animacion1_Skeleton, removing AnimBP from actor.
+[2017.05.18-15.41.37:636][943]LogAnimation:Warning: AnimBP NewAnimBlueprint_C is incompatible with skeleton animacion1_Skeleton, removing AnimBP from actor.
+[2017.05.18-15.41.37:638][943]LogAnimation:Warning: AnimBP NewAnimBlueprint_C is incompatible with skeleton animacion1_Skeleton, removing AnimBP from actor.
+[2017.05.18-15.41.37:640][943]LogAnimation:Warning: AnimBP NewAnimBlueprint_C is incompatible with skeleton animacion1_Skeleton, removing AnimBP from actor.
+[2017.05.18-15.41.37:641][943]LogAnimation:Warning: AnimBP NewAnimBlueprint_C is incompatible with skeleton animacion1_Skeleton, removing AnimBP from actor.
+[2017.05.18-15.41.37:642][943]LogAnimation:Warning: AnimBP NewAnimBlueprint_C is incompatible with skeleton animacion1_Skeleton, removing AnimBP from actor.
+[2017.05.18-15.41.37:644][943]LogAnimation:Warning: AnimBP NewAnimBlueprint_C is incompatible with skeleton animacion1_Skeleton, removing AnimBP from actor.
+[2017.05.18-15.41.37:645][943]LogAnimation:Warning: AnimBP NewAnimBlueprint_C is incompatible with skeleton animacion1_Skeleton, removing AnimBP from actor.
+[2017.05.18-15.41.37:646][943]LogAnimation:Warning: AnimBP NewAnimBlueprint_C is incompatible with skeleton animacion1_Skeleton, removing AnimBP from actor.
+[2017.05.18-15.41.37:647][943]LogAnimation:Warning: AnimBP NewAnimBlueprint_C is incompatible with skeleton animacion1_Skeleton, removing AnimBP from actor.
+[2017.05.18-15.41.37:648][943]LogAnimation:Warning: AnimBP NewAnimBlueprint_C is incompatible with skeleton animacion1_Skeleton, removing AnimBP from actor.
+[2017.05.18-15.41.37:650][943]LogAnimation:Warning: AnimBP NewAnimBlueprint_C is incompatible with skeleton animacion1_Skeleton, removing AnimBP from actor.
+[2017.05.18-15.41.37:651][943]LogAnimation:Warning: AnimBP NewAnimBlueprint_C is incompatible with skeleton animacion1_Skeleton, removing AnimBP from actor.
+[2017.05.18-15.41.37:651][943]LogAnimation:Warning: AnimBP NewAnimBlueprint_C is incompatible with skeleton animacion1_Skeleton, removing AnimBP from actor.
+[2017.05.18-15.41.48:920][401]BlueprintLog: New page: Compile CameraPawn
+[2017.05.18-15.41.49:061][401]LogBlueprint:Warning: [Compiler NewAnimBlueprint] Warning  AnimStateTransitionNode_3  will never be taken, please connect something to  bCanEnterTransition
+[2017.05.18-15.41.49:480][401]BlueprintEditorCompileResults: Info The execution path doesn't end with a return node.  Default
+[2017.05.18-15.42.18:099][479]LogSlate:Warning: Prevented a slow task dialog from being summoned while a context menu was open
+[2017.05.18-15.42.23:821][648]BlueprintLog: New page: Compile CameraPawn
+[2017.05.18-15.42.23:959][648]LogBlueprint:Warning: [Compiler NewAnimBlueprint] Warning  AnimStateTransitionNode_3  will never be taken, please connect something to  bCanEnterTransition
+[2017.05.18-15.42.24:334][648]BlueprintEditorCompileResults: Info The execution path doesn't end with a return node.  Default
+[2017.05.18-15.42.30:257][858]LogSkeletalMesh: InitArticulated: Bodies already created (/Engine/Transient.DebugSkelMeshComponent_14) - call TermArticulated first.
+[2017.05.18-15.42.39:325][201]LogContentBrowser:Verbose: The majority of assets in the view are of type: AnimSequence
+[2017.05.18-15.43.31:220][898]LogSkeletalMesh: InitArticulated: Bodies already created (/Engine/Transient.DebugSkelMeshComponent_18) - call TermArticulated first.
+[2017.05.18-15.43.53:426][653]LogSlate:Warning: Prevented a slow task dialog from being summoned while a context menu was open
+[2017.05.18-15.43.59:116][825]BlueprintLog: New page: Compile CameraPawn
+[2017.05.18-15.43.59:256][825]LogBlueprint:Warning: [Compiler NewAnimBlueprint] Warning  AnimStateTransitionNode_3  will never be taken, please connect something to  bCanEnterTransition
+[2017.05.18-15.43.59:599][825]BlueprintEditorCompileResults: Info The execution path doesn't end with a return node.  Default
+[2017.05.18-15.44.06:718][104]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/L1/L1map.L1map:PersistentLevel' has LevelScriptBlueprint '/Game/L1/L1map.L1map:PersistentLevel.L1map' with GeneratedClass '/Game/L1/L1map.L1map_C' with ClassGeneratedBy '/Game/L1/L1map.L1map:PersistentLevel.L1map'
+[2017.05.18-15.44.06:718][104]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.05.18-15.44.06:718][104]PIE: New page: PIE session: L1map (May 18, 2017, 6:44:06 PM)
+[2017.05.18-15.44.06:719][104]LogPlayLevel: Creating play world package: /Game/L1/UEDPIE_0_L1map
+[2017.05.18-15.44.06:755][104]LogPlayLevel: PIE: StaticDuplicateObject took: (0.036166s)
+[2017.05.18-15.44.06:755][104]LogAIModule: Creating AISystem for world L1map
+[2017.05.18-15.44.06:756][104]LogPlayLevel: PIE: World Init took: (0.001005s)
+[2017.05.18-15.44.06:756][104]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/L1/L1map.L1map to /Game/L1/UEDPIE_0_L1map.L1map (0.037662s)
+[2017.05.18-15.44.06:804][104]LogInit: XAudio2 using 'Altavoces (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2017.05.18-15.44.06:817][104]LogInit: FAudioDevice initialized.
+[2017.05.18-15.44.06:847][104]LogWorld: Game class is 'GameMode'
+[2017.05.18-15.44.06:878][104]LogWorld: Bringing World /Game/L1/UEDPIE_0_L1map.L1map up for play (max tick rate 60) at 2017.05.18-17.44.06
+[2017.05.18-15.44.06:884][104]LogWorld: Bringing up level for play took: 0.036011
+[2017.05.18-15.44.06:885][104]LogGameMode: Warning - PATHS NOT DEFINED or NO PLAYERSTART with positive rating
+[2017.05.18-15.44.06:885][104]LogGameMode:Display: Match State Changed from EnteringMap to WaitingToStart
+[2017.05.18-15.44.06:885][104]LogGameState: Match State Changed from EnteringMap to WaitingToStart
+[2017.05.18-15.44.06:885][104]LogGameMode:Display: Match State Changed from WaitingToStart to InProgress
+[2017.05.18-15.44.06:886][104]LogBlueprintUserMessages: [NPCS5] NPCS5  Curious
+[2017.05.18-15.44.06:886][104]LogAnimation:Warning: AnimBP Girl_anim_bp_C is incompatible with skeleton mrGuau_Skeleton, removing AnimBP from actor.
+[2017.05.18-15.44.06:887][104]LogBlueprintUserMessages: [NPCS3_880] NPCS3  Naughty
+[2017.05.18-15.44.06:887][104]LogBlueprintUserMessages: [NPCS4] NPCS4  Introvert
+[2017.05.18-15.44.06:887][104]LogAnimation:Warning: AnimBP MrGuau_a_bp_C is incompatible with skeleton boy_Skeleton, removing AnimBP from actor.
+[2017.05.18-15.44.06:887][104]LogBlueprintUserMessages: [NPCS_206] NPCS  Introvert
+[2017.05.18-15.44.06:887][104]LogPawn:Error: EnableInput can only be specified on a Pawn for its Controller
+[2017.05.18-15.44.06:888][104]LogPawn:Error: EnableInput can only be specified on a Pawn for its Controller
+[2017.05.18-15.44.06:888][104]LogPawn:Error: EnableInput can only be specified on a Pawn for its Controller
+[2017.05.18-15.44.06:888][104]LogPawn:Error: EnableInput can only be specified on a Pawn for its Controller
+[2017.05.18-15.44.06:888][104]LogPawn:Error: EnableInput can only be specified on a Pawn for its Controller
+[2017.05.18-15.44.06:888][104]LogPawn:Error: EnableInput can only be specified on a Pawn for its Controller
+[2017.05.18-15.44.06:888][104]LogPawn:Error: EnableInput can only be specified on a Pawn for its Controller
+[2017.05.18-15.44.06:889][104]LogPawn:Error: EnableInput can only be specified on a Pawn for its Controller
+[2017.05.18-15.44.06:889][104]LogPawn:Error: EnableInput can only be specified on a Pawn for its Controller
+[2017.05.18-15.44.06:889][104]LogPawn:Error: EnableInput can only be specified on a Pawn for its Controller
+[2017.05.18-15.44.06:889][104]LogPawn:Error: EnableInput can only be specified on a Pawn for its Controller
+[2017.05.18-15.44.06:889][104]LogPawn:Error: EnableInput can only be specified on a Pawn for its Controller
+[2017.05.18-15.44.06:889][104]LogPawn:Error: EnableInput can only be specified on a Pawn for its Controller
+[2017.05.18-15.44.06:889][104]LogPawn:Error: EnableInput can only be specified on a Pawn for its Controller
+[2017.05.18-15.44.06:890][104]LogBlueprintUserMessages: [L1map_C_0] m to Menu
+[2017.05.18-15.44.06:891][104]LogGameState: Match State Changed from WaitingToStart to InProgress
+[2017.05.18-15.44.06:891][104]PIE: Info Play in editor start time for /Game/L1/UEDPIE_0_L1map -0.003
+[2017.05.18-15.44.06:892][104]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/L1/L1map.L1map:PersistentLevel' has LevelScriptBlueprint '/Game/L1/L1map.L1map:PersistentLevel.L1map' with GeneratedClass '/Game/L1/L1map.L1map_C' with ClassGeneratedBy '/Game/L1/L1map.L1map:PersistentLevel.L1map'
+[2017.05.18-15.44.13:936][525]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/L1/L1map.L1map:PersistentLevel' has LevelScriptBlueprint '/Game/L1/L1map.L1map:PersistentLevel.L1map' with GeneratedClass '/Game/L1/L1map.L1map_C' with ClassGeneratedBy '/Game/L1/L1map.L1map:PersistentLevel.L1map'
+[2017.05.18-15.44.13:988][525]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/L1/L1map.L1map:PersistentLevel' has LevelScriptBlueprint '/Game/L1/L1map.L1map:PersistentLevel.L1map' with GeneratedClass '/Game/L1/L1map.L1map_C' with ClassGeneratedBy '/Game/L1/L1map.L1map:PersistentLevel.L1map'
+[2017.05.18-15.44.26:574][  8]BlueprintLog: New page: Compile CameraPawn
+[2017.05.18-15.44.26:711][  8]LogBlueprint:Warning: [Compiler NewAnimBlueprint] Warning  AnimStateTransitionNode_3  will never be taken, please connect something to  bCanEnterTransition
+[2017.05.18-15.44.27:026][  8]BlueprintEditorCompileResults: Info The execution path doesn't end with a return node.  Default
+[2017.05.18-15.44.28:368][ 69]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/L1/L1map.L1map:PersistentLevel' has LevelScriptBlueprint '/Game/L1/L1map.L1map:PersistentLevel.L1map' with GeneratedClass '/Game/L1/L1map.L1map_C' with ClassGeneratedBy '/Game/L1/L1map.L1map:PersistentLevel.L1map'
+[2017.05.18-15.44.28:368][ 69]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.05.18-15.44.28:369][ 69]PIE: New page: PIE session: L1map (May 18, 2017, 6:44:28 PM)
+[2017.05.18-15.44.28:369][ 69]LogPlayLevel: Creating play world package: /Game/L1/UEDPIE_0_L1map
+[2017.05.18-15.44.28:393][ 69]LogPlayLevel: PIE: StaticDuplicateObject took: (0.024356s)
+[2017.05.18-15.44.28:394][ 69]LogAIModule: Creating AISystem for world L1map
+[2017.05.18-15.44.28:394][ 69]LogPlayLevel: PIE: World Init took: (0.000734s)
+[2017.05.18-15.44.28:394][ 69]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/L1/L1map.L1map to /Game/L1/UEDPIE_0_L1map.L1map (0.025389s)
+[2017.05.18-15.44.28:442][ 69]LogInit: XAudio2 using 'Altavoces (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2017.05.18-15.44.28:449][ 69]LogInit: FAudioDevice initialized.
+[2017.05.18-15.44.28:478][ 69]LogWorld: Game class is 'GameMode'
+[2017.05.18-15.44.28:502][ 69]LogWorld: Bringing World /Game/L1/UEDPIE_0_L1map.L1map up for play (max tick rate 60) at 2017.05.18-17.44.28
+[2017.05.18-15.44.28:507][ 69]LogWorld: Bringing up level for play took: 0.028391
+[2017.05.18-15.44.28:507][ 69]LogGameMode: Warning - PATHS NOT DEFINED or NO PLAYERSTART with positive rating
+[2017.05.18-15.44.28:508][ 69]LogGameMode:Display: Match State Changed from EnteringMap to WaitingToStart
+[2017.05.18-15.44.28:508][ 69]LogGameState: Match State Changed from EnteringMap to WaitingToStart
+[2017.05.18-15.44.28:508][ 69]LogGameMode:Display: Match State Changed from WaitingToStart to InProgress
+[2017.05.18-15.44.28:508][ 69]LogBlueprintUserMessages: [NPCS5] NPCS5  Curious
+[2017.05.18-15.44.28:508][ 69]LogAnimation:Warning: AnimBP Girl_anim_bp_C is incompatible with skeleton boy_Skeleton, removing AnimBP from actor.
+[2017.05.18-15.44.28:509][ 69]LogBlueprintUserMessages: [NPCS3_880] NPCS3  Introvert
+[2017.05.18-15.44.28:509][ 69]LogAnimation:Warning: AnimBP Boy_AnimationBlueprint_C is incompatible with skeleton mrGuau_Skeleton, removing AnimBP from actor.
+[2017.05.18-15.44.28:509][ 69]LogBlueprintUserMessages: [NPCS4] NPCS4  Naughty
+[2017.05.18-15.44.28:509][ 69]LogAnimation:Warning: AnimBP MrGuau_a_bp_C is incompatible with skeleton girl_Skeleton, removing AnimBP from actor.
+[2017.05.18-15.44.28:510][ 69]LogBlueprintUserMessages: [NPCS_206] NPCS  Explorer
+[2017.05.18-15.44.28:510][ 69]LogPawn:Error: EnableInput can only be specified on a Pawn for its Controller
+[2017.05.18-15.44.28:510][ 69]LogPawn:Error: EnableInput can only be specified on a Pawn for its Controller
+[2017.05.18-15.44.28:510][ 69]LogPawn:Error: EnableInput can only be specified on a Pawn for its Controller
+[2017.05.18-15.44.28:510][ 69]LogPawn:Error: EnableInput can only be specified on a Pawn for its Controller
+[2017.05.18-15.44.28:510][ 69]LogPawn:Error: EnableInput can only be specified on a Pawn for its Controller
+[2017.05.18-15.44.28:510][ 69]LogPawn:Error: EnableInput can only be specified on a Pawn for its Controller
+[2017.05.18-15.44.28:510][ 69]LogPawn:Error: EnableInput can only be specified on a Pawn for its Controller
+[2017.05.18-15.44.28:511][ 69]LogPawn:Error: EnableInput can only be specified on a Pawn for its Controller
+[2017.05.18-15.44.28:511][ 69]LogPawn:Error: EnableInput can only be specified on a Pawn for its Controller
+[2017.05.18-15.44.28:511][ 69]LogPawn:Error: EnableInput can only be specified on a Pawn for its Controller
+[2017.05.18-15.44.28:511][ 69]LogPawn:Error: EnableInput can only be specified on a Pawn for its Controller
+[2017.05.18-15.44.28:511][ 69]LogPawn:Error: EnableInput can only be specified on a Pawn for its Controller
+[2017.05.18-15.44.28:511][ 69]LogPawn:Error: EnableInput can only be specified on a Pawn for its Controller
+[2017.05.18-15.44.28:511][ 69]LogPawn:Error: EnableInput can only be specified on a Pawn for its Controller
+[2017.05.18-15.44.28:512][ 69]LogBlueprintUserMessages: [L1map_C_0] m to Menu
+[2017.05.18-15.44.28:513][ 69]LogGameState: Match State Changed from WaitingToStart to InProgress
+[2017.05.18-15.44.28:513][ 69]PIE: Info Play in editor start time for /Game/L1/UEDPIE_0_L1map -0.381
+[2017.05.18-15.44.28:513][ 69]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/L1/L1map.L1map:PersistentLevel' has LevelScriptBlueprint '/Game/L1/L1map.L1map:PersistentLevel.L1map' with GeneratedClass '/Game/L1/L1map.L1map_C' with ClassGeneratedBy '/Game/L1/L1map.L1map:PersistentLevel.L1map'
+[2017.05.18-15.44.37:189][588]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/L1/L1map.L1map:PersistentLevel' has LevelScriptBlueprint '/Game/L1/L1map.L1map:PersistentLevel.L1map' with GeneratedClass '/Game/L1/L1map.L1map_C' with ClassGeneratedBy '/Game/L1/L1map.L1map:PersistentLevel.L1map'
+[2017.05.18-15.44.37:243][588]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/L1/L1map.L1map:PersistentLevel' has LevelScriptBlueprint '/Game/L1/L1map.L1map:PersistentLevel.L1map' with GeneratedClass '/Game/L1/L1map.L1map_C' with ClassGeneratedBy '/Game/L1/L1map.L1map:PersistentLevel.L1map'
+[2017.05.18-15.44.43:952][836]LogSlate:Warning: Prevented a slow task dialog from being summoned while a context menu was open
+[2017.05.18-15.45.17:930][251]LogContentBrowser:Verbose: The majority of assets in the view are of type: AnimSequence
+[2017.05.18-15.45.20:678][351]LogContentBrowser:Verbose: The majority of assets in the view are of type: AnimSequence
+[2017.05.18-15.45.27:094][585]LogContentBrowser:Verbose: The majority of assets in the view are of type: AnimSequence
+[2017.05.18-15.47.16:908][834]Cmd: QUIT_EDITOR
+[2017.05.18-15.47.17:346][834]LogWindowsTextInputMethodSystem:Display: IME system now deactivated.
+[2017.05.18-15.47.17:369][834]LogExit: Preparing to exit.
+[2017.05.18-15.47.17:887][834]LogExit: Editor shut down
+[2017.05.18-15.47.17:887][834]LogExit: Transaction tracking system shut down
+[2017.05.18-15.47.18:097][834]LogObj: Freed 0b from 0 cluster array pools.
+[2017.05.18-15.47.18:097][834]LogExit: Object subsystem successfully closed.
+[2017.05.18-15.47.18:120][834]LogD3D11RHI: Shutdown
+[2017.05.18-15.47.18:120][834]LogD3D11RHI: CleanupD3DDevice
+[2017.05.18-15.47.18:216][834]LogD3D11RHI: ~FD3D11DynamicRHI
+[2017.05.18-15.47.18:243][834]LogModuleManager: Shutting down and abandoning module BlueprintGraph (234)
+[2017.05.18-15.47.18:243][834]LogModuleManager: Shutting down and abandoning module BlueprintProfiler (233)
+[2017.05.18-15.47.18:244][834]LogModuleManager: Shutting down and abandoning module MovieSceneCapture (232)
+[2017.05.18-15.47.18:244][834]LogModuleManager: Shutting down and abandoning module HierarchicalLODOutliner (231)
+[2017.05.18-15.47.18:244][834]LogModuleManager: Shutting down and abandoning module CrashTracker (230)
+[2017.05.18-15.47.18:244][834]LogModuleManager: Shutting down and abandoning module SceneOutliner (229)
+[2017.05.18-15.47.18:244][834]LogModuleManager: Shutting down and abandoning module WidgetCarousel (228)
+[2017.05.18-15.47.18:244][834]LogModuleManager: Shutting down and abandoning module AddContentDialog (227)
+[2017.05.18-15.47.18:244][834]LogDirectoryWatcher: A directory notification for 'P:/UNREAL/Epic Games/4.13/FeaturePacks/' was aborted.
+[2017.05.18-15.47.18:245][834]LogModuleManager: Shutting down and abandoning module GameplayTags (226)
+[2017.05.18-15.47.18:245][834]LogModuleManager: Shutting down and abandoning module EditorWidgets (225)
+[2017.05.18-15.47.18:245][834]LogModuleManager: Shutting down and abandoning module CollectionManager (224)
+[2017.05.18-15.47.18:245][834]LogDirectoryWatcher: A directory notification for 'C:/Users/jbethune/Downloads/MasterCamControl/MasterCamControl/Content/Collections/' was aborted.
+[2017.05.18-15.47.18:245][834]LogDirectoryWatcher: A directory notification for 'C:/Users/jbethune/Downloads/MasterCamControl/MasterCamControl/Content/Developers/jbethune/Collections/' was aborted.
+[2017.05.18-15.47.18:246][834]LogDirectoryWatcher: A directory notification for 'C:/Users/jbethune/Downloads/MasterCamControl/MasterCamControl/Saved/Collections/' was aborted.
+[2017.05.18-15.47.18:246][834]LogModuleManager: Shutting down and abandoning module StatsViewer (223)
+[2017.05.18-15.47.18:246][834]LogModuleManager: Shutting down and abandoning module FoliageEdit (222)
+[2017.05.18-15.47.18:246][834]LogModuleManager: Shutting down and abandoning module LandscapeEditor (221)
+[2017.05.18-15.47.18:246][834]LogModuleManager: Shutting down and abandoning module SceneDepthPickerMode (220)
+[2017.05.18-15.47.18:246][834]LogModuleManager: Shutting down and abandoning module ActorPickerMode (219)
+[2017.05.18-15.47.18:246][834]LogModuleManager: Shutting down and abandoning module GeometryMode (218)
+[2017.05.18-15.47.18:246][834]LogModuleManager: Shutting down and abandoning module TextureAlignMode (217)
+[2017.05.18-15.47.18:246][834]LogModuleManager: Shutting down and abandoning module BspMode (216)
+[2017.05.18-15.47.18:246][834]LogModuleManager: Shutting down and abandoning module HardwareSurvey (215)
+[2017.05.18-15.47.18:246][834]LogModuleManager: Shutting down and abandoning module SequenceRecorderSections (214)
+[2017.05.18-15.47.18:246][834]LogModuleManager: Shutting down and abandoning module SequenceRecorder (213)
+[2017.05.18-15.47.18:246][834]LogModuleManager: Shutting down and abandoning module AutomationWorker (212)
+[2017.05.18-15.47.18:246][834]LogModuleManager: Shutting down and abandoning module MatineeToLevelSequence (211)
+[2017.05.18-15.47.18:246][834]LogModuleManager: Shutting down and abandoning module PlacementMode (210)
+[2017.05.18-15.47.18:246][834]LogModuleManager: Shutting down and abandoning module LevelSequenceEditor (209)
+[2017.05.18-15.47.18:246][834]LogModuleManager: Shutting down and abandoning module WmfMediaFactory (208)
+[2017.05.18-15.47.18:246][834]LogModuleManager: Shutting down and abandoning module WmfMediaEditor (207)
+[2017.05.18-15.47.18:246][834]LogModuleManager: Shutting down and abandoning module AvfMediaFactory (206)
+[2017.05.18-15.47.18:246][834]LogModuleManager: Shutting down and abandoning module AvfMediaEditor (205)
+[2017.05.18-15.47.18:246][834]LogModuleManager: Shutting down and abandoning module Media (204)
+[2017.05.18-15.47.18:246][834]LogModuleManager: Shutting down and abandoning module AndroidMediaFactory (203)
+[2017.05.18-15.47.18:246][834]LogModuleManager: Shutting down and abandoning module AndroidMediaEditor (202)
+[2017.05.18-15.47.18:246][834]LogModuleManager: Shutting down and abandoning module CharacterAI (201)
+[2017.05.18-15.47.18:246][834]LogModuleManager: Shutting down and abandoning module SmartSnapping (200)
+[2017.05.18-15.47.18:246][834]LogModuleManager: Shutting down and abandoning module SessionServices (199)
+[2017.05.18-15.47.18:246][834]LogModuleManager: Shutting down and abandoning module ViewportSnapping (198)
+[2017.05.18-15.47.18:246][834]LogModuleManager: Shutting down and abandoning module ViewportInteraction (197)
+[2017.05.18-15.47.18:246][834]LogModuleManager: Shutting down and abandoning module LogVisualizer (196)
+[2017.05.18-15.47.18:247][834]LogModuleManager: Shutting down and abandoning module GameProjectGeneration (195)
+[2017.05.18-15.47.18:247][834]LogModuleManager: Shutting down and abandoning module IntroTutorials (194)
+[2017.05.18-15.47.18:247][834]LogModuleManager: Shutting down and abandoning module EditorLiveStreaming (193)
+[2017.05.18-15.47.18:247][834]LogModuleManager: Shutting down and abandoning module IOSPlatformEditor (192)
+[2017.05.18-15.47.18:247][834]LogModuleManager: Shutting down and abandoning module HTML5PlatformEditor (191)
+[2017.05.18-15.47.18:247][834]LogModuleManager: Shutting down and abandoning module AndroidDeviceDetection (190)
+[2017.05.18-15.47.18:602][834]LogModuleManager: Shutting down and abandoning module AndroidPlatformEditor (189)
+[2017.05.18-15.47.18:602][834]LogModuleManager: Shutting down and abandoning module IOSRuntimeSettings (188)
+[2017.05.18-15.47.18:602][834]LogModuleManager: Shutting down and abandoning module AndroidRuntimeSettings (187)
+[2017.05.18-15.47.18:602][834]LogModuleManager: Shutting down and abandoning module NiagaraEditor (186)
+[2017.05.18-15.47.18:602][834]LogModuleManager: Shutting down and abandoning module MergeActors (185)
+[2017.05.18-15.47.18:602][834]LogModuleManager: Shutting down and abandoning module SizeMap (184)
+[2017.05.18-15.47.18:602][834]LogModuleManager: Shutting down and abandoning module TreeMap (183)
+[2017.05.18-15.47.18:602][834]LogModuleManager: Shutting down and abandoning module ReferenceViewer (182)
+[2017.05.18-15.47.18:602][834]LogModuleManager: Shutting down and abandoning module LocalizationService (181)
+[2017.05.18-15.47.18:602][834]LogModuleManager: Shutting down and abandoning module LocalizationDashboard (180)
+[2017.05.18-15.47.18:602][834]LogModuleManager: Shutting down and abandoning module HardwareTargeting (179)
+[2017.05.18-15.47.18:602][834]LogModuleManager: Shutting down and abandoning module DeviceProfileEditor (178)
+[2017.05.18-15.47.18:602][834]LogModuleManager: Shutting down and abandoning module UndoHistory (177)
+[2017.05.18-15.47.18:602][834]LogModuleManager: Shutting down and abandoning module UserFeedback (176)
+[2017.05.18-15.47.18:602][834]LogModuleManager: Shutting down and abandoning module XmlParser (175)
+[2017.05.18-15.47.18:603][834]LogModuleManager: Shutting down and abandoning module Blutility (174)
+[2017.05.18-15.47.18:603][834]LogModuleManager: Shutting down and abandoning module ProjectTargetPlatformEditor (173)
+[2017.05.18-15.47.18:603][834]LogModuleManager: Shutting down and abandoning module ProjectSettingsViewer (172)
+[2017.05.18-15.47.18:603][834]LogModuleManager: Shutting down and abandoning module InputBindingEditor (171)
+[2017.05.18-15.47.18:603][834]LogModuleManager: Shutting down and abandoning module EditorSettingsViewer (170)
+[2017.05.18-15.47.18:603][834]LogModuleManager: Shutting down and abandoning module SettingsEditor (169)
+[2017.05.18-15.47.18:603][834]LogModuleManager: Shutting down and abandoning module ProjectLauncher (168)
+[2017.05.18-15.47.18:603][834]LogModuleManager: Shutting down and abandoning module SessionFrontend (167)
+[2017.05.18-15.47.18:603][834]LogModuleManager: Shutting down and abandoning module ProfilerClient (166)
+[2017.05.18-15.47.18:603][834]LogModuleManager: Shutting down and abandoning module TargetDeviceServices (165)
+[2017.05.18-15.47.18:603][834]LogModuleManager: Shutting down and abandoning module DeviceManager (164)
+[2017.05.18-15.47.18:647][834]LogModuleManager: Shutting down and abandoning module AutomationController (163)
+[2017.05.18-15.47.18:647][834]LogModuleManager: Shutting down and abandoning module AutomationWindow (162)
+[2017.05.18-15.47.18:647][834]LogModuleManager: Shutting down and abandoning module Layers (161)
+[2017.05.18-15.47.18:647][834]LogModuleManager: Shutting down and abandoning module ComponentVisualizers (160)
+[2017.05.18-15.47.18:647][834]LogModuleManager: Shutting down and abandoning module DetailCustomizations (159)
+[2017.05.18-15.47.18:647][834]LogModuleManager: Shutting down and abandoning module PackagesDialog (158)
+[2017.05.18-15.47.18:648][834]LogModuleManager: Shutting down and abandoning module AnimGraph (157)
+[2017.05.18-15.47.18:648][834]LogModuleManager: Shutting down and abandoning module Persona (156)
+[2017.05.18-15.47.18:648][834]LogModuleManager: Shutting down and abandoning module Kismet (155)
+[2017.05.18-15.47.18:658][834]LogModuleManager: Shutting down and abandoning module GraphEditor (154)
+[2017.05.18-15.47.18:659][834]LogModuleManager: Shutting down and abandoning module ClassViewer (153)
+[2017.05.18-15.47.18:661][834]LogModuleManager: Shutting down and abandoning module Toolbox (152)
+[2017.05.18-15.47.18:661][834]LogModuleManager: Shutting down and abandoning module ModuleUI (151)
+[2017.05.18-15.47.18:661][834]LogModuleManager: Shutting down and abandoning module MovieSceneTools (150)
+[2017.05.18-15.47.18:661][834]LogModuleManager: Shutting down and abandoning module OutputLog (149)
+[2017.05.18-15.47.18:661][834]LogModuleManager: Shutting down and abandoning module GammaUI (148)
+[2017.05.18-15.47.18:661][834]LogModuleManager: Shutting down and abandoning module Documentation (147)
+[2017.05.18-15.47.18:661][834]LogModuleManager: Shutting down and abandoning module Niagara (146)
+[2017.05.18-15.47.18:661][834]LogModuleManager: Shutting down and abandoning module StreamingPauseRendering (145)
+[2017.05.18-15.47.18:661][834]LogModuleManager: Shutting down and abandoning module AnalyticsET (144)
+[2017.05.18-15.47.18:661][834]LogModuleManager: Shutting down and abandoning module PortalServices (143)
+[2017.05.18-15.47.18:661][834]LogModuleManager: Shutting down and abandoning module PortalRpc (142)
+[2017.05.18-15.47.18:661][834]LogModuleManager: Shutting down and abandoning module MessagingRpc (141)
+[2017.05.18-15.47.18:661][834]LogModuleManager: Shutting down and abandoning module GameplayDebugger (140)
+[2017.05.18-15.47.18:661][834]LogModuleManager: Shutting down and abandoning module AITestSuite (139)
+[2017.05.18-15.47.18:661][834]LogModuleManager: Shutting down and abandoning module AIModule (138)
+[2017.05.18-15.47.18:661][834]LogModuleManager: Shutting down and abandoning module ProfilerService (137)
+[2017.05.18-15.47.18:813][834]LogModuleManager: Shutting down and abandoning module TaskGraph (136)
+[2017.05.18-15.47.18:813][834]LogModuleManager: Shutting down and abandoning module SlateRemote (135)
+[2017.05.18-15.47.18:813][834]LogModuleManager: Shutting down and abandoning module ProceduralMeshComponentEditor (134)
+[2017.05.18-15.47.18:813][834]LogModuleManager: Shutting down and abandoning module ProceduralMeshComponent (133)
+[2017.05.18-15.47.18:813][834]LogModuleManager: Shutting down and abandoning module OculusLibrary (132)
+[2017.05.18-15.47.18:813][834]LogModuleManager: Shutting down and abandoning module OculusInput (131)
+[2017.05.18-15.47.18:813][834]LogModuleManager: Shutting down and abandoning module CustomMeshComponent (130)
+[2017.05.18-15.47.18:813][834]LogModuleManager: Shutting down and abandoning module CableComponent (129)
+[2017.05.18-15.47.18:813][834]LogModuleManager: Shutting down and abandoning module ArchVisCharacter (128)
+[2017.05.18-15.47.18:813][834]LogModuleManager: Shutting down and abandoning module MediaPlayerEditor (126)
+[2017.05.18-15.47.18:813][834]LogModuleManager: Shutting down and abandoning module HTML5Networking (125)
+[2017.05.18-15.47.18:813][834]LogModuleManager: Shutting down and abandoning module GeometryCacheEd (124)
+[2017.05.18-15.47.18:813][834]LogModuleManager: Shutting down and abandoning module GeometryCache (123)
+[2017.05.18-15.47.18:813][834]LogModuleManager: Shutting down and abandoning module AlembicLibrary (122)
+[2017.05.18-15.47.18:813][834]LogModuleManager: Shutting down and abandoning module AlembicImporter (121)
+[2017.05.18-15.47.18:813][834]LogModuleManager: Shutting down and abandoning module SuperSearch (120)
+[2017.05.18-15.47.18:813][834]LogModuleManager: Shutting down and abandoning module SuperSearchEditor (119)
+[2017.05.18-15.47.18:813][834]LogModuleManager: Shutting down and abandoning module SpeedTreeImporter (118)
+[2017.05.18-15.47.18:813][834]LogModuleManager: Shutting down and abandoning module PluginBrowser (117)
+[2017.05.18-15.47.18:813][834]LogModuleManager: Shutting down and abandoning module MobileLauncherProfileWizard (116)
+[2017.05.18-15.47.18:813][834]LogModuleManager: Shutting down and abandoning module EpicSurvey (115)
+[2017.05.18-15.47.18:813][834]LogModuleManager: Shutting down and abandoning module DesktopPlatform (114)
+[2017.05.18-15.47.18:813][834]LogModuleManager: Shutting down and abandoning module VisualStudioSourceCodeAccess (113)
+[2017.05.18-15.47.18:813][834]LogModuleManager: Shutting down and abandoning module UObjectPlugin (112)
+[2017.05.18-15.47.18:814][834]LogModuleManager: Shutting down and abandoning module SubversionSourceControl (111)
+[2017.05.18-15.47.18:814][834]LogModuleManager: Shutting down and abandoning module PerforceSourceControl (110)
+[2017.05.18-15.47.18:814][834]LogModuleManager: Shutting down and abandoning module SourceControl (109)
+[2017.05.18-15.47.18:814][834]LogModuleManager: Shutting down and abandoning module GitSourceControl (108)
+[2017.05.18-15.47.18:814][834]LogModuleManager: Shutting down and abandoning module LightPropagationVolumeEditor (107)
+[2017.05.18-15.47.18:814][834]LogModuleManager: Shutting down and abandoning module PaperTiledImporter (106)
+[2017.05.18-15.47.18:814][834]LogModuleManager: Shutting down and abandoning module PaperSpriteSheetImporter (105)
+[2017.05.18-15.47.18:814][834]LogModuleManager: Shutting down and abandoning module MeshPaint (104)
+[2017.05.18-15.47.18:814][834]LogModuleManager: Shutting down and abandoning module FbxAutomationBuilderModule (103)
+[2017.05.18-15.47.18:814][834]LogModuleManager: Shutting down and abandoning module PixelInspectorModule (102)
+[2017.05.18-15.47.18:814][834]LogModuleManager: Shutting down and abandoning module HotReload (101)
+[2017.05.18-15.47.18:814][834]LogModuleManager: Shutting down and abandoning module MainFrame (100)
+[2017.05.18-15.47.18:814][834]LogModuleManager: Shutting down and abandoning module LevelEditor (99)
+[2017.05.18-15.47.18:815][834]LogModuleManager: Shutting down and abandoning module ContentBrowser (98)
+[2017.05.18-15.47.18:816][834]LogModuleManager: Shutting down and abandoning module Paper2DEditor (97)
+[2017.05.18-15.47.18:816][834]LogModuleManager: Shutting down and abandoning module UdpMessaging (96)
+[2017.05.18-15.47.18:918][834]LogModuleManager: Shutting down and abandoning module TcpMessaging (95)
+[2017.05.18-15.47.19:019][834]LogModuleManager: Shutting down and abandoning module LightPropagationVolumeRuntime (94)
+[2017.05.18-15.47.19:019][834]LogModuleManager: Shutting down and abandoning module Paper2D (93)
+[2017.05.18-15.47.19:019][834]LogModuleManager: Shutting down and abandoning module WindowsMoviePlayer (92)
+[2017.05.18-15.47.19:019][834]LogModuleManager: Shutting down and abandoning module WmfMedia (91)
+[2017.05.18-15.47.19:019][834]LogModuleManager: Shutting down and abandoning module MediaAssets (90)
+[2017.05.18-15.47.19:019][834]LogModuleManager: Shutting down and abandoning module GameLiveStreaming (89)
+[2017.05.18-15.47.19:019][834]LogModuleManager: Shutting down and abandoning module GameplayTagsEditor (88)
+[2017.05.18-15.47.19:019][834]LogModuleManager: Shutting down and abandoning module VREditor (87)
+[2017.05.18-15.47.19:019][834]LogModuleManager: Shutting down and abandoning module GameplayTasksEditor (86)
+[2017.05.18-15.47.19:019][834]LogModuleManager: Shutting down and abandoning module PropertyEditor (85)
+[2017.05.18-15.47.19:019][834]LogModuleManager: Shutting down and abandoning module BehaviorTreeEditor (84)
+[2017.05.18-15.47.19:019][834]LogModuleManager: Shutting down and abandoning module FunctionalTesting (83)
+[2017.05.18-15.47.19:019][834]LogModuleManager: Shutting down and abandoning module CollisionAnalyzer (82)
+[2017.05.18-15.47.19:019][834]LogModuleManager: Shutting down and abandoning module Sequencer (81)
+[2017.05.18-15.47.19:019][834]LogModuleManager: Shutting down and abandoning module WorkspaceMenuStructure (80)
+[2017.05.18-15.47.19:019][834]LogModuleManager: Shutting down and abandoning module MessageLog (79)
+[2017.05.18-15.47.19:019][834]LogModuleManager: Shutting down and abandoning module AssetTools (78)
+[2017.05.18-15.47.19:019][834]LogModuleManager: Shutting down and abandoning module UMGEditor (77)
+[2017.05.18-15.47.19:019][834]LogModuleManager: Shutting down and abandoning module UMG (76)
+[2017.05.18-15.47.19:019][834]LogModuleManager: Shutting down and abandoning module SlateReflector (75)
+[2017.05.18-15.47.19:019][834]LogModuleManager: Shutting down and abandoning module Slate (74)
+[2017.05.18-15.47.19:019][834]LogModuleManager: Shutting down and abandoning module EditorStyle (73)
+[2017.05.18-15.47.19:021][834]LogModuleManager: Shutting down and abandoning module SourceCodeAccess (72)
+[2017.05.18-15.47.19:021][834]LogModuleManager: Shutting down and abandoning module HeadMountedDisplay (71)
+[2017.05.18-15.47.19:021][834]LogModuleManager: Shutting down and abandoning module XAudio2 (70)
+[2017.05.18-15.47.19:021][834]LogModuleManager: Shutting down and abandoning module Networking (68)
+[2017.05.18-15.47.19:021][834]LogModuleManager: Shutting down and abandoning module Core (67)
+[2017.05.18-15.47.19:021][834]LogModuleManager: Shutting down and abandoning module DirectoryWatcher (66)
+[2017.05.18-15.47.19:021][834]LogDirectoryWatcher: A directory notification for '../../../Engine/Content/' was aborted.
+[2017.05.18-15.47.19:021][834]LogDirectoryWatcher: A directory notification for 'C:/Users/jbethune/Downloads/MasterCamControl/MasterCamControl/Content/' was aborted.
+[2017.05.18-15.47.19:021][834]LogDirectoryWatcher: A directory notification for '../../../Engine/Plugins/2D/Paper2D/Content/' was aborted.
+[2017.05.18-15.47.19:021][834]LogModuleManager: Shutting down and abandoning module AssetRegistry (65)
+[2017.05.18-15.47.19:171][834]LogModuleManager: Shutting down and abandoning module KismetCompiler (64)
+[2017.05.18-15.47.19:171][834]LogModuleManager: Shutting down and abandoning module PhysXFormats (63)
+[2017.05.18-15.47.19:171][834]LogModuleManager: Shutting down and abandoning module MeshUtilities (62)
+[2017.05.18-15.47.19:171][834]LogModuleManager: Shutting down and abandoning module DerivedDataCache (61)
+[2017.05.18-15.47.19:263][834]LogDerivedDataCache: Shutdown
+[2017.05.18-15.47.19:263][834]LogModuleManager: Shutting down and abandoning module VulkanShaderFormat (60)
+[2017.05.18-15.47.19:263][834]LogModuleManager: Shutting down and abandoning module ShaderFormatOpenGL (59)
+[2017.05.18-15.47.19:263][834]LogModuleManager: Shutting down and abandoning module ShaderFormatD3D (58)
+[2017.05.18-15.47.19:263][834]LogModuleManager: Shutting down and abandoning module MetalShaderFormat (57)
+[2017.05.18-15.47.19:263][834]LogModuleManager: Shutting down and abandoning module TextureFormatUncompressed (56)
+[2017.05.18-15.47.19:263][834]LogModuleManager: Shutting down and abandoning module TextureFormatPVR (55)
+[2017.05.18-15.47.19:264][834]LogModuleManager: Shutting down and abandoning module TextureFormatDXT (54)
+[2017.05.18-15.47.19:264][834]LogModuleManager: Shutting down and abandoning module TextureFormatIntelISPCTexComp (53)
+[2017.05.18-15.47.19:264][834]LogModuleManager: Shutting down and abandoning module ImageWrapper (52)
+[2017.05.18-15.47.19:264][834]LogModuleManager: Shutting down and abandoning module TextureFormatASTC (51)
+[2017.05.18-15.47.19:264][834]LogModuleManager: Shutting down and abandoning module TextureFormatAndroid (50)
+[2017.05.18-15.47.19:264][834]LogModuleManager: Shutting down and abandoning module AudioFormatOpus (49)
+[2017.05.18-15.47.19:264][834]LogModuleManager: Shutting down and abandoning module AudioFormatOgg (48)
+[2017.05.18-15.47.19:264][834]LogModuleManager: Shutting down and abandoning module AudioFormatADPCM (47)
+[2017.05.18-15.47.19:264][834]LogModuleManager: Shutting down and abandoning module LinuxTargetPlatform (46)
+[2017.05.18-15.47.19:264][834]LogModuleManager: Shutting down and abandoning module LinuxServerTargetPlatform (45)
+[2017.05.18-15.47.19:264][834]LogModuleManager: Shutting down and abandoning module LinuxNoEditorTargetPlatform (44)
+[2017.05.18-15.47.19:264][834]LogModuleManager: Shutting down and abandoning module LinuxClientTargetPlatform (43)
+[2017.05.18-15.47.19:264][834]LogModuleManager: Shutting down and abandoning module TVOSTargetPlatform (42)
+[2017.05.18-15.47.19:264][834]LogModuleManager: Shutting down and abandoning module Messaging (41)
+[2017.05.18-15.47.19:264][834]LogModuleManager: Shutting down and abandoning module IOSTargetPlatform (40)
+[2017.05.18-15.47.19:264][834]LogModuleManager: Shutting down and abandoning module HTML5TargetPlatform (39)
+[2017.05.18-15.47.19:264][834]LogModuleManager: Shutting down and abandoning module Android_PVRTCTargetPlatform (38)
+[2017.05.18-15.47.19:264][834]LogModuleManager: Shutting down and abandoning module Android_MultiTargetPlatform (37)
+[2017.05.18-15.47.19:264][834]LogModuleManager: Shutting down and abandoning module Android_ETC2TargetPlatform (36)
+[2017.05.18-15.47.19:264][834]LogModuleManager: Shutting down and abandoning module Android_ETC1TargetPlatform (35)
+[2017.05.18-15.47.19:264][834]LogModuleManager: Shutting down and abandoning module Android_DXTTargetPlatform (34)
+[2017.05.18-15.47.19:264][834]LogModuleManager: Shutting down and abandoning module Android_ATCTargetPlatform (33)
+[2017.05.18-15.47.19:264][834]LogModuleManager: Shutting down and abandoning module Android_ASTCTargetPlatform (32)
+[2017.05.18-15.47.19:264][834]LogModuleManager: Shutting down and abandoning module AndroidTargetPlatform (31)
+[2017.05.18-15.47.19:264][834]LogModuleManager: Shutting down and abandoning module WindowsTargetPlatform (30)
+[2017.05.18-15.47.19:264][834]LogModuleManager: Shutting down and abandoning module WindowsServerTargetPlatform (29)
+[2017.05.18-15.47.19:264][834]LogModuleManager: Shutting down and abandoning module WindowsNoEditorTargetPlatform (28)
+[2017.05.18-15.47.19:264][834]LogModuleManager: Shutting down and abandoning module WindowsClientTargetPlatform (27)
+[2017.05.18-15.47.19:264][834]LogModuleManager: Shutting down and abandoning module AllDesktopTargetPlatform (26)
+[2017.05.18-15.47.19:264][834]LogModuleManager: Shutting down and abandoning module TargetPlatform (25)
+[2017.05.18-15.47.19:264][834]LogModuleManager: Shutting down and abandoning module InputCore (24)
+[2017.05.18-15.47.19:264][834]LogModuleManager: Shutting down and abandoning module Settings (23)
+[2017.05.18-15.47.19:264][834]LogModuleManager: Shutting down and abandoning module OculusRift (22)
+[2017.05.18-15.47.19:264][834]LogModuleManager: Shutting down and abandoning module GearVR (21)
+[2017.05.18-15.47.19:264][834]LogModuleManager: Shutting down and abandoning module ExampleDeviceProfileSelector (20)
+[2017.05.18-15.47.19:264][834]LogModuleManager: Shutting down and abandoning module OnlineBlueprintSupport (19)
+[2017.05.18-15.47.19:264][834]LogModuleManager: Shutting down and abandoning module OnlineSubsystem (17)
+[2017.05.18-15.47.19:264][834]LogOnline:Display: Unloading online subsystem: NULL
+[2017.05.18-15.47.19:264][834]LogModuleManager: Shutting down and abandoning module HTTP (16)
+[2017.05.18-15.47.19:264][834]LogHttp:Display: Http module shutting down, but needs to wait on 1 outstanding Http requests:
+[2017.05.18-15.47.19:264][834]LogHttp:Display: 	verb=[POST] url=[https://datarouter.ol.epicgames.com/datarouter/api/v1/public/data?SessionID=%7BABCC2AC8-443E-EA35-83EE-AAB5999614DA%7D&AppID=UEEditor.Rocket.Release&AppVersion=4.13.2-3172292%2B%2B%2BUE4%2BRelease-4.13&UserID=5336c4e2486ec7d60369c5ac2d21080d%7Cd7eaee65e9c4465b91c8b37978fac14d%7Ce3f89e99-e2b1-45a4-abde-8ea324729306&AppEnvironment=datacollector-binary&UploadType=eteventstream] status=Processing
+[2017.05.18-15.47.19:279][834]LogModuleManager: Shutting down and abandoning module XMPP (15)
+[2017.05.18-15.47.19:279][834]LogModuleManager: Shutting down and abandoning module TextureCompressor (14)
+[2017.05.18-15.47.19:279][834]LogModuleManager: Shutting down and abandoning module ShaderCore (13)
+[2017.05.18-15.47.19:279][834]LogModuleManager: Shutting down and abandoning module Landscape (12)
+[2017.05.18-15.47.19:279][834]LogModuleManager: Shutting down and abandoning module SlateRHIRenderer (11)
+[2017.05.18-15.47.19:281][834]LogModuleManager: Shutting down and abandoning module OpenGLDrv (10)
+[2017.05.18-15.47.19:281][834]LogModuleManager: Shutting down and abandoning module D3D11RHI (9)
+[2017.05.18-15.47.19:281][834]LogModuleManager: Shutting down and abandoning module AnimGraphRuntime (8)
+[2017.05.18-15.47.19:281][834]LogModuleManager: Shutting down and abandoning module Renderer (7)
+[2017.05.18-15.47.19:281][834]LogModuleManager: Shutting down and abandoning module Engine (6)
+[2017.05.18-15.47.19:281][834]LogModuleManager: Shutting down and abandoning module CoreUObject (5)
+[2017.05.18-15.47.19:281][834]LogModuleManager: Shutting down and abandoning module NetworkFile (4)
+[2017.05.18-15.47.19:281][834]LogModuleManager: Shutting down and abandoning module StreamingFile (3)
+[2017.05.18-15.47.19:281][834]LogModuleManager: Shutting down and abandoning module SandboxFile (2)
+[2017.05.18-15.47.19:281][834]LogModuleManager: Shutting down and abandoning module PakFile (1)
+[2017.05.18-15.47.19:282][834]LogExit: Exiting.
+[2017.05.18-15.47.19:293][834]Log file closed, 05/18/17 17:47:19

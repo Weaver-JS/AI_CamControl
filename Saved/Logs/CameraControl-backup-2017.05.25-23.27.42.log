@@ -1,0 +1,579 @@
+﻿Log file open, 05/25/17 23:07:07
+LogInit:Display: Running engine for game: CameraControl
+LogPlatformFile: Not using cached read wrapper
+LogInit:Display: RandInit(-1866122179) SRandInit(-1866122179).
+LogTaskGraph: Started task graph with 5 named threads and 8 total threads with 1 sets of task threads.
+LogStats: Stats thread started at 0.454847
+LogPluginManager: Loaded Plugin Paper2D, From C:/Program Files (x86)/Epic Games/4.13/Engine/Plugins/2D/Paper2D/Paper2D.uplugin
+LogPluginManager: Loaded Plugin LightPropagationVolume, From C:/Program Files (x86)/Epic Games/4.13/Engine/Plugins/Blendables/LightPropagationVolume/LightPropagationVolume.uplugin
+LogPluginManager: Loaded Plugin BlankPlugin, From C:/Program Files (x86)/Epic Games/4.13/Engine/Plugins/Developer/BlankPlugin/BlankPlugin.uplugin
+LogPluginManager: Loaded Plugin CodeLiteSourceCodeAccess, From C:/Program Files (x86)/Epic Games/4.13/Engine/Plugins/Developer/CodeLiteSourceCodeAccess/CodeLiteSourceCodeAccess.uplugin
+LogPluginManager: Loaded Plugin GitSourceControl, From C:/Program Files (x86)/Epic Games/4.13/Engine/Plugins/Developer/GitSourceControl/GitSourceControl.uplugin
+LogPluginManager: Loaded Plugin KDevelopSourceCodeAccess, From C:/Program Files (x86)/Epic Games/4.13/Engine/Plugins/Developer/KDevelopSourceCodeAccess/KDevelopSourceCodeAccess.uplugin
+LogPluginManager: Loaded Plugin NullSourceCodeAccess, From C:/Program Files (x86)/Epic Games/4.13/Engine/Plugins/Developer/NullSourceCodeAccess/NullSourceCodeAccess.uplugin
+LogPluginManager: Loaded Plugin OneSkyLocalizationService, From C:/Program Files (x86)/Epic Games/4.13/Engine/Plugins/Developer/OneSkyLocalizationService/OneSkyLocalizationService.uplugin
+LogPluginManager: Loaded Plugin PerforceSourceControl, From C:/Program Files (x86)/Epic Games/4.13/Engine/Plugins/Developer/PerforceSourceControl/PerforceSourceControl.uplugin
+LogPluginManager: Loaded Plugin SubversionSourceControl, From C:/Program Files (x86)/Epic Games/4.13/Engine/Plugins/Developer/SubversionSourceControl/SubversionSourceControl.uplugin
+LogPluginManager: Loaded Plugin UObjectPlugin, From C:/Program Files (x86)/Epic Games/4.13/Engine/Plugins/Developer/UObjectPlugin/UObjectPlugin.uplugin
+LogPluginManager: Loaded Plugin VisualStudioSourceCodeAccess, From C:/Program Files (x86)/Epic Games/4.13/Engine/Plugins/Developer/VisualStudioSourceCodeAccess/VisualStudioSourceCodeAccess.uplugin
+LogPluginManager: Loaded Plugin XCodeSourceCodeAccess, From C:/Program Files (x86)/Epic Games/4.13/Engine/Plugins/Developer/XCodeSourceCodeAccess/XCodeSourceCodeAccess.uplugin
+LogPluginManager: Loaded Plugin EpicSurvey, From C:/Program Files (x86)/Epic Games/4.13/Engine/Plugins/Editor/EpicSurvey/EpicSurvey.uplugin
+LogPluginManager: Loaded Plugin MacGraphicsSwitching, From C:/Program Files (x86)/Epic Games/4.13/Engine/Plugins/Editor/MacGraphicsSwitching/MacGraphicsSwitching.uplugin
+LogPluginManager: Loaded Plugin MobileLauncherProfileWizard, From C:/Program Files (x86)/Epic Games/4.13/Engine/Plugins/Editor/MobileLauncherProfileWizard/MobileLauncherProfileWizard.uplugin
+LogPluginManager: Loaded Plugin PluginBrowser, From C:/Program Files (x86)/Epic Games/4.13/Engine/Plugins/Editor/PluginBrowser/PluginBrowser.uplugin
+LogPluginManager: Loaded Plugin SpeedTreeImporter, From C:/Program Files (x86)/Epic Games/4.13/Engine/Plugins/Editor/SpeedTreeImporter/SpeedTreeImporter.uplugin
+LogPluginManager: Loaded Plugin SuperSearchEditor, From C:/Program Files (x86)/Epic Games/4.13/Engine/Plugins/Editor/SuperSearchEditor/SuperSearchEditor.uplugin
+LogPluginManager: Loaded Plugin AlembicImporter, From C:/Program Files (x86)/Epic Games/4.13/Engine/Plugins/Experimental/AlembicImporter/AlembicImporter.uplugin
+LogPluginManager: Loaded Plugin BlueprintStats, From C:/Program Files (x86)/Epic Games/4.13/Engine/Plugins/Experimental/BlueprintStats/BlueprintStats.uplugin
+LogPluginManager: Loaded Plugin CharacterAI, From C:/Program Files (x86)/Epic Games/4.13/Engine/Plugins/Experimental/CharacterAI/CharacterAI.uplugin
+LogPluginManager: Loaded Plugin CodeEditor, From C:/Program Files (x86)/Epic Games/4.13/Engine/Plugins/Experimental/CodeEditor/CodeEditor.uplugin
+LogPluginManager: Loaded Plugin CodeView, From C:/Program Files (x86)/Epic Games/4.13/Engine/Plugins/Experimental/CodeView/CodeView.uplugin
+LogPluginManager: Loaded Plugin HTML5Networking, From C:/Program Files (x86)/Epic Games/4.13/Engine/Plugins/Experimental/HTML5Networking/HTML5Networking.uplugin
+LogPluginManager: Loaded Plugin LiveEditor, From C:/Program Files (x86)/Epic Games/4.13/Engine/Plugins/Experimental/LiveEditor/LiveEditor.uplugin
+LogPluginManager: Loaded Plugin OSVR, From C:/Program Files (x86)/Epic Games/4.13/Engine/Plugins/Experimental/OSVR/OSVR.uplugin
+LogPluginManager: Loaded Plugin Phya, From C:/Program Files (x86)/Epic Games/4.13/Engine/Plugins/Experimental/Phya/Phya.uplugin
+LogPluginManager: Loaded Plugin SignificanceManager, From C:/Program Files (x86)/Epic Games/4.13/Engine/Plugins/Experimental/SignificanceManager/SignificanceManager.uplugin
+LogPluginManager: Loaded Plugin SimpleHMD, From C:/Program Files (x86)/Epic Games/4.13/Engine/Plugins/Experimental/SimpleHMD/SimpleHMD.uplugin
+LogPluginManager: Loaded Plugin StereoPanorama, From C:/Program Files (x86)/Epic Games/4.13/Engine/Plugins/Experimental/StereoPanorama/StereoPanorama.uplugin
+LogPluginManager: Loaded Plugin StructBox, From C:/Program Files (x86)/Epic Games/4.13/Engine/Plugins/Experimental/StructBox/StructBox.uplugin
+LogPluginManager: Loaded Plugin AndroidMedia, From C:/Program Files (x86)/Epic Games/4.13/Engine/Plugins/Media/AndroidMedia/AndroidMedia.uplugin
+LogPluginManager: Loaded Plugin AvfMedia, From C:/Program Files (x86)/Epic Games/4.13/Engine/Plugins/Media/AvfMedia/AvfMedia.uplugin
+LogPluginManager: Loaded Plugin MediaPlayerEditor, From C:/Program Files (x86)/Epic Games/4.13/Engine/Plugins/Media/MediaPlayerEditor/MediaPlayerEditor.uplugin
+LogPluginManager: Loaded Plugin WmfMedia, From C:/Program Files (x86)/Epic Games/4.13/Engine/Plugins/Media/WmfMedia/WmfMedia.uplugin
+LogPluginManager: Loaded Plugin MessagingDebugger, From C:/Program Files (x86)/Epic Games/4.13/Engine/Plugins/Messaging/MessagingDebugger/MessagingDebugger.uplugin
+LogPluginManager: Loaded Plugin TcpMessaging, From C:/Program Files (x86)/Epic Games/4.13/Engine/Plugins/Messaging/TcpMessaging/TcpMessaging.uplugin
+LogPluginManager: Loaded Plugin UdpMessaging, From C:/Program Files (x86)/Epic Games/4.13/Engine/Plugins/Messaging/UdpMessaging/UdpMessaging.uplugin
+LogPluginManager: Loaded Plugin LevelSequenceEditor, From C:/Program Files (x86)/Epic Games/4.13/Engine/Plugins/MovieScene/LevelSequenceEditor/LevelSequenceEditor.uplugin
+LogPluginManager: Loaded Plugin MatineeToLevelSequence, From C:/Program Files (x86)/Epic Games/4.13/Engine/Plugins/MovieScene/MatineeToLevelSequence/MatineeToLevelSequence.uplugin
+LogPluginManager: Loaded Plugin NetcodeUnitTest, From C:/Program Files (x86)/Epic Games/4.13/Engine/Plugins/NetcodeUnitTest/NetcodeUnitTest/NetcodeUnitTest.uplugin
+LogPluginManager: Loaded Plugin NUTUnrealEngine4, From C:/Program Files (x86)/Epic Games/4.13/Engine/Plugins/NetcodeUnitTest/NUTUnrealEngine4/NUTUnrealEngine4.uplugin
+LogPluginManager: Loaded Plugin OnlineSubsystemGooglePlay, From C:/Program Files (x86)/Epic Games/4.13/Engine/Plugins/Online/Android/OnlineSubsystemGooglePlay/OnlineSubsystemGooglePlay.uplugin
+LogPluginManager: Loaded Plugin OnlineSubsystemIOS, From C:/Program Files (x86)/Epic Games/4.13/Engine/Plugins/Online/IOS/OnlineSubsystemIOS/OnlineSubsystemIOS.uplugin
+LogPluginManager: Loaded Plugin OnlineFramework, From C:/Program Files (x86)/Epic Games/4.13/Engine/Plugins/Online/OnlineFramework/OnlineFramework.uplugin
+LogPluginManager: Loaded Plugin OnlineSubsystem, From C:/Program Files (x86)/Epic Games/4.13/Engine/Plugins/Online/OnlineSubsystem/OnlineSubsystem.uplugin
+LogPluginManager: Loaded Plugin OnlineSubsystemAmazon, From C:/Program Files (x86)/Epic Games/4.13/Engine/Plugins/Online/OnlineSubsystemAmazon/OnlineSubsystemAmazon.uplugin
+LogPluginManager: Loaded Plugin OnlineSubsystemFacebook, From C:/Program Files (x86)/Epic Games/4.13/Engine/Plugins/Online/OnlineSubsystemFacebook/OnlineSubsystemFacebook.uplugin
+LogPluginManager: Loaded Plugin OnlineSubsystemNull, From C:/Program Files (x86)/Epic Games/4.13/Engine/Plugins/Online/OnlineSubsystemNull/OnlineSubsystemNull.uplugin
+LogPluginManager: Loaded Plugin OnlineSubsystemOculus, From C:/Program Files (x86)/Epic Games/4.13/Engine/Plugins/Online/OnlineSubsystemOculus/OnlineSubsystemOculus.uplugin
+LogPluginManager: Loaded Plugin OnlineSubsystemSteam, From C:/Program Files (x86)/Epic Games/4.13/Engine/Plugins/Online/OnlineSubsystemSteam/OnlineSubsystemSteam.uplugin
+LogPluginManager: Loaded Plugin OnlineSubsystemUtils, From C:/Program Files (x86)/Epic Games/4.13/Engine/Plugins/Online/OnlineSubsystemUtils/OnlineSubsystemUtils.uplugin
+LogPluginManager: Loaded Plugin IOSTapJoy, From C:/Program Files (x86)/Epic Games/4.13/Engine/Plugins/Runtime/Advertising/IOSTapJoy/IOSTapJoy.uplugin
+LogPluginManager: Loaded Plugin AnalyticsBlueprintLibrary, From C:/Program Files (x86)/Epic Games/4.13/Engine/Plugins/Runtime/Analytics/AnalyticsBlueprintLibrary/AnalyticsBlueprintLibrary.uplugin
+LogPluginManager: Loaded Plugin AnalyticsMulticast, From C:/Program Files (x86)/Epic Games/4.13/Engine/Plugins/Runtime/Analytics/AnalyticsMulticast/AnalyticsMulticast.uplugin
+LogPluginManager: Loaded Plugin Apsalar, From C:/Program Files (x86)/Epic Games/4.13/Engine/Plugins/Runtime/Analytics/Apsalar/Apsalar.uplugin
+LogPluginManager: Loaded Plugin FileLogging, From C:/Program Files (x86)/Epic Games/4.13/Engine/Plugins/Runtime/Analytics/FileLogging/FileLogging.uplugin
+LogPluginManager: Loaded Plugin Flurry, From C:/Program Files (x86)/Epic Games/4.13/Engine/Plugins/Runtime/Analytics/Flurry/Flurry.uplugin
+LogPluginManager: Loaded Plugin AndroidDeviceProfileSelector, From C:/Program Files (x86)/Epic Games/4.13/Engine/Plugins/Runtime/AndroidDeviceProfileSelector/AndroidDeviceProfileSelector.uplugin
+LogPluginManager: Loaded Plugin AndroidMoviePlayer, From C:/Program Files (x86)/Epic Games/4.13/Engine/Plugins/Runtime/AndroidMoviePlayer/AndroidMoviePlayer.uplugin
+LogPluginManager: Loaded Plugin AppleMoviePlayer, From C:/Program Files (x86)/Epic Games/4.13/Engine/Plugins/Runtime/AppleMoviePlayer/AppleMoviePlayer.uplugin
+LogPluginManager: Loaded Plugin ArchVisCharacter, From C:/Program Files (x86)/Epic Games/4.13/Engine/Plugins/Runtime/ArchVisCharacter/ArchVisCharacter.uplugin
+LogPluginManager: Loaded Plugin CableComponent, From C:/Program Files (x86)/Epic Games/4.13/Engine/Plugins/Runtime/CableComponent/CableComponent.uplugin
+LogPluginManager: Loaded Plugin CustomMeshComponent, From C:/Program Files (x86)/Epic Games/4.13/Engine/Plugins/Runtime/CustomMeshComponent/CustomMeshComponent.uplugin
+LogPluginManager: Loaded Plugin ExampleDeviceProfileSelector, From C:/Program Files (x86)/Epic Games/4.13/Engine/Plugins/Runtime/ExampleDeviceProfileSelector/ExampleDeviceProfileSelector.uplugin
+LogPluginManager: Loaded Plugin GearVR, From C:/Program Files (x86)/Epic Games/4.13/Engine/Plugins/Runtime/GearVR/GearVR.uplugin
+LogPluginManager: Loaded Plugin GoogleVRController, From C:/Program Files (x86)/Epic Games/4.13/Engine/Plugins/Runtime/GoogleVR/GoogleVRController/GoogleVRController.uplugin
+LogPluginManager: Loaded Plugin GoogleVRHMD, From C:/Program Files (x86)/Epic Games/4.13/Engine/Plugins/Runtime/GoogleVR/GoogleVRHMD/GoogleVRHMD.uplugin
+LogPluginManager: Loaded Plugin IOSDeviceProfileSelector, From C:/Program Files (x86)/Epic Games/4.13/Engine/Plugins/Runtime/IOSDeviceProfileSelector/IOSDeviceProfileSelector.uplugin
+LogPluginManager: Loaded Plugin LeapMotion, From C:/Program Files (x86)/Epic Games/4.13/Engine/Plugins/Runtime/LeapMotion/LeapMotion.uplugin
+LogPluginManager: Loaded Plugin LinuxDeviceProfileSelector, From C:/Program Files (x86)/Epic Games/4.13/Engine/Plugins/Runtime/LinuxDeviceProfileSelector/LinuxDeviceProfileSelector.uplugin
+LogPluginManager: Loaded Plugin LiveEditorListenServer, From C:/Program Files (x86)/Epic Games/4.13/Engine/Plugins/Runtime/LiveEditorListenServer/LiveEditorListenServer.uplugin
+LogPluginManager: Loaded Plugin OculusAudio, From C:/Program Files (x86)/Epic Games/4.13/Engine/Plugins/Runtime/OculusAudio/OculusAudio.uplugin
+LogPluginManager: Loaded Plugin OculusInput, From C:/Program Files (x86)/Epic Games/4.13/Engine/Plugins/Runtime/OculusInput/OculusInput.uplugin
+LogPluginManager: Loaded Plugin OculusLibrary, From C:/Program Files (x86)/Epic Games/4.13/Engine/Plugins/Runtime/OculusLibrary/OculusLibrary.uplugin
+LogPluginManager: Loaded Plugin OculusRift, From C:/Program Files (x86)/Epic Games/4.13/Engine/Plugins/Runtime/OculusRift/OculusRift.uplugin
+LogPluginManager: Loaded Plugin Oodle, From C:/Program Files (x86)/Epic Games/4.13/Engine/Plugins/Runtime/PacketHandlers/CompressionComponents/Oodle/Oodle.uplugin
+LogPluginManager: Loaded Plugin ProceduralMeshComponent, From C:/Program Files (x86)/Epic Games/4.13/Engine/Plugins/Runtime/ProceduralMeshComponent/ProceduralMeshComponent.uplugin
+LogPluginManager: Loaded Plugin SoundMod, From C:/Program Files (x86)/Epic Games/4.13/Engine/Plugins/Runtime/SoundMod/SoundMod.uplugin
+LogPluginManager: Loaded Plugin SoundVisualizations, From C:/Program Files (x86)/Epic Games/4.13/Engine/Plugins/Runtime/SoundVisualizations/SoundVisualizations.uplugin
+LogPluginManager: Loaded Plugin SteamController, From C:/Program Files (x86)/Epic Games/4.13/Engine/Plugins/Runtime/Steam/SteamController/SteamController.uplugin
+LogPluginManager: Loaded Plugin SteamVR, From C:/Program Files (x86)/Epic Games/4.13/Engine/Plugins/Runtime/Steam/SteamVR/SteamVR.uplugin
+LogPluginManager: Loaded Plugin WebBrowserWidget, From C:/Program Files (x86)/Epic Games/4.13/Engine/Plugins/Runtime/WebBrowserWidget/WebBrowserWidget.uplugin
+LogPluginManager: Loaded Plugin WindowsDeviceProfileSelector, From C:/Program Files (x86)/Epic Games/4.13/Engine/Plugins/Runtime/WindowsDeviceProfileSelector/WindowsDeviceProfileSelector.uplugin
+LogPluginManager: Loaded Plugin WindowsMoviePlayer, From C:/Program Files (x86)/Epic Games/4.13/Engine/Plugins/Runtime/WindowsMoviePlayer/WindowsMoviePlayer.uplugin
+LogPluginManager: Loaded Plugin ScriptPlugin, From C:/Program Files (x86)/Epic Games/4.13/Engine/Plugins/ScriptPlugin/ScriptPlugin.uplugin
+LogPluginManager: Loaded Plugin SlateRemote, From C:/Program Files (x86)/Epic Games/4.13/Engine/Plugins/Slate/SlateRemote/SlateRemote.uplugin
+LogInit: Using libcurl 7.47.1
+LogInit:  - built for x86_64-pc-win32
+LogInit:  - supports SSL with WinSSL
+LogInit:  - other features:
+LogInit:      CURL_VERSION_SSL
+LogInit:      CURL_VERSION_IPV6
+LogInit:      CURL_VERSION_ASYNCHDNS
+LogInit:      CURL_VERSION_LARGEFILE
+LogInit:      CURL_VERSION_IDN
+LogInit:  CurlRequestOptions (configurable via config and command line):
+LogInit:  - bVerifyPeer = false  - Libcurl will NOT verify peer certificate
+LogInit:  - bUseHttpProxy = false  - Libcurl will NOT use HTTP proxy
+LogInit:  - bDontReuseConnections = false  - Libcurl will reuse connections
+LogInit:  - CertBundlePath = nullptr  - Libcurl will use whatever was configured at build time.
+LogInit: Build: ++UE4+Release-4.13-CL-3172292
+LogInit: Engine Version: 4.13.2-3172292+++UE4+Release-4.13
+LogInit: Compatible Engine Version: 4.13.0-3106830+++UE4+Release-4.13
+LogInit: Net CL: 3172292
+LogDevObjectVersion: Number of dev versions registered: 13
+LogDevObjectVersion:   Dev-Blueprints (B0D832E4-1F89-4F0D-ACCF-7EB736FD4AA2): 5
+LogDevObjectVersion:   Dev-Build (E1C64328-A22C-4D53-A36C-8E866417BD8C): 0
+LogDevObjectVersion:   Dev-Core (375EC13C-06E4-48FB-B500-84F0262A717E): 1
+LogDevObjectVersion:   Dev-Editor (E4B068ED-F494-42E9-A231-DA0B2E46BB41): 6
+LogDevObjectVersion:   Dev-Framework (CFFC743F-43B0-4480-9391-14DF171D2073): 12
+LogDevObjectVersion:   Dev-Mobile (B02B49B5-BB20-44E9-A304-32B752E40360): 0
+LogDevObjectVersion:   Dev-Networking (A4E4105C-59A1-49B5-A7C5-40C4547EDFEE): 0
+LogDevObjectVersion:   Dev-Online (39C831C9-5AE6-47DC-9A44-9C173E1C8E7C): 0
+LogDevObjectVersion:   Dev-Physics (78F01B33-EBEA-4F98-B9B4-84EACCB95AA2): 0
+LogDevObjectVersion:   Dev-Platform (6631380F-2D4D-43E0-8009-CF276956A95A): 0
+LogDevObjectVersion:   Dev-Rendering (12F88B9F-8875-4AFC-A67C-D90C383ABD29): 4
+LogDevObjectVersion:   Dev-Sequencer (7B5AE74C-D270-4C10-A958-57980B212A5A): 0
+LogDevObjectVersion:   Dev-VR (D7296918-1DD6-4BDD-9DE2-64A83CC13884): 0
+LogInit: Compiled (64-bit): Oct 24 2016 14:29:06
+LogInit: Compiled with Visual C++: 19.00.23026.00
+LogInit: Build Configuration: Development
+LogInit: Branch Name: ++UE4+Release-4.13
+LogInit: Command line:  
+LogInit: Base directory: C:/Program Files (x86)/Epic Games/4.13/Engine/Binaries/Win64/
+LogInit: Installed Engine Build: 1
+LogInit: Presizing for max 8388607 objects, including 0 objects not considered by GC, pre-allocating 0 bytes for permanent pool.
+LogInit: Object subsystem initialized
+[2017.05.25-22.07.07:566][  0]LogConsoleManager:Display: Setting the console variable 'r.SeparateTranslucency' with 'SetByProjectSetting' was ignored as it is lower priority than the previous 'SetBySystemSettingsIni'
+[2017.05.25-22.07.07:577][  0]LogConsoleManager:Display: Setting the console variable 'r.ScreenPercentage' with 'SetByScalability' was ignored as it is lower priority than the previous 'SetBySystemSettingsIni'
+[2017.05.25-22.07.07:577][  0]LogConsoleManager:Display: Setting the console variable 'r.PostProcessAAQuality' with 'SetByScalability' was ignored as it is lower priority than the previous 'SetBySystemSettingsIni'
+[2017.05.25-22.07.07:577][  0]LogConsoleManager:Display: Setting the console variable 'r.MotionBlurQuality' with 'SetByScalability' was ignored as it is lower priority than the previous 'SetBySystemSettingsIni'
+[2017.05.25-22.07.07:577][  0]LogConsoleManager:Display: Setting the console variable 'r.AmbientOcclusionLevels' with 'SetByScalability' was ignored as it is lower priority than the previous 'SetBySystemSettingsIni'
+[2017.05.25-22.07.07:577][  0]LogConsoleManager:Display: Setting the console variable 'r.DepthOfFieldQuality' with 'SetByScalability' was ignored as it is lower priority than the previous 'SetBySystemSettingsIni'
+[2017.05.25-22.07.07:577][  0]LogConsoleManager:Display: Setting the console variable 'r.LensFlareQuality' with 'SetByScalability' was ignored as it is lower priority than the previous 'SetBySystemSettingsIni'
+[2017.05.25-22.07.07:577][  0]LogConsoleManager:Display: Setting the console variable 'r.SceneColorFringeQuality' with 'SetByScalability' was ignored as it is lower priority than the previous 'SetBySystemSettingsIni'
+[2017.05.25-22.07.07:577][  0]LogConsoleManager:Display: Setting the console variable 'r.EyeAdaptationQuality' with 'SetByScalability' was ignored as it is lower priority than the previous 'SetBySystemSettingsIni'
+[2017.05.25-22.07.07:577][  0]LogConsoleManager:Display: Setting the console variable 'r.BloomQuality' with 'SetByScalability' was ignored as it is lower priority than the previous 'SetBySystemSettingsIni'
+[2017.05.25-22.07.07:577][  0]LogConsoleManager:Display: Setting the console variable 'r.FastBlurThreshold' with 'SetByScalability' was ignored as it is lower priority than the previous 'SetBySystemSettingsIni'
+[2017.05.25-22.07.07:577][  0]LogConsoleManager:Display: Setting the console variable 'r.MaxAnisotropy' with 'SetByScalability' was ignored as it is lower priority than the previous 'SetBySystemSettingsIni'
+[2017.05.25-22.07.07:577][  0]LogConsoleManager:Display: Setting the console variable 'r.TranslucencyLightingVolumeDim' with 'SetByScalability' was ignored as it is lower priority than the previous 'SetBySystemSettingsIni'
+[2017.05.25-22.07.07:577][  0]LogConsoleManager:Display: Setting the console variable 'r.SSR.Quality' with 'SetByScalability' was ignored as it is lower priority than the previous 'SetBySystemSettingsIni'
+[2017.05.25-22.07.07:577][  0]LogConsoleManager:Display: Setting the console variable 'r.SceneColorFormat' with 'SetByScalability' was ignored as it is lower priority than the previous 'SetBySystemSettingsIni'
+[2017.05.25-22.07.07:577][  0]LogConsoleManager:Display: Setting the console variable 'r.TranslucencyVolumeBlur' with 'SetByScalability' was ignored as it is lower priority than the previous 'SetBySystemSettingsIni'
+[2017.05.25-22.07.07:578][  0]LogInit: Selected Device Profile: [Windows]
+[2017.05.25-22.07.07:578][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
+[2017.05.25-22.07.07:623][  0]LogInit: Computer: DESKTOP-RDEA38J
+[2017.05.25-22.07.07:623][  0]LogInit: User: Weaver
+[2017.05.25-22.07.07:623][  0]LogInit: CPU Page size=65536, Cores=4
+[2017.05.25-22.07.07:623][  0]LogInit: High frequency timer resolution =2.630624 MHz
+[2017.05.25-22.07.07:624][  0]LogMemory: Memory total: Physical=7.9GB (8GB approx)
+[2017.05.25-22.07.07:624][  0]LogMemory: Platform Memory Stats for Windows
+[2017.05.25-22.07.07:624][  0]LogMemory: Process Physical Memory: 258.61 MB used, 258.61 MB peak
+[2017.05.25-22.07.07:624][  0]LogMemory: Process Virtual Memory: 260.17 MB used, 260.17 MB peak
+[2017.05.25-22.07.07:624][  0]LogMemory: Physical Memory: 5685.99 MB used, 8111.74 MB total
+[2017.05.25-22.07.07:624][  0]LogMemory: Virtual Memory: 623.82 MB used, 134217728.00 MB total
+[2017.05.25-22.07.07:857][  0]LogInit: Overriding culture en w/ editor configuration.
+[2017.05.25-22.07.10:925][  0]LogD3D11RHI: D3D11 adapters:
+[2017.05.25-22.07.11:552][  0]LogD3D11RHI:    0. 'NVIDIA GeForce GTX 780M' (Feature Level 11_0)
+[2017.05.25-22.07.11:552][  0]LogD3D11RHI:       4062/0/4055 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:2, VendorId:0x10de
+[2017.05.25-22.07.11:560][  0]LogD3D11RHI:    1. 'Intel(R) HD Graphics 4600' (Feature Level 11_0)
+[2017.05.25-22.07.11:560][  0]LogD3D11RHI:       112/0/2048 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x8086
+[2017.05.25-22.07.11:561][  0]LogD3D11RHI:    2. 'Microsoft Basic Render Driver' (Feature Level 11_0)
+[2017.05.25-22.07.11:561][  0]LogD3D11RHI:       0/0/4055 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x1414
+[2017.05.25-22.07.11:561][  0]LogD3D11RHI: Chosen D3D11 Adapter: 0
+[2017.05.25-22.07.11:568][  0]LogD3D11RHI: Creating new Direct3DDevice
+[2017.05.25-22.07.11:568][  0]LogD3D11RHI:     GPU DeviceId: 0x119f (for the marketing name, search the web for "GPU Device Id")
+[2017.05.25-22.07.11:568][  0]LogWindows: EnumDisplayDevices:
+[2017.05.25-22.07.11:568][  0]LogWindows:    0. 'Intel(R) HD Graphics 4600' (P:1 D:1)
+[2017.05.25-22.07.11:568][  0]LogWindows:    1. 'Intel(R) HD Graphics 4600' (P:0 D:0)
+[2017.05.25-22.07.11:568][  0]LogWindows:    2. 'Intel(R) HD Graphics 4600' (P:0 D:0)
+[2017.05.25-22.07.11:568][  0]LogWindows:    3. 'NVIDIA GeForce GTX 780M' (P:0 D:1)
+[2017.05.25-22.07.11:569][  0]LogWindows:    4. 'NVIDIA GeForce GTX 780M' (P:0 D:0)
+[2017.05.25-22.07.11:569][  0]LogWindows:    5. 'NVIDIA GeForce GTX 780M' (P:0 D:0)
+[2017.05.25-22.07.11:569][  0]LogWindows:    6. 'NVIDIA GeForce GTX 780M' (P:0 D:0)
+[2017.05.25-22.07.11:569][  0]LogWindows: DebugString: PrimaryIsNotTheChoosenAdapter PrimaryIsNotTheChoosenAdapter PrimaryIsNotTheChoosenAdapter FoundDriverCount:4 
+[2017.05.25-22.07.11:569][  0]LogD3D11RHI:     Adapter Name: NVIDIA GeForce GTX 780M
+[2017.05.25-22.07.11:569][  0]LogD3D11RHI:   Driver Version: 376.54 (internal:21.21.13.7654, unified:376.54)
+[2017.05.25-22.07.11:569][  0]LogD3D11RHI:      Driver Date: 12-29-2016
+[2017.05.25-22.07.11:569][  0]LogRHI: Texture pool is 1361 MB (70% of 1945 MB)
+[2017.05.25-22.07.12:139][  0]LogD3D11RHI: Async texture creation enabled
+[2017.05.25-22.07.12:256][  0]LogD3D11RHI: GPU Timing Frequency: 1000.000000 (Debug: 2 2)
+[2017.05.25-22.07.12:264][  0]LogShaderCompilers: Guid format shader working directory is 15 characters bigger than the processId version (D:/FinalProject/MasterCamControl/Intermediate/Shaders/WorkingDirectory/2004/).
+[2017.05.25-22.07.12:264][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'C:/Users/Weaver/AppData/Local/Temp/UnrealShaderWorkingDir/29DF964D4CF9C5C1FD5884BAD0C54565/'.
+[2017.05.25-22.07.12:265][  0]LogShaderCompilers:Display: Using Local Shader Compiler.
+[2017.05.25-22.07.15:067][  0]LogTemp:Display: Loaded TP AllDesktopTargetPlatform
+[2017.05.25-22.07.15:076][  0]LogTemp:Display: Loaded TP WindowsClientTargetPlatform
+[2017.05.25-22.07.15:084][  0]LogTemp:Display: Loaded TP WindowsNoEditorTargetPlatform
+[2017.05.25-22.07.15:092][  0]LogTemp:Display: Loaded TP WindowsServerTargetPlatform
+[2017.05.25-22.07.15:099][  0]LogTemp:Display: Loaded TP WindowsTargetPlatform
+[2017.05.25-22.07.15:110][  0]LogTemp:Display: Loaded TP AndroidTargetPlatform
+[2017.05.25-22.07.15:118][  0]LogTemp:Display: Loaded TP Android_ASTCTargetPlatform
+[2017.05.25-22.07.15:127][  0]LogTemp:Display: Loaded TP Android_ATCTargetPlatform
+[2017.05.25-22.07.15:134][  0]LogTemp:Display: Loaded TP Android_DXTTargetPlatform
+[2017.05.25-22.07.15:141][  0]LogTemp:Display: Loaded TP Android_ETC1TargetPlatform
+[2017.05.25-22.07.15:148][  0]LogTemp:Display: Loaded TP Android_ETC2TargetPlatform
+[2017.05.25-22.07.15:162][  0]LogTemp:Display: Loaded TP Android_MultiTargetPlatform
+[2017.05.25-22.07.15:162][  0]LogTemp:Display: Loaded TP Android_PVRTCTargetPlatform
+[2017.05.25-22.07.15:163][  0]LogTemp:Display: Loaded TP HTML5TargetPlatform
+[2017.05.25-22.07.15:213][  0]LogTemp:Display: Loaded TP IOSTargetPlatform
+[2017.05.25-22.07.15:219][  0]LogTemp:Display: Loaded TP TVOSTargetPlatform
+[2017.05.25-22.07.15:226][  0]LogTemp:Display: Loaded TP LinuxClientTargetPlatform
+[2017.05.25-22.07.15:235][  0]LogTemp:Display: Loaded TP LinuxNoEditorTargetPlatform
+[2017.05.25-22.07.15:243][  0]LogTemp:Display: Loaded TP LinuxServerTargetPlatform
+[2017.05.25-22.07.15:253][  0]LogTemp:Display: Loaded TP LinuxTargetPlatform
+[2017.05.25-22.07.15:254][  0]LogTargetPlatformManager:Display: Building Assets For Windows
+[2017.05.25-22.07.15:649][  0]LogDerivedDataCache:Display: Max Cache Size: 512 MB
+[2017.05.25-22.07.16:057][  0]LogDerivedDataCache: Loaded boot cache 0.41s 73MB C:/Users/Weaver/AppData/Local/UnrealEngine/4.13/DerivedDataCache/Boot.ddc.
+[2017.05.25-22.07.16:057][  0]LogDerivedDataCache:Display: Loaded Boot cache: C:/Users/Weaver/AppData/Local/UnrealEngine/4.13/DerivedDataCache/Boot.ddc
+[2017.05.25-22.07.16:057][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file D:/FinalProject/MasterCamControl/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+[2017.05.25-22.07.16:057][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
+[2017.05.25-22.07.16:057][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file D:/FinalProject/MasterCamControl/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2017.05.25-22.07.16:057][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
+[2017.05.25-22.07.16:089][  0]LogDerivedDataCache:Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
+[2017.05.25-22.07.16:102][  0]LogDerivedDataCache: Using Local data cache path C:/Users/Weaver/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
+[2017.05.25-22.07.19:455][  0]LogInit: Selected Device Profile: [Windows]
+[2017.05.25-22.07.19:478][  0]LogContentStreaming: Texture pool size is 0.00 MB
+[2017.05.25-22.07.19:655][  0]LogMeshUtilities: No automatic mesh reduction module available
+[2017.05.25-22.07.19:655][  0]LogMeshUtilities: No automatic mesh merging module available
+[2017.05.25-22.07.19:655][  0]LogMeshUtilities: No distributed automatic mesh merging module available
+[2017.05.25-22.07.19:987][  0]LogMaterial: Uniform references updated for custom material expression Custom.
+[2017.05.25-22.07.21:063][  0]LogNetVersion: GetLocalNetworkVersion: CL: 3106830, ProjectName: cameracontrol, ProjectVersion: , EngineNetworkVersion: 1, GameNetworkVersion: 0, NetworkChecksum: 646504735
+[2017.05.25-22.07.21:129][  0]LogAssetRegistry: FAssetRegistry took 0.0250 seconds to start up
+[2017.05.25-22.07.21:167][  0]LogPackageLocalizationCache: Processed 3 localized package path(s) for 1 prioritized culture(s) in 0.032222 seconds
+[2017.05.25-22.07.21:176][  0]LogUObjectArray: 29778 objects as part of root set at end of initial load.
+[2017.05.25-22.07.21:176][  0]LogUObjectAllocator: 6125448 out of 0 bytes used by permanent object pool.
+[2017.05.25-22.07.21:176][  0]LogUObjectArray: CloseDisregardForGC: 0/0 objects in disregard for GC pool
+[2017.05.25-22.07.21:184][  0]LogInit: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
+[2017.05.25-22.07.21:922][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2017.05.25-22.07.21:922][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2017.05.25-22.07.24:602][  0]LogTcpMessaging: Initializing TcpMessaging bridge
+[2017.05.25-22.07.24:627][  0]LogUdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
+[2017.05.25-22.07.25:204][  0]SourceControl: Info Source control is disabled
+[2017.05.25-22.07.25:206][  0]SourceControl: Info Source control is disabled
+[2017.05.25-22.07.25:225][  0]SourceControl: Info Source control is disabled
+[2017.05.25-22.07.25:241][  0]SourceControl: Info Source control is disabled
+[2017.05.25-22.07.25:709][  0]LogEngine: Initializing Engine...
+[2017.05.25-22.07.26:107][  0]LogAIModule: Creating AISystem for world Untitled
+[2017.05.25-22.07.26:147][  0]LogInit: XAudio2 using 'Altavoces (USB Audio Device)' : 2 channels at 44.1 kHz using 16 bits per sample (channel mask 0x3)
+[2017.05.25-22.07.26:160][  0]LogInit: FAudioDevice initialized.
+[2017.05.25-22.07.26:232][  0]LogDerivedDataCache: Saved boot cache 0.07s 88MB C:/Users/Weaver/AppData/Local/UnrealEngine/4.13/DerivedDataCache/Boot.ddc.
+[2017.05.25-22.07.26:263][  0]LogInit: Texture streaming: Enabled
+[2017.05.25-22.07.26:387][  0]LogInit: Transaction tracking system initialized
+[2017.05.25-22.07.26:487][  0]BlueprintLog: New page: Editor Load
+[2017.05.25-22.07.26:706][  0]LocalizationService: Info Localization service is disabled
+[2017.05.25-22.07.26:907][  0]LogConsoleResponse:Display: 
+[2017.05.25-22.07.27:355][  0]LogCook:Display: Max memory allowance for cook 16384mb min free memory 0mb
+[2017.05.25-22.07.27:355][  0]LogCook:Display: Mobile HDR setting 1
+[2017.05.25-22.07.27:727][  0]LogFileCache: Scanning file cache for directory 'D:/FinalProject/MasterCamControl/Content/' took 0.02s
+[2017.05.25-22.07.27:728][  0]SourceControl: Info Source control is disabled
+[2017.05.25-22.07.27:731][  0]Cmd: MAP LOAD FILE="D:/FinalProject/MasterCamControl/Content/Lmenu/Lmenu.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2017.05.25-22.07.27:733][  0]LightingResults: New page: Lighting Build
+[2017.05.25-22.07.27:750][  0]MapCheck: New page: Map Check
+[2017.05.25-22.07.27:751][  0]LightingResults: New page: Lighting Build
+[2017.05.25-22.07.31:586][  0]LogBlueprint:Warning: [Compiler PersistentLevel.Lmenu] Warning InputAction Event references unknown Action 'changeCamera' for  K2Node_InputAction_151
+[2017.05.25-22.07.31:592][  0]LogBlueprint:Warning: [Compiler PersistentLevel.Lmenu] Warning [0026.71] Compile of PersistentLevel.Lmenu successful, but with 1 Warning(s) [in 24 ms] (/Game/Lmenu/Lmenu.Lmenu:PersistentLevel.Lmenu)
+[2017.05.25-22.07.31:593][  0]LogBlueprint:Warning: [Compiler PersistentLevel.Lmenu] Warning [0026.71] Compile of PersistentLevel.Lmenu successful, but with 2 Warning(s) [in 0 ms] (/Game/Lmenu/Lmenu.Lmenu:PersistentLevel.Lmenu)
+[2017.05.25-22.07.31:593][  0]LogBlueprint:Warning: [Compiler PersistentLevel.Lmenu] Warning [0026.71] Compile of PersistentLevel.Lmenu successful, but with 3 Warning(s) [in 0 ms] (/Game/Lmenu/Lmenu.Lmenu:PersistentLevel.Lmenu)
+[2017.05.25-22.07.31:619][  0]LogBlueprint:Warning: [Compiler PersistentLevel.Lmenu] Warning InputAction Event references unknown Action 'changeCamera' for  K2Node_InputAction_151
+[2017.05.25-22.07.31:629][  0]LogBlueprint:Warning: [Compiler PersistentLevel.Lmenu] Warning [0026.74] Compile of PersistentLevel.Lmenu successful, but with 1 Warning(s) [in 31 ms] (/Game/Lmenu/Lmenu.Lmenu:PersistentLevel.Lmenu)
+[2017.05.25-22.07.31:629][  0]LogBlueprint:Warning: [Compiler PersistentLevel.Lmenu] Warning [0026.74] Compile of PersistentLevel.Lmenu successful, but with 2 Warning(s) [in 0 ms] (/Game/Lmenu/Lmenu.Lmenu:PersistentLevel.Lmenu)
+[2017.05.25-22.07.31:630][  0]LogBlueprint:Warning: [Compiler PersistentLevel.Lmenu] Warning [0026.74] Compile of PersistentLevel.Lmenu successful, but with 3 Warning(s) [in 0 ms] (/Game/Lmenu/Lmenu.Lmenu:PersistentLevel.Lmenu)
+[2017.05.25-22.07.32:100][  0]LogAnimationCompression: Building Anim DDC data for AnimSequence /Game/Art/Meshes/Characters/Boy/Social/NewBoy/Animations/walking_inPlace.walking_inPlace
+[2017.05.25-22.07.32:117][  0]LogAnimationCompression: Building Anim DDC data for AnimSequence /Game/Art/Meshes/Characters/Boy/Social/NewBoy/Animations/happy_idle.happy_idle
+[2017.05.25-22.07.32:137][  0]LogAnimationCompression: Building Anim DDC data for AnimSequence /Game/Art/Meshes/Characters/Boy/Social/NewBoy/Animations/talking.talking
+[2017.05.25-22.07.32:381][  0]LogTexture:Display: Building textures: doge_D (AutoDXT)
+[2017.05.25-22.07.33:378][  0]LogMaterial: Missing cached shader map for material 01_-_Default, compiling. 
+[2017.05.25-22.07.33:578][  0]LogTexture:Display: Building textures: cat01_D (AutoDXT)
+[2017.05.25-22.07.34:540][  0]LogMaterial: Missing cached shader map for material cat01_D_Mat, compiling. 
+[2017.05.25-22.07.34:733][  0]LogTexture:Display: Building textures: bear_D (AutoDXT)
+[2017.05.25-22.07.36:030][  0]LogMaterial: Missing cached shader map for material 01_-_Default, compiling. 
+[2017.05.25-22.07.36:305][  0]LogTexture:Display: Building textures: boy_D02 (AutoDXT)
+[2017.05.25-22.07.37:550][  0]LogMaterial: Missing cached shader map for material Material__2, compiling. 
+[2017.05.25-22.07.37:775][  0]LogTexture:Display: Building textures: boy_D01 (AutoDXT)
+[2017.05.25-22.07.38:980][  0]LogAnimationCompression: Building Anim DDC data for AnimSequence /Game/Art/Meshes/Characters/Bear/Curious/NewBear/Animations/talking.talking
+[2017.05.25-22.07.39:301][  0]LogAnimationCompression: Building Anim DDC data for AnimSequence /Game/Art/Meshes/Characters/Bear/Curious/NewBear/Animations/happy_idle.happy_idle
+[2017.05.25-22.07.39:305][  0]LogAnimationCompression: Building Anim DDC data for AnimSequence /Game/Art/Meshes/Characters/Bear/Curious/NewBear/Animations/walking_inPlace.walking_inPlace
+[2017.05.25-22.07.39:552][  0]LogTexture:Display: Building textures: boy_D03 (AutoDXT)
+[2017.05.25-22.07.40:674][  0]LogMaterial: Missing cached shader map for material 07_-_Default, compiling. 
+[2017.05.25-22.07.40:938][  0]LogMaterial: Missing cached shader map for material clothes, compiling. 
+[2017.05.25-22.07.41:027][  0]LogAnimationCompression: Building Anim DDC data for AnimSequence /Game/Art/Meshes/Characters/MrGuau/naughty/NewMrGuau/walking_inPlace.walking_inPlace
+[2017.05.25-22.07.41:031][  0]LogAnimationCompression: Building Anim DDC data for AnimSequence /Game/Art/Meshes/Characters/MrGuau/naughty/NewMrGuau/happy_idle.happy_idle
+[2017.05.25-22.07.41:051][  0]LogAnimationCompression: Building Anim DDC data for AnimSequence /Game/Art/Meshes/Characters/MrGuau/naughty/NewMrGuau/talking.talking
+[2017.05.25-22.07.41:074][  0]LogAnimationCompression: Building Anim DDC data for AnimSequence /Game/Art/Meshes/Characters/Girl/explorer/NewGirl/talking.talking
+[2017.05.25-22.07.41:085][  0]LogAnimationCompression: Building Anim DDC data for AnimSequence /Game/Art/Meshes/Characters/Girl/explorer/NewGirl/happy_idle.happy_idle
+[2017.05.25-22.07.41:094][  0]LogAnimationCompression: Building Anim DDC data for AnimSequence /Game/Art/Meshes/Characters/Girl/explorer/NewGirl/female_walk_inPlace.female_walk_inPlace
+[2017.05.25-22.07.41:099][  0]LogAnimationCompression: Building Anim DDC data for AnimSequence /Game/Art/Meshes/Characters/Doge/Animations/walking_inPlace.walking_inPlace
+[2017.05.25-22.07.41:102][  0]LogAnimationCompression: Building Anim DDC data for AnimSequence /Game/Art/Meshes/Characters/Doge/Animations/happy_idle.happy_idle
+[2017.05.25-22.07.41:121][  0]LogAnimationCompression: Building Anim DDC data for AnimSequence /Game/Art/Meshes/Characters/Doge/Animations/talking.talking
+[2017.05.25-22.07.41:125][  0]LogAnimationCompression: Building Anim DDC data for AnimSequence /Game/Art/Meshes/Characters/Cat/Animation/talking.talking
+[2017.05.25-22.07.41:150][  0]LogAnimationCompression: Building Anim DDC data for AnimSequence /Game/Art/Meshes/Characters/Cat/Animation/walking_inPlace.walking_inPlace
+[2017.05.25-22.07.41:152][  0]LogAnimationCompression: Building Anim DDC data for AnimSequence /Game/Art/Meshes/Characters/Cat/Animation/happy_idle.happy_idle
+[2017.05.25-22.07.41:285][  0]LogTexture:Display: Building textures: mrGuau_D (AutoDXT)
+[2017.05.25-22.07.42:612][  0]LogMaterial: Missing cached shader map for material 09_-_Default, compiling. 
+[2017.05.25-22.07.42:857][  0]LogTexture:Display: Building textures: girl_D03 (AutoDXT)
+[2017.05.25-22.07.44:120][  0]LogMaterial: Missing cached shader map for material skin, compiling. 
+[2017.05.25-22.07.44:325][  0]LogTexture:Display: Building textures: girl_D02 (AutoDXT)
+[2017.05.25-22.07.45:656][  0]LogMaterial: Missing cached shader map for material hair, compiling. 
+[2017.05.25-22.07.45:940][  0]LogTexture:Display: Building textures: girl_D01 (AutoDXT)
+[2017.05.25-22.07.47:282][  0]LogMaterial: Missing cached shader map for material clothes, compiling. 
+[2017.05.25-22.07.48:331][  0]LogAIModule: Creating AISystem for world Lmenu
+[2017.05.25-22.07.48:774][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2017.05.25-22.07.48:783][  0]Cmd: MAP CHECKDEP NOCLEARLOG
+[2017.05.25-22.07.48:918][  0]MapCheck: Info Map check complete: 0 Error(s), 0 Warning(s), took 135.402ms to complete.
+[2017.05.25-22.07.48:919][  0]LogFileHelpers: Loading map 'Lmenu' took 21.190
+[2017.05.25-22.07.49:548][  0]LogCollectionManager: Loaded 0 collections in 0.003696 seconds
+[2017.05.25-22.07.49:642][  0]LogFileCache: Scanning file cache for directory 'D:/FinalProject/MasterCamControl/Saved/Collections/' took 0.01s
+[2017.05.25-22.07.49:642][  0]LogFileCache: Scanning file cache for directory 'D:/FinalProject/MasterCamControl/Content/Developers/Weaver/Collections/' took 0.01s
+[2017.05.25-22.07.49:643][  0]LogFileCache: Scanning file cache for directory 'D:/FinalProject/MasterCamControl/Content/Collections/' took 0.01s
+[2017.05.25-22.07.49:643][  0]LogCollectionManager: Rebuilt the GUID cache for 0 collections in 0.000005 seconds
+[2017.05.25-22.07.49:680][  0]LogContentBrowser: Native class hierarchy populated in 0.0347 seconds. Added 2139 classes and 412 folders.
+[2017.05.25-22.07.49:708][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: Construct from data asset -  0.000 s
+[2017.05.25-22.07.49:708][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: GameplayTagTreeChangedEvent.Broadcast -  0.000 s
+[2017.05.25-22.07.49:712][  0]LogContentBrowser: Native class hierarchy updated for 'GameplayTags' in 0.0025 seconds. Added 12 classes and 0 folders.
+[2017.05.25-22.07.49:738][  0]LogContentBrowser: Native class hierarchy updated for 'WidgetCarousel' in 0.0020 seconds. Added 0 classes and 0 folders.
+[2017.05.25-22.07.50:637][  0]LogContentBrowser: Native class hierarchy updated for 'AddContentDialog' in 0.0009 seconds. Added 0 classes and 0 folders.
+[2017.05.25-22.07.50:667][  0]LogContentBrowser: Native class hierarchy updated for 'SceneOutliner' in 0.0009 seconds. Added 1 classes and 2 folders.
+[2017.05.25-22.07.51:066][  0]LogCrashTracker: Crashtracker disabled due to settings.
+[2017.05.25-22.07.51:108][  0]LogUObjectGlobals:Warning: Failed to find object 'Class None.'
+[2017.05.25-22.07.51:178][  0]LogContentBrowser: Native class hierarchy updated for 'HierarchicalLODOutliner' in 0.0009 seconds. Added 1 classes and 2 folders.
+[2017.05.25-22.07.51:180][  0]LogLoad: (Engine Initialization) Total time: 46.29 seconds
+[2017.05.25-22.07.51:180][  0]LogLoad: (Engine Initialization) Total Blueprint compile time: 0.88 seconds
+[2017.05.25-22.07.51:180][  0]LogExternalProfiler: Found external profiler: VSPerf
+[2017.05.25-22.07.51:180][  0]LogExternalProfiler: Using external profiler: VSPerf
+[2017.05.25-22.07.51:208][  0]LogOcInput: OculusInput pre-init called
+[2017.05.25-22.07.51:295][  0]LogContentStreaming: Texture pool size now 800 MB
+[2017.05.25-22.07.51:952][  0]LogRenderer: Reallocating scene render targets to support 1320x684 (Frame:2).
+[2017.05.25-22.07.54:637][  5]LogAssetRegistry: Asset discovery search completed in 33.5312 seconds
+[2017.05.25-22.07.54:637][  5]LogCollectionManager: Rebuilt the object cache for 0 collections in 0.000002 seconds (found 0 objects)
+[2017.05.25-22.07.54:637][  5]LogCollectionManager: Fixed up redirectors for 0 collections in 0.000061 seconds (updated 0 objects)
+[2017.05.25-22.08.06:967][118]LogSynthBenchmark:Display: FSynthBenchmark (V0.95):  requested WorkScale=5.00
+[2017.05.25-22.08.06:967][118]LogSynthBenchmark:Display: ===============
+[2017.05.25-22.08.06:967][118]LogSynthBenchmark:Display: Main Processor:
+[2017.05.25-22.08.07:400][118]LogSynthBenchmark:Display:          ... 0.053754 s/Run 'RayIntersect'
+[2017.05.25-22.08.07:402][118]LogSynthBenchmark:Display:          ... 0.032901 s/Run 'Fractal'
+[2017.05.25-22.08.07:402][118]LogSynthBenchmark:Display: 
+[2017.05.25-22.08.07:402][118]LogSynthBenchmark:Display:   CompiledTarget_x_Bits: 64
+[2017.05.25-22.08.07:402][118]LogSynthBenchmark:Display:   UE_BUILD_SHIPPING: 0
+[2017.05.25-22.08.07:402][118]LogSynthBenchmark:Display:   UE_BUILD_TEST: 0
+[2017.05.25-22.08.07:402][118]LogSynthBenchmark:Display:   UE_BUILD_DEBUG: 0
+[2017.05.25-22.08.07:402][118]LogSynthBenchmark:Display:   TotalPhysicalGBRam: 8
+[2017.05.25-22.08.07:402][118]LogSynthBenchmark:Display:   NumberOfCores (physical): 4
+[2017.05.25-22.08.07:402][118]LogSynthBenchmark:Display:   NumberOfCores (logical): 8
+[2017.05.25-22.08.07:402][118]LogSynthBenchmark:Display:   CPU Perf Index 0: 47.6 (weight 1.00)
+[2017.05.25-22.08.07:402][118]LogSynthBenchmark:Display:   CPU Perf Index 1: 86.9 (weight 1.50)
+[2017.05.25-22.08.07:402][118]LogSynthBenchmark:Display:  
+[2017.05.25-22.08.07:402][118]LogSynthBenchmark:Display: Graphics:
+[2017.05.25-22.08.07:402][118]LogSynthBenchmark:Display:   Adapter Name: 'NVIDIA GeForce GTX 780M'
+[2017.05.25-22.08.07:402][118]LogSynthBenchmark:Display:   (On Optimus the name might be wrong, memory should be ok)
+[2017.05.25-22.08.07:402][118]LogSynthBenchmark:Display:   Vendor Id: 0x10de
+[2017.05.25-22.08.07:403][118]LogSynthBenchmark:Display:   Device Id: 0x119f
+[2017.05.25-22.08.07:403][118]LogSynthBenchmark:Display:   GPU Memory: 4063/0/4056 MB
+[2017.05.25-22.08.07:452][118]LogSynthBenchmark:Display:   GPU first test: 0.03s
+[2017.05.25-22.08.07:452][118]LogSynthBenchmark:Display:          ... 0.292 GigaPix/s, Confidence=100% 'ALUHeavyNoise' (likely to be very inaccurate)
+[2017.05.25-22.08.07:453][118]LogSynthBenchmark:Display:          ... 0.344 GigaPix/s, Confidence=100% 'TexHeavy' (likely to be very inaccurate)
+[2017.05.25-22.08.07:453][118]LogSynthBenchmark:Display:          ... 0.263 GigaPix/s, Confidence=100% 'DepTexHeavy' (likely to be very inaccurate)
+[2017.05.25-22.08.07:453][118]LogSynthBenchmark:Display:          ... 0.550 GigaPix/s, Confidence=100% 'FillOnly' (likely to be very inaccurate)
+[2017.05.25-22.08.07:453][118]LogSynthBenchmark:Display:          ... 0.107 GigaPix/s, Confidence=100% 'Bandwidth' (likely to be very inaccurate)
+[2017.05.25-22.08.07:573][118]LogSynthBenchmark:Display:   GPU second test: 0.11s
+[2017.05.25-22.08.07:573][118]LogSynthBenchmark:Display:          ... 0.539 GigaPix/s, Confidence=100% 'ALUHeavyNoise' (likely to be inaccurate)
+[2017.05.25-22.08.07:573][118]LogSynthBenchmark:Display:          ... 0.878 GigaPix/s, Confidence=100% 'TexHeavy' (likely to be inaccurate)
+[2017.05.25-22.08.07:573][118]LogSynthBenchmark:Display:          ... 0.507 GigaPix/s, Confidence=100% 'DepTexHeavy' (likely to be inaccurate)
+[2017.05.25-22.08.07:573][118]LogSynthBenchmark:Display:          ... 2.094 GigaPix/s, Confidence=100% 'FillOnly' (likely to be inaccurate)
+[2017.05.25-22.08.07:573][118]LogSynthBenchmark:Display:          ... 0.135 GigaPix/s, Confidence=100% 'Bandwidth' (likely to be inaccurate)
+[2017.05.25-22.08.07:573][118]LogSynthBenchmark:Display:          ... 0.539 GigaPix/s, Confidence=100% 'ALUHeavyNoise'
+[2017.05.25-22.08.07:573][118]LogSynthBenchmark:Display:          ... 0.878 GigaPix/s, Confidence=100% 'TexHeavy'
+[2017.05.25-22.08.07:573][118]LogSynthBenchmark:Display:          ... 0.507 GigaPix/s, Confidence=100% 'DepTexHeavy'
+[2017.05.25-22.08.07:573][118]LogSynthBenchmark:Display:          ... 2.094 GigaPix/s, Confidence=100% 'FillOnly'
+[2017.05.25-22.08.07:573][118]LogSynthBenchmark:Display:          ... 0.135 GigaPix/s, Confidence=100% 'Bandwidth'
+[2017.05.25-22.08.07:573][118]LogSynthBenchmark:Display: 
+[2017.05.25-22.08.07:573][118]LogSynthBenchmark:Display:   GPU Perf Index 0: 11.7 (weight 1.00)
+[2017.05.25-22.08.07:573][118]LogSynthBenchmark:Display:   GPU Perf Index 1: 11.8 (weight 0.10)
+[2017.05.25-22.08.07:573][118]LogSynthBenchmark:Display:   GPU Perf Index 2: 13.2 (weight 0.10)
+[2017.05.25-22.08.07:573][118]LogSynthBenchmark:Display:   GPU Perf Index 3: 8.2 (weight 3.00)
+[2017.05.25-22.08.07:573][118]LogSynthBenchmark:Display:   GPU Perf Index 4: 12.6 (weight 1.00)
+[2017.05.25-22.08.07:573][118]LogSynthBenchmark:Display:   CPUIndex: 71.2
+[2017.05.25-22.08.07:573][118]LogSynthBenchmark:Display:   GPUIndex: 9.9
+[2017.05.25-22.08.07:573][118]LogSynthBenchmark:Display: 
+[2017.05.25-22.08.07:573][118]LogSynthBenchmark:Display:          ... Total Time: 0.606494 sec
+[2017.05.25-22.08.35:071][292]LogAudioDerivedData:Display: Building compressed audio format OGG wave changeCam3...
+[2017.05.25-22.08.58:324][559]LogLinker:Warning: Can't find file '/Game/L1/Props/estatua01_PhysicsAsset'
+[2017.05.25-22.08.58:328][559]LogLinker:Warning: Can't find file for asset '/Game/L1/Props/estatua01_PhysicsAsset' while loading D:/FinalProject/MasterCamControl/Content/L1/Props/estatua01.uasset.
+[2017.05.25-22.08.58:328][559]LoadErrors:Error: Error /Game/L1/Props/estatua01 : Can't find file for asset. /Game/L1/Props/estatua01_PhysicsAsset
+[2017.05.25-22.08.58:329][559]LogLinker:Warning: Can't find file '/Game/L1/Props/estatua01_Skeleton'
+[2017.05.25-22.08.58:330][559]LogLinker:Warning: Can't find file for asset '/Game/L1/Props/estatua01_Skeleton' while loading D:/FinalProject/MasterCamControl/Content/L1/Props/estatua01.uasset.
+[2017.05.25-22.08.58:330][559]LoadErrors:Error: Error /Game/L1/Props/estatua01 : Can't find file for asset. /Game/L1/Props/estatua01_Skeleton
+[2017.05.25-22.08.58:331][559]LogLinker:Warning: Can't find file '/Game/L1/Props/estatua01_PhysicsAsset'
+[2017.05.25-22.08.58:332][559]LogLinker:Warning: Can't find file for asset '/Game/L1/Props/estatua01_PhysicsAsset' while loading D:/FinalProject/MasterCamControl/Content/L1/Props/estatua01.uasset.
+[2017.05.25-22.08.58:332][559]LogLinker:Warning: Can't find file '/Game/L1/Props/estatua01_Skeleton'
+[2017.05.25-22.08.58:333][559]LogLinker:Warning: Can't find file for asset '/Game/L1/Props/estatua01_Skeleton' while loading D:/FinalProject/MasterCamControl/Content/L1/Props/estatua01.uasset.
+[2017.05.25-22.08.58:338][559]LogLinker:Warning: Can't find file '/Game/L1/Props/estatua02_PhysicsAsset'
+[2017.05.25-22.08.58:338][559]LogLinker:Warning: Can't find file for asset '/Game/L1/Props/estatua02_PhysicsAsset' while loading D:/FinalProject/MasterCamControl/Content/L1/Props/estatua02.uasset.
+[2017.05.25-22.08.58:338][559]LoadErrors:Error: Error /Game/L1/Props/estatua02 : Can't find file for asset. /Game/L1/Props/estatua02_PhysicsAsset
+[2017.05.25-22.08.58:339][559]LogLinker:Warning: Can't find file '/Game/L1/Props/estatua02_Skeleton'
+[2017.05.25-22.08.58:339][559]LogLinker:Warning: Can't find file for asset '/Game/L1/Props/estatua02_Skeleton' while loading D:/FinalProject/MasterCamControl/Content/L1/Props/estatua02.uasset.
+[2017.05.25-22.08.58:339][559]LoadErrors:Error: Error /Game/L1/Props/estatua02 : Can't find file for asset. /Game/L1/Props/estatua02_Skeleton
+[2017.05.25-22.08.58:340][559]LogLinker:Warning: Can't find file '/Game/L1/Props/estatua02_PhysicsAsset'
+[2017.05.25-22.08.58:341][559]LogLinker:Warning: Can't find file for asset '/Game/L1/Props/estatua02_PhysicsAsset' while loading D:/FinalProject/MasterCamControl/Content/L1/Props/estatua02.uasset.
+[2017.05.25-22.08.58:341][559]LogLinker:Warning: Can't find file '/Game/L1/Props/estatua02_Skeleton'
+[2017.05.25-22.08.58:341][559]LogLinker:Warning: Can't find file for asset '/Game/L1/Props/estatua02_Skeleton' while loading D:/FinalProject/MasterCamControl/Content/L1/Props/estatua02.uasset.
+[2017.05.25-22.08.58:347][559]LogLinker:Warning: Can't find file '/Game/L1/Props/estatua03_PhysicsAsset'
+[2017.05.25-22.08.58:347][559]LogLinker:Warning: Can't find file for asset '/Game/L1/Props/estatua03_PhysicsAsset' while loading D:/FinalProject/MasterCamControl/Content/L1/Props/estatua03.uasset.
+[2017.05.25-22.08.58:347][559]LoadErrors:Error: Error /Game/L1/Props/estatua03 : Can't find file for asset. /Game/L1/Props/estatua03_PhysicsAsset
+[2017.05.25-22.08.58:347][559]LogLinker:Warning: Can't find file '/Game/L1/Props/estatua03_Skeleton'
+[2017.05.25-22.08.58:347][559]LogLinker:Warning: Can't find file for asset '/Game/L1/Props/estatua03_Skeleton' while loading D:/FinalProject/MasterCamControl/Content/L1/Props/estatua03.uasset.
+[2017.05.25-22.08.58:347][559]LoadErrors:Error: Error /Game/L1/Props/estatua03 : Can't find file for asset. /Game/L1/Props/estatua03_Skeleton
+[2017.05.25-22.08.58:348][559]LogLinker:Warning: Can't find file '/Game/L1/Props/estatua03_PhysicsAsset'
+[2017.05.25-22.08.58:348][559]LogLinker:Warning: Can't find file for asset '/Game/L1/Props/estatua03_PhysicsAsset' while loading D:/FinalProject/MasterCamControl/Content/L1/Props/estatua03.uasset.
+[2017.05.25-22.08.58:348][559]LogLinker:Warning: Can't find file '/Game/L1/Props/estatua03_Skeleton'
+[2017.05.25-22.08.58:348][559]LogLinker:Warning: Can't find file for asset '/Game/L1/Props/estatua03_Skeleton' while loading D:/FinalProject/MasterCamControl/Content/L1/Props/estatua03.uasset.
+[2017.05.25-22.09.00:191][559]LogLinker:Warning: Can't find file '/Game/L1/Props/estatua03_Skeleton'
+[2017.05.25-22.09.00:193][559]LoadErrors: Info Failed to load /Game/L1/Props/estatua03_Skeleton.estatua03_Skeleton Referenced by estatua03
+[2017.05.25-22.09.00:194][559]LogLinker:Warning: Can't find file for asset '/Game/L1/Props/estatua03_Skeleton' while loading NULL.
+[2017.05.25-22.09.00:195][559]LogLinker:Warning: Can't find file '/Game/L1/Props/estatua03_PhysicsAsset'
+[2017.05.25-22.09.00:195][559]LoadErrors: Info Failed to load /Game/L1/Props/estatua03_PhysicsAsset.estatua03_PhysicsAsset Referenced by estatua03
+[2017.05.25-22.09.00:196][559]LogLinker:Warning: Can't find file for asset '/Game/L1/Props/estatua03_PhysicsAsset' while loading NULL.
+[2017.05.25-22.09.00:198][559]LogLinker:Warning: Can't find file '/Game/L1/Props/estatua02_Skeleton'
+[2017.05.25-22.09.00:198][559]LoadErrors: Info Failed to load /Game/L1/Props/estatua02_Skeleton.estatua02_Skeleton Referenced by estatua02
+[2017.05.25-22.09.00:199][559]LogLinker:Warning: Can't find file for asset '/Game/L1/Props/estatua02_Skeleton' while loading NULL.
+[2017.05.25-22.09.00:199][559]LogLinker:Warning: Can't find file '/Game/L1/Props/estatua02_PhysicsAsset'
+[2017.05.25-22.09.00:199][559]LoadErrors: Info Failed to load /Game/L1/Props/estatua02_PhysicsAsset.estatua02_PhysicsAsset Referenced by estatua02
+[2017.05.25-22.09.00:199][559]LogLinker:Warning: Can't find file for asset '/Game/L1/Props/estatua02_PhysicsAsset' while loading NULL.
+[2017.05.25-22.09.00:201][559]LogLinker:Warning: Can't find file '/Game/L1/Props/estatua01_Skeleton'
+[2017.05.25-22.09.00:201][559]LoadErrors: Info Failed to load /Game/L1/Props/estatua01_Skeleton.estatua01_Skeleton Referenced by estatua01
+[2017.05.25-22.09.00:201][559]LogLinker:Warning: Can't find file for asset '/Game/L1/Props/estatua01_Skeleton' while loading NULL.
+[2017.05.25-22.09.00:202][559]LogLinker:Warning: Can't find file '/Game/L1/Props/estatua01_PhysicsAsset'
+[2017.05.25-22.09.00:202][559]LoadErrors: Info Failed to load /Game/L1/Props/estatua01_PhysicsAsset.estatua01_PhysicsAsset Referenced by estatua01
+[2017.05.25-22.09.00:202][559]LogLinker:Warning: Can't find file for asset '/Game/L1/Props/estatua01_PhysicsAsset' while loading NULL.
+[2017.05.25-22.09.01:448][559]LogTexture:Display: Building textures: techosuelo_d_by_yuumirin-db8u8y1 (AutoDXT)
+[2017.05.25-22.09.03:820][559]LogMaterial: Missing cached shader map for material techosuelo_d_by_yuumirin-db8u8y1_Mat, compiling. 
+[2017.05.25-22.09.04:180][559]LogTexture:Display: Building textures: soporte_d_by_yuumirin-db8u8y6 (AutoDXT)
+[2017.05.25-22.09.06:342][559]LogMaterial: Missing cached shader map for material soporte_d_by_yuumirin-db8u8y6_Mat, compiling. 
+[2017.05.25-22.09.06:660][559]LogTexture:Display: Building textures: plato01_d_by_yuumirin-db8u8yb (AutoDXT)
+[2017.05.25-22.09.09:523][559]LogTexture:Display: Building textures: jarron02_d_by_yuumirin-db93b0c (AutoDXT)
+[2017.05.25-22.09.11:842][559]LogMaterial: Missing cached shader map for material jarron02_d_by_yuumirin-db93b0c_Mat, compiling. 
+[2017.05.25-22.09.12:033][559]LogTexture:Display: Building textures: jarron01_d_by_yuumirin-db8u8z8 (AutoDXT)
+[2017.05.25-22.09.14:259][559]LogMaterial: Missing cached shader map for material jarron01_d_by_yuumirin-db8u8z8_Mat, compiling. 
+[2017.05.25-22.09.14:473][559]LogTexture:Display: Building textures: casco03_d_by_yuumirin-db93b0l (AutoDXT)
+[2017.05.25-22.09.16:517][559]LogMaterial: Missing cached shader map for material casco03_d_by_yuumirin-db93b0l_Mat, compiling. 
+[2017.05.25-22.09.16:705][559]LogTexture:Display: Building textures: casco02_d_by_yuumirin-db93b0r (AutoDXT)
+[2017.05.25-22.09.18:636][559]LogMaterial: Missing cached shader map for material casco02_d_by_yuumirin-db93b0r_Mat, compiling. 
+[2017.05.25-22.09.18:919][559]LogTexture:Display: Building textures: casco01_d_by_yuumirin-db93b0x (AutoDXT)
+[2017.05.25-22.09.20:995][559]LogMaterial: Missing cached shader map for material casco01_d_by_yuumirin-db93b0x_Mat, compiling. 
+[2017.05.25-22.09.21:103][559]LogTexture:Display: Building textures: monalisa_by_yuumirin-db7eofp (BGRA8)
+[2017.05.25-22.09.21:697][559]LogMaterial: Missing cached shader map for material monali, compiling. 
+[2017.05.25-22.09.22:037][559]LogAudioDerivedData:Display: Building compressed audio format OGG wave lose...
+[2017.05.25-22.09.22:176][559]LogAudioDerivedData:Display: Building compressed audio format OGG wave win...
+[2017.05.25-22.09.22:509][559]LogAudioDerivedData:Display: Building compressed audio format OGG wave jailUp...
+[2017.05.25-22.09.22:627][559]LogAudioDerivedData:Display: Building compressed audio format OGG wave lookAtCamera...
+[2017.05.25-22.09.22:857][559]LogTexture:Display: Building textures: 18718330_1365754593478009_797581947_n (BGRA8)
+[2017.05.25-22.09.23:168][559]LogMaterial: Missing cached shader map for material 18718330_1365754593478009_797581947_n_Mat, compiling. 
+[2017.05.25-22.09.23:332][559]LogTexture:Display: Building textures: 18676701_1365754763477992_1383245154_o (AutoDXT)
+[2017.05.25-22.09.24:002][559]LogMaterial: Missing cached shader map for material 18676701_1365754763477992_1383245154_o_Mat, compiling. 
+[2017.05.25-22.09.24:211][559]LogTexture:Display: Building textures: sparkles_by_yuumirin-dbaa83e (AutoDXT)
+[2017.05.25-22.09.24:327][559]LogMaterial: Missing cached shader map for material confetti, compiling. 
+[2017.05.25-22.09.24:659][559]LogMaterial: Missing cached shader map for material suelo_by_yuumirin-db0wuxi_Mat, compiling. 
+[2017.05.25-22.09.25:165][559]LogStaticMesh: Building static mesh techoPanteon...
+[2017.05.25-22.09.25:187][559]LogStaticMesh: Built static mesh [0.02s] /Game/L1/Props/Greece/techoPanteon.techoPanteon
+[2017.05.25-22.09.25:202][559]LogStaticMesh: Building static mesh grecia_techoSuelo...
+[2017.05.25-22.09.25:216][559]LogStaticMesh: Built static mesh [0.01s] /Game/L1/Props/Greece/grecia_techoSuelo.grecia_techoSuelo
+[2017.05.25-22.09.25:225][559]LogStaticMesh: Building static mesh grecia_soporte...
+[2017.05.25-22.09.25:232][559]LogStaticMesh: Built static mesh [0.01s] /Game/L1/Props/Greece/grecia_soporte.grecia_soporte
+[2017.05.25-22.09.25:239][559]LogStaticMesh: Building static mesh grecia_plato01...
+[2017.05.25-22.09.25:279][559]LogStaticMesh: Built static mesh [0.04s] /Game/L1/Props/Greece/grecia_plato01.grecia_plato01
+[2017.05.25-22.09.25:307][559]LogStaticMesh: Building static mesh grecia_pilar03...
+[2017.05.25-22.09.25:377][559]LogStaticMesh: Built static mesh [0.07s] /Game/L1/Props/Greece/grecia_pilar03.grecia_pilar03
+[2017.05.25-22.09.25:388][559]LogStaticMesh: Building static mesh grecia_pilar02...
+[2017.05.25-22.09.25:397][559]LogStaticMesh: Built static mesh [0.01s] /Game/L1/Props/Greece/grecia_pilar02.grecia_pilar02
+[2017.05.25-22.09.25:404][559]LogStaticMesh: Building static mesh grecia_pilar01...
+[2017.05.25-22.09.25:495][559]LogStaticMesh: Built static mesh [0.09s] /Game/L1/Props/Greece/grecia_pilar01.grecia_pilar01
+[2017.05.25-22.09.25:525][559]LogStaticMesh: Building static mesh grecia_pantheon...
+[2017.05.25-22.09.25:917][559]LogStaticMesh: Built static mesh [0.39s] /Game/L1/Props/Greece/grecia_pantheon.grecia_pantheon
+[2017.05.25-22.09.25:963][559]LogStaticMesh: Building static mesh grecia_jarron03...
+[2017.05.25-22.09.25:992][559]LogStaticMesh: Built static mesh [0.03s] /Game/L1/Props/Greece/grecia_jarron03.grecia_jarron03
+[2017.05.25-22.09.26:001][559]LogStaticMesh: Building static mesh grecia_jarron02...
+[2017.05.25-22.09.26:047][559]LogStaticMesh: Built static mesh [0.05s] /Game/L1/Props/Greece/grecia_jarron02.grecia_jarron02
+[2017.05.25-22.09.26:058][559]LogStaticMesh: Building static mesh grecia_jarron01_D...
+[2017.05.25-22.09.26:118][559]LogStaticMesh: Built static mesh [0.06s] /Game/L1/Props/Greece/grecia_jarron01_D.grecia_jarron01_D
+[2017.05.25-22.09.26:137][559]LogStaticMesh: Building static mesh grecia_casco03...
+[2017.05.25-22.09.26:226][559]LogStaticMesh: Built static mesh [0.09s] /Game/L1/Props/Greece/grecia_casco03.grecia_casco03
+[2017.05.25-22.09.26:243][559]LogAudioDerivedData:Display: Building compressed audio format OGG wave changeCamera2...
+[2017.05.25-22.09.26:539][559]LogTexture:Display: Building textures: cuadro007_d_by_yuumirin-db7er02 (AutoDXT)
+[2017.05.25-22.09.26:847][559]LogMaterial: Missing cached shader map for material cuadro007_d_by_yuumirin-db7er02_Mat, compiling. 
+[2017.05.25-22.09.27:031][559]LogTexture:Display: Building textures: cuadro006_d_by_yuumirin-db7er05 (AutoDXT)
+[2017.05.25-22.09.27:343][559]LogMaterial: Missing cached shader map for material cuadro006_d_by_yuumirin-db7er05_Mat, compiling. 
+[2017.05.25-22.09.27:512][559]LogTexture:Display: Building textures: cuadro005_d_by_yuumirin-db7er0a (BGRA8)
+[2017.05.25-22.09.28:157][559]LogMaterial: Missing cached shader map for material cuadro005_d_by_yuumirin-db7er0a_Mat, compiling. 
+[2017.05.25-22.09.28:437][559]LogTexture:Display: Building textures: cuadro003_d_by_yuumirin-db7er0o (BGRA8)
+[2017.05.25-22.09.29:449][559]LogMaterial: Missing cached shader map for material cuadro003_d_by_yuumirin-db7er0o_Mat, compiling. 
+[2017.05.25-22.09.29:579][559]LogTexture:Display: Building textures: cuadro002_d_by_yuumirin-db7er0v (AutoDXT)
+[2017.05.25-22.09.29:782][559]LogMaterial: Missing cached shader map for material cuadro002_d_by_yuumirin-db7er0v_Mat, compiling. 
+[2017.05.25-22.09.30:206][559]LogTexture:Display: Building textures: cuadro012_d_by_yuumirin-db7eqzc (BGRA8)
+[2017.05.25-22.09.31:291][559]LogMaterial: Missing cached shader map for material cuadro012_d_by_yuumirin-db7eqzc_Mat, compiling. 
+[2017.05.25-22.09.31:529][559]LogTexture:Display: Building textures: cuadro011_d_by_yuumirin-db7eqzm (BGRA8)
+[2017.05.25-22.09.32:474][559]LogMaterial: Missing cached shader map for material cuadro011_d_by_yuumirin-db7eqzm_Mat, compiling. 
+[2017.05.25-22.09.32:563][559]LogTexture:Display: Building textures: cuadro010_d_by_yuumirin-db7eqzs (AutoDXT)
+[2017.05.25-22.09.32:705][559]LogMaterial: Missing cached shader map for material cuadro010_d_by_yuumirin-db7eqzs_Mat, compiling. 
+[2017.05.25-22.09.32:806][559]LogTexture:Display: Building textures: cuadro009_d_by_yuumirin-db7eqzw (BGRA8)
+[2017.05.25-22.09.32:904][559]LogMaterial: Missing cached shader map for material cuadro009_d_by_yuumirin-db7eqzw_Mat, compiling. 
+[2017.05.25-22.09.33:094][559]LogTexture:Display: Building textures: cuadro008_d_by_yuumirin-db7eqzz (BGRA8)
+[2017.05.25-22.09.33:841][559]LogMaterial: Missing cached shader map for material cuadro008_d_by_yuumirin-db7eqzz_Mat, compiling. 
+[2017.05.25-22.09.34:361][559]LogAnimationCompression: Building Anim DDC data for AnimSequence /Game/Art/Meshes/Characters/CamBot/GuilleAnimations/animacion2_Anim.animacion2_Anim
+[2017.05.25-22.09.34:449][559]LogStaticMesh: Building static mesh cuadro012_by_yuumirin-db7eq0d...
+[2017.05.25-22.09.34:452][559]LogStaticMesh: Built static mesh [0.00s] /Game/L1/Decoracion/SalaEnorme/cuadro012_by_yuumirin-db7eq0d.cuadro012_by_yuumirin-db7eq0d
+[2017.05.25-22.09.34:455][559]LogStaticMesh: Building static mesh cuadro011_by_yuumirin-db7eq0f...
+[2017.05.25-22.09.34:462][559]LogStaticMesh: Built static mesh [0.01s] /Game/L1/Decoracion/SalaEnorme/cuadro011_by_yuumirin-db7eq0f.cuadro011_by_yuumirin-db7eq0f
+[2017.05.25-22.09.34:466][559]LogStaticMesh: Building static mesh cuadro010_by_yuumirin-db7eq0i...
+[2017.05.25-22.09.34:470][559]LogStaticMesh: Built static mesh [0.01s] /Game/L1/Decoracion/SalaEnorme/cuadro010_by_yuumirin-db7eq0i.cuadro010_by_yuumirin-db7eq0i
+[2017.05.25-22.09.34:473][559]LogStaticMesh: Building static mesh cuadro009_by_yuumirin-db7eq0k...
+[2017.05.25-22.09.34:477][559]LogStaticMesh: Built static mesh [0.00s] /Game/L1/Decoracion/SalaEnorme/cuadro009_by_yuumirin-db7eq0k.cuadro009_by_yuumirin-db7eq0k
+[2017.05.25-22.09.34:479][559]LogStaticMesh: Building static mesh cuadro008_by_yuumirin-db7eq0q...
+[2017.05.25-22.09.34:484][559]LogStaticMesh: Built static mesh [0.01s] /Game/L1/Decoracion/SalaEnorme/cuadro008_by_yuumirin-db7eq0q.cuadro008_by_yuumirin-db7eq0q
+[2017.05.25-22.09.34:588][559]LogMaterial: Missing cached shader map for material cleopatra_d_by_yuumirin-db10ytt_Mat, compiling. 
+[2017.05.25-22.09.35:697][559]LogStaticMesh: Building static mesh cuadro007_by_yuumirin-db7eq0v...
+[2017.05.25-22.09.35:701][559]LogStaticMesh: Built static mesh [0.00s] /Game/L1/Decoracion/SalaEnorme/cuadro007_by_yuumirin-db7eq0v.cuadro007_by_yuumirin-db7eq0v
+[2017.05.25-22.09.35:704][559]LogStaticMesh: Building static mesh cuadro006_by_yuumirin-db86tn9...
+[2017.05.25-22.09.35:708][559]LogStaticMesh: Built static mesh [0.00s] /Game/L1/Decoracion/SalaEnorme/cuadro006_by_yuumirin-db86tn9.cuadro006_by_yuumirin-db86tn9
+[2017.05.25-22.09.35:709][559]LogStaticMesh: Building static mesh cuadro005_by_yuumirin-db7eq13...
+[2017.05.25-22.09.35:713][559]LogStaticMesh: Built static mesh [0.00s] /Game/L1/Decoracion/SalaEnorme/cuadro005_by_yuumirin-db7eq13.cuadro005_by_yuumirin-db7eq13
+[2017.05.25-22.09.35:714][559]LogStaticMesh: Building static mesh cuadro003_by_yuumirin-db7eq1f...
+[2017.05.25-22.09.35:718][559]LogStaticMesh: Built static mesh [0.00s] /Game/L1/Decoracion/SalaEnorme/cuadro003_by_yuumirin-db7eq1f.cuadro003_by_yuumirin-db7eq1f
+[2017.05.25-22.09.35:719][559]LogStaticMesh: Building static mesh cuadro002_by_yuumirin-db7eq1i...
+[2017.05.25-22.09.35:723][559]LogStaticMesh: Built static mesh [0.00s] /Game/L1/Decoracion/SalaEnorme/cuadro002_by_yuumirin-db7eq1i.cuadro002_by_yuumirin-db7eq1i
+[2017.05.25-22.09.36:174][559]LogTexture:Display: Building textures: HQ_Lightmap1_1 (AutoDXT)
+[2017.05.25-22.09.37:244][559]LogTexture:Display: Building textures: HQ_Lightmap1_2 (AutoDXT)
+[2017.05.25-22.09.38:166][559]LogTexture:Display: Building textures: LQ_Lightmap_1_1 (DXT1)
+[2017.05.25-22.09.38:817][559]LogTexture:Display: Building textures: LQ_Lightmap_1_2 (DXT1)
+[2017.05.25-22.09.39:583][559]LogStaticMesh: Building static mesh grecia_casco01...
+[2017.05.25-22.09.39:649][559]LogStaticMesh: Built static mesh [0.07s] /Game/L1/Props/Greece/grecia_casco01.grecia_casco01
+[2017.05.25-22.09.39:653][559]LogStaticMesh: Building static mesh grecia_casco02...
+[2017.05.25-22.09.39:683][559]LogStaticMesh: Built static mesh [0.03s] /Game/L1/Props/Greece/grecia_casco02.grecia_casco02
+[2017.05.25-22.09.39:992][559]LogAudioDerivedData:Display: Building compressed audio format OGG wave CamControl...
+[2017.05.25-22.09.47:233][559]LogAnimationCompression: Building Anim DDC data for AnimSequence /Game/Art/Meshes/Characters/CamBot/GuilleAnimations/animacion1_Anim.animacion1_Anim
+[2017.05.25-22.09.48:157][559]LogMaterial: Missing cached shader map for material cambotuw_Mat, compiling. 
+[2017.05.25-22.09.48:309][559]LogMaterial: Missing cached shader map for material plato01_d_by_yuumirin-db8u8yb_Mat, compiling. 
+[2017.05.25-22.09.48:708][559]LogTexture:Display: Building textures: pilar03_d_by_yuumirin-db93az5 (AutoDXT)
+[2017.05.25-22.09.51:577][559]LogMaterial: Missing cached shader map for material pilar03_d_by_yuumirin-db93az5_Mat, compiling. 
+[2017.05.25-22.09.51:951][559]LogTexture:Display: Building textures: pilar02_d_by_yuumirin-db93azk (AutoDXT)
+[2017.05.25-22.09.54:335][559]LogMaterial: Missing cached shader map for material pilar02_d_by_yuumirin-db93azk_Mat, compiling. 
+[2017.05.25-22.09.54:643][559]LogTexture:Display: Building textures: pilar01_d_by_yuumirin-db93azz (AutoDXT)
+[2017.05.25-22.09.57:137][559]LogMaterial: Missing cached shader map for material pilar01_d_by_yuumirin-db93azz_Mat, compiling. 
+[2017.05.25-22.09.57:463][559]LogTexture:Display: Building textures: pantheon_d_by_yuumirin-db8u8yz (AutoDXT)
+[2017.05.25-22.09.59:950][559]LogMaterial: Missing cached shader map for material pantheon_d_by_yuumirin-db8u8yz_Mat, compiling. 
+[2017.05.25-22.10.00:214][559]LogTexture:Display: Building textures: jarron03_d_by_yuumirin-db93b05 (AutoDXT)
+[2017.05.25-22.10.02:694][559]LogMaterial: Missing cached shader map for material jarron03_d_by_yuumirin-db93b05_Mat, compiling. 
+[2017.05.25-22.10.02:907][559]LogAIModule: Creating AISystem for world L1map
+[2017.05.25-22.10.03:500][559]LogAnimation:Warning: AnimBP Girl_anim_bp_C is incompatible with skeleton mrGuau_Skeleton, removing AnimBP from actor.
+[2017.05.25-22.10.03:507][559]LogAnimation:Warning: AnimBP Girl_anim_bp_C is incompatible with skeleton cat_Skeleton, removing AnimBP from actor.
+[2017.05.25-22.10.03:511][559]LogAnimation:Warning: AnimBP Boy_AnimationBlueprint_C is incompatible with skeleton girl_Skeleton, removing AnimBP from actor.
+[2017.05.25-22.10.03:515][559]LogAnimation:Warning: AnimBP MrGuau_a_bp_C is incompatible with skeleton cat_Skeleton, removing AnimBP from actor.
+[2017.05.25-22.10.03:757][559]Cmd: MAP LOAD FILE="D:/FinalProject/MasterCamControl/Content/L1/L1map.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2017.05.25-22.10.03:757][559]LightingResults: New page: Lighting Build
+[2017.05.25-22.10.03:760][559]LoadErrors: New page: Loading map: L1map.umap
+[2017.05.25-22.10.03:768][559]MapCheck: New page: Map Check
+[2017.05.25-22.10.03:768][559]LightingResults: New page: Lighting Build
+[2017.05.25-22.10.04:513][559]LogAnimation:Warning: AnimBP MrGuau_a_bp_C is incompatible with skeleton doge_Skeleton, removing AnimBP from actor.
+[2017.05.25-22.10.04:521][559]LogAnimation:Warning: AnimBP Cat_AB_C is incompatible with skeleton doge_Skeleton, removing AnimBP from actor.
+[2017.05.25-22.10.04:529][559]LogAnimation:Warning: AnimBP Girl_anim_bp_C is incompatible with skeleton boy_Skeleton, removing AnimBP from actor.
+[2017.05.25-22.10.04:544][559]LogAnimation:Warning: AnimBP Cat_AB_C is incompatible with skeleton girl_Skeleton, removing AnimBP from actor.
+[2017.05.25-22.10.05:194][559]LogEditorServer: Finished looking for orphan Actors (0.002 secs)
+[2017.05.25-22.10.05:299][559]Cmd: MAP CHECKDEP NOCLEARLOG
+[2017.05.25-22.10.05:779][559]MapCheck: Info Map check complete: 0 Error(s), 0 Warning(s), took 480.342ms to complete.
+[2017.05.25-22.10.05:783][559]LogFileHelpers: Loading map 'L1map' took 2.032
+[2017.05.25-22.10.36:945][ 46]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Cube3)
+[2017.05.25-22.11.01:180][398]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Cube3)
+[2017.05.25-22.12.02:890][ 36]LogSkeletalMesh: InitArticulated: Bodies already created (/Engine/Transient.DebugSkelMeshComponent_0) - call TermArticulated first.
+[2017.05.25-22.12.07:943][ 45]LogRenderer: Reallocating scene render targets to support 1320x880 (Frame:2134).
+[2017.05.25-22.13.15:732][ 40]MapCheck: New page: Map Check
+[2017.05.25-22.13.15:831][ 40]Cmd: MAP REBUILD ALLVISIBLE
+[2017.05.25-22.13.15:833][ 40]LogEditorServer: Rebuildmap Clear paths rebuilt
+[2017.05.25-22.13.17:605][ 40]LogAnimation:Warning: AnimBP Doge_AB_C is incompatible with skeleton bear_Skeleton, removing AnimBP from actor.
+[2017.
